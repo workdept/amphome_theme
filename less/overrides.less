@@ -782,3 +782,26 @@ div.features-export-list {
     }
   }
 }
+
+// Apply styles to span parent items in nested navbar items
+.navbar-nav {
+  > li > span {
+    padding-top:    10px;
+    padding-bottom: 10px;
+    line-height: @line-height-computed;
+  }
+}
+.nav {
+  > li {
+    > span {
+      position: relative;
+      display: block;
+      padding: @nav-link-padding;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        background-color: @nav-link-hover-bg;
+      }
+    }
+  }
+}
