@@ -1,3 +1,8 @@
 bootstrap
 node_modules
 css
+*.ttf
+*.eot
+*.otf
+*.svg
+*.woff
