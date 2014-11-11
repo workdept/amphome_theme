@@ -2,7 +2,7 @@
 
 Drupal.behaviors.amphome_menu = {
   attach: function(context, settings) {
-    var $grandchildren = $(".dropdown-menu .dropdown-menu");
+    var $grandchildren = $(".dropdown-menu .dropdown-menu", context);
 
     $grandchildren.each(function() {
       var $grandparent = $(this).parent().closest('.dropdown-menu');
