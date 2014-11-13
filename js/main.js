@@ -14,4 +14,17 @@ Drupal.behaviors.amphome_menu = {
   }
 };
 
+Drupal.behaviors.reorder_content = {
+  attach: function(context, settings) {
+    enquire.register("all and (max-width: 992px)", {
+      match : function() {
+        $('.pane-boxes-flex-graphic-box').after($('.pane-views-amp-news-block-3'));
+      },
+      unmatch : function() {
+        // @todo reverse change
+      }
+    });
+  }
+};
+
 })(jQuery);
