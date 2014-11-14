@@ -97,7 +97,15 @@
       </div>
     </div>
 
-    <div class="col col-xs-12 col-md-7">
+    <div class="col col-xs-12 col-md-3 col-md-push-7" role="banner" id="page-header">
+      <?php if (!empty($site_slogan)): ?>
+        <p class="lead"><?php print $site_slogan; ?></p>
+      <?php endif; ?>
+
+      <?php print render($page['header']); ?>
+    </div> <!-- /#page-header -->
+
+    <div class="col col-xs-12 col-md-7 col-md-pull-3">
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <div class="navbar-collapse collapse">
           <nav role="navigation">
@@ -114,14 +122,6 @@
         </div>
       <?php endif; ?>
     </div>
-
-    <div class="col col-xs-12 col-md-3" role="banner" id="page-header">
-      <?php if (!empty($site_slogan)): ?>
-        <p class="lead"><?php print $site_slogan; ?></p>
-      <?php endif; ?>
-
-      <?php print render($page['header']); ?>
-    </div> <!-- /#page-header -->
   </div>
 </header>
 
