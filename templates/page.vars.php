@@ -8,10 +8,13 @@
 function amphome_preprocess_page(&$variables) {
   // Add information about the number of sidebars.
   if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
-    $variables['content_column_class'] = ' class="col-sm-6 col-sm-pull-3"';
+    $variables['content_column_class'] = ' class="col-sm-6 col-sm-pull-6"';
   }
-  elseif (!empty($variables['page']['sidebar_first']) || !empty($variables['page']['sidebar_second'])) {
-    $variables['content_column_class'] = ' class="col-sm-9"';
+  elseif (!empty($variables['page']['sidebar_first']) && empty($variables['page']['sidebar_second'])) {
+    $variables['content_column_class'] = ' class="col-sm-9 col-sm-pull-3"';
+  }
+  elseif (empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+    $variables['content_column_class'] = ' class="col-sm-9 col-sm-pull-3"';
   }
   else {
     $variables['content_column_class'] = ' class="col-sm-12"';

@@ -129,8 +129,14 @@
 
   <div class="row">
 
-    <?php if (!empty($page['sidebar_first'])): ?>
+    <?php if (!empty($page['sidebar_first']) && !empty($page['sidebar_second'])): ?>
       <aside class="col-sm-3 col-sm-push-6" role="complementary">
+        <?php print render($page['sidebar_first']); ?>
+      </aside>  <!-- /#sidebar-first -->
+    <?php endif; ?>
+
+    <?php if (!empty($page['sidebar_first']) && empty($page['sidebar_second'])): ?>
+      <aside class="col-sm-3 col-sm-push-9" role="complementary">
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
