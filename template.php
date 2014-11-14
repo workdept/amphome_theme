@@ -43,3 +43,7 @@ function amphome_menu_link(array $variables) {
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
 
+function amphome_menu_tree__menu_block__main_menu($vars) {
+  return '<ul class="navbar-nav">' . $vars['tree'] . '</ul>';
+}
+
