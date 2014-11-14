@@ -10,6 +10,9 @@
 function amphome_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
+  if ($element['#href'] == 'node/737') {
+    $element['#below'] = array();
+  }
 
   if ($element['#below']) {
     // Prevent dropdown functions from being added to management menu so it
