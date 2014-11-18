@@ -73,6 +73,7 @@
  * @ingroup themeable
  */
 ?>
+<div class="fullwidth">
 <header id="navbar" class="container <?php print $navbar_classes; ?>">
   <div class="row">
     <div class="col col-xs-12 col-md-2">
@@ -124,6 +125,7 @@
     </div>
   </div>
 </header>
+</div>
 
 <div class="main-container container">
 
