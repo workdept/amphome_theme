@@ -12,7 +12,7 @@ Drupal.behaviors.amphome_menu = {
 
         var $grandchildren = $(".dropdown-menu .dropdown-menu", context);
         var logo_width = $('#navbar > div > div.col.col-xs-12.col-md-2').outerWidth();
-        var header_height = $('#navbar').outerHeight();
+        var header_height = $('#navbar').parent().outerHeight(); // .fullwidth parent wrapper
         var container_width = $('.main-container > div > section').css('width');
 
         $('#navbar .navbar-nav > li.active-trail', context)
