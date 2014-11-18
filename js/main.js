@@ -32,6 +32,11 @@ Drupal.behaviors.amphome_menu = {
           $('.main-container > div > section', context)
             .css('padding-top', $('#navbar li.open > ul', context).css('height'));
         });
+
+        // hide crumbs if a grandparent is visible
+        if ($('.open > ul').length > 0) {
+          $('.breadcrumb').hide();
+        }
       },
       unmatch: function(context) {
         // @todo reverse change
