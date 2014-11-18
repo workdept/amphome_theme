@@ -1,29 +1,55 @@
 .navbar-default .navbar-nav > li > span {
-  padding-top: 40px;
+  .global-link;
+  color: #000;
+  cursor: pointer;
   &:hover {
-    background: transparent;
-    color: @gray-dark;
-    cursor: pointer;
+  background: none;
   }
 }
 
 .grandparent {
+  font-size: @font-size-small;
+  .box-shadow(0 0 0 white);
+  padding-left: @grid-gutter-width / 2;
+  padding-right: @grid-gutter-width / 2;
   .dropdown-menu {
     display: block;
     position: relative;
-    width: 16em;
-    padding: 18px;
+    width: 11em;
+    min-width: 0;
+    padding: 0;
     border: none;
     border-radius: 0;
     background: none;
     .box-shadow(0 0 0 white);
+    font-size: @font-size-small;
     > li > a {
       padding: 0;
       white-space: normal;
     }
+    .caret {
+      display: none;
+    }
   }
   > li {
-    width: 16em;
+    width: 11em;
     float: left;
+  }
+}
+
+@media @wide {
+  .grandparent {
+    .dropdown-menu,
+    > li {
+      width: 14em;
+    }
+  }
+}
+
+// special selectors for menu
+
+#navbar {
+  a[href='/sponsored-projects'] {
+    max-width: 8em;
   }
 }

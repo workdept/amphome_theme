@@ -1,1 +1,65 @@
-// Insert your styling here.
+// Insert your styling here
+
+h1 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.6em;
+  color: #9900ff;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.6em;
+  color: #000;
+  background-color: #ffffff;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #000;
+  background-color: #ffffff;
+}
+
+h4 {
+  font-weight: 800;
+  font-size: 16px;
+  font-variant: small-caps;
+  line-height: 1.6em;
+  color: #9900ff;
+  background-color: #ffffff;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.6em;
+  color: #666666;
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+}
+
+.btn-default {
+	text-transform: uppercase;
+}
+
+.global-link {
+	font-weight: 600;
+	color: @link-color;
+	text-decoration: none;
+
+	&:hover {
+	color: @link-hover-color;
+	text-decoration: underline 2px;
+	}
+}
+
+a {
+  .global-link;
+}
+
+p {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
