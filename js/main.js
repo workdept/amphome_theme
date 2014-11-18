@@ -10,7 +10,7 @@ Drupal.behaviors.amphome_menu = {
             .removeAttr('data-toggle');
         });
 
-        var $grandchildren = $(".dropdown-menu .dropdown-menu", context);
+        var $grandparents = $("#navbar nav > ul > li > ul.dropdown-menu", context);
         var logo_width = $('#navbar > div > div.col.col-xs-12.col-md-2').outerWidth();
         var header_height = $('#navbar').parent().outerHeight(); // .fullwidth parent wrapper
         var container_width = $('.main-container > div > section').css('width');
@@ -18,8 +18,8 @@ Drupal.behaviors.amphome_menu = {
         $('#navbar .navbar-nav > li.active-trail', context)
           .addClass('open');
 
-        $grandchildren.each(function() {
-          var $grandparent = $(this).parent().closest('.dropdown-menu');
+        $grandparents.each(function() {
+          var $grandparent = $(this);
           var left = logo_width + $grandparent.parent().position().left;
           $grandparent
             .addClass('grandparent')
