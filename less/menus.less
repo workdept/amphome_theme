@@ -7,7 +7,7 @@
   }
 }
 
-.grandparent {
+.menuparent {
   font-size: @font-size-small;
   .box-shadow(0 0 0 white);
   padding-left: @grid-gutter-width / 2;
@@ -15,7 +15,6 @@
   .dropdown-menu {
     display: block;
     position: relative;
-    width: 11em;
     min-width: 0;
     padding: 0;
     border: none;
@@ -31,6 +30,10 @@
       display: none;
     }
   }
+}
+
+.grandparent {
+  .dropdown-menu,
   > li {
     width: 11em;
     float: left;
