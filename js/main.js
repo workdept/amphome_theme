@@ -32,9 +32,12 @@ Drupal.behaviors.amphome_menu = {
             });
 
           // add class to menus with 3rd level links
-          // & hide the 3rd level link menu
           if ($menuparent.find('li li').length > 0) {
             $menuparent.addClass('grandparent');
+          }
+
+          // hide the 3rd level link menu when a grandparent menu is in active trail
+          if ($("#navbar nav .active-trail").parent('.grandparent').parent('li').hasClass('open')) {
             $('#block-menu-block-1').hide();
           }
 
