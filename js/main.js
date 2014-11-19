@@ -32,8 +32,10 @@ Drupal.behaviors.amphome_menu = {
             });
 
           // add class to menus with 3rd level links
+          // & hide the 3rd level link menu
           if ($menuparent.find('li li').length > 0) {
             $menuparent.addClass('grandparent');
+            $('#block-menu-block-1').hide();
           }
 
           $('.main-container > div > section', context)
