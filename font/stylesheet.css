@@ -5,7 +5,6 @@
  * https://github.com/zoltan-dulac/css3FontConverter
  */
 
-
 @font-face {
   font-family: 'HalisGR';
   font-weight: 100;
@@ -30,6 +29,173 @@
        url('Ahmet_Altun_-_HalisGR-SThin.svg#Ahmet_Altun_-_HalisGR-SThin') format('svg');
 }
 
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 200;
+  font-style: italic;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.svg#Ahmet_Altun_-_HalisGR-SExtraLightItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 200;
+  font-style: normal;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SExtraLight.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SExtraLight.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SExtraLight.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SExtraLight.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SExtraLight.svg#Ahmet_Altun_-_HalisGR-SExtraLight') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 300;
+  font-style: italic;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SlightItalic.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SlightItalic.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SlightItalic.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SlightItalic.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SlightItalic.svg#Ahmet_Altun_-_HalisGR-SlightItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 300;
+  font-style: normal;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SLight.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SLight.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SLight.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SLight.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SLight.svg#Ahmet_Altun_-_HalisGR-SLight') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 400;
+  font-style: italic;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SBookItalic.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SBookItalic.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SBookItalic.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SBookItalic.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SBookItalic.svg#Ahmet_Altun_-_HalisGR-SBookItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 400;
+  font-style: normal;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SBook.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SBook.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SBook.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SBook.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SBook.svg#Ahmet_Altun_-_HalisGR-SBook') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 500;
+  font-style: italic;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SRegularItalic.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SRegularItalic.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SRegularItalic.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SRegularItalic.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SRegularItalic.svg#Ahmet_Altun_-_HalisGR-SRegularItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 500;
+  font-style: normal;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SRegular.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SRegular.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SRegular.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SRegular.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SRegular.svg#Ahmet_Altun_-_HalisGR-SRegular') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 600;
+  font-style: italic;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SMediumItalic.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SMediumItalic.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SMediumItalic.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SMediumItalic.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SMediumItalic.svg#Ahmet_Altun_-_HalisGR-SMediumItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 600;
+  font-style: italic;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SMedium.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SMedium.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SMedium.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SMedium.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SMedium.svg#Ahmet_Altun_-_HalisGR-SMedium') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 700;
+  font-style: italic;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SBoldItalic.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SBoldItalic.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SBoldItalic.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SBoldItalic.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SBoldItalic.svg#Ahmet_Altun_-_HalisGR-SBoldItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 700;
+  font-style: normal;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SBold.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SBold.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SBold.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SBold.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SBold.svg#Ahmet_Altun_-_HalisGR-SBold') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 900;
+  font-style: italic;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SBlackItalic.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SBlackItalic.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SBlackItalic.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SBlackItalic.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SBlackItalic.svg#Ahmet_Altun_-_HalisGR-SBlackItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  font-weight: 900;
+  font-style: normal;
+  font-variant: small-caps;
+  src: url('Ahmet_Altun_-_HalisGR-SBlack.eot?') format('eot'),
+       url('Ahmet_Altun_-_HalisGR-SBlack.woff') format('woff'),
+       url('Ahmet_Altun_-_HalisGR-SBlack.otf')  format('opentype'),
+       url('Ahmet_Altun_-_HalisGR-SBlack.ttf')  format('truetype'),
+       url('Ahmet_Altun_-_HalisGR-SBlack.svg#Ahmet_Altun_-_HalisGR-SBlack') format('svg');
+}
 @font-face {
   font-family: 'HalisGR';
   font-weight: 100;
@@ -80,30 +246,6 @@
 
 @font-face {
   font-family: 'HalisGR';
-  font-weight: 200;
-  font-style: italic;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SExtraLightItalic.svg#Ahmet_Altun_-_HalisGR-SExtraLightItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 200;
-  font-style: normal;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SExtraLight.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SExtraLight.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SExtraLight.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SExtraLight.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SExtraLight.svg#Ahmet_Altun_-_HalisGR-SExtraLight') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
   font-weight: 300;
   font-style: italic;
   font-variant: normal;
@@ -124,30 +266,6 @@
        url('Ahmet_Altun_-_HalisGR-Light.otf')  format('opentype'),
        url('Ahmet_Altun_-_HalisGR-Light.ttf')  format('truetype'),
        url('Ahmet_Altun_-_HalisGR-Light.svg#Ahmet_Altun_-_HalisGR-Light') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 300;
-  font-style: italic;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SlightItalic.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SlightItalic.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SlightItalic.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SlightItalic.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SlightItalic.svg#Ahmet_Altun_-_HalisGR-SlightItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 300;
-  font-style: normal;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SLight.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SLight.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SLight.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SLight.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SLight.svg#Ahmet_Altun_-_HalisGR-SLight') format('svg');
 }
 
 @font-face {
@@ -176,30 +294,6 @@
 
 @font-face {
   font-family: 'HalisGR';
-  font-weight: 400;
-  font-style: italic;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SBookItalic.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SBookItalic.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SBookItalic.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SBookItalic.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SBookItalic.svg#Ahmet_Altun_-_HalisGR-SBookItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 400;
-  font-style: normal;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SBook.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SBook.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SBook.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SBook.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SBook.svg#Ahmet_Altun_-_HalisGR-SBook') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
   font-weight: 500;
   font-style: italic;
   font-variant: normal;
@@ -220,30 +314,6 @@
        url('Ahmet_Altun_-_HalisGR-Regular.otf')  format('opentype'),
        url('Ahmet_Altun_-_HalisGR-Regular.ttf')  format('truetype'),
        url('Ahmet_Altun_-_HalisGR-Regular.svg#Ahmet_Altun_-_HalisGR-Regular') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 500;
-  font-style: italic;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SRegularItalic.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SRegularItalic.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SRegularItalic.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SRegularItalic.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SRegularItalic.svg#Ahmet_Altun_-_HalisGR-SRegularItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 500;
-  font-style: normal;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SRegular.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SRegular.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SRegular.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SRegular.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SRegular.svg#Ahmet_Altun_-_HalisGR-SRegular') format('svg');
 }
 
 
@@ -273,30 +343,6 @@
 
 @font-face {
   font-family: 'HalisGR';
-  font-weight: 600;
-  font-style: italic;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SMediumItalic.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SMediumItalic.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SMediumItalic.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SMediumItalic.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SMediumItalic.svg#Ahmet_Altun_-_HalisGR-SMediumItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 600;
-  font-style: italic;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SMedium.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SMedium.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SMedium.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SMedium.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SMedium.svg#Ahmet_Altun_-_HalisGR-SMedium') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
   font-weight: 700;
   font-style: italic;
   font-variant: normal;
@@ -317,30 +363,6 @@
        url('Ahmet_Altun_-_HalisGR-Bold.otf')  format('opentype'),
        url('Ahmet_Altun_-_HalisGR-Bold.ttf')  format('truetype'),
        url('Ahmet_Altun_-_HalisGR-Bold.svg#Ahmet_Altun_-_HalisGR-Bold') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 700;
-  font-style: italic;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SBoldItalic.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SBoldItalic.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SBoldItalic.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SBoldItalic.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SBoldItalic.svg#Ahmet_Altun_-_HalisGR-SBoldItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 700;
-  font-style: normal;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SBold.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SBold.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SBold.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SBold.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SBold.svg#Ahmet_Altun_-_HalisGR-SBold') format('svg');
 }
 
 @font-face {
@@ -367,27 +389,4 @@
        url('Ahmet_Altun_-_HalisGR-Black.svg#Ahmet_Altun_-_HalisGR-Black') format('svg');
 }
 
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 900;
-  font-style: italic;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SBlackItalic.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SBlackItalic.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SBlackItalic.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SBlackItalic.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SBlackItalic.svg#Ahmet_Altun_-_HalisGR-SBlackItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'HalisGR';
-  font-weight: 900;
-  font-style: normal;
-  font-variant: small-caps;
-  src: url('Ahmet_Altun_-_HalisGR-SBlack.eot?') format('eot'),
-       url('Ahmet_Altun_-_HalisGR-SBlack.woff') format('woff'),
-       url('Ahmet_Altun_-_HalisGR-SBlack.otf')  format('opentype'),
-       url('Ahmet_Altun_-_HalisGR-SBlack.ttf')  format('truetype'),
-       url('Ahmet_Altun_-_HalisGR-SBlack.svg#Ahmet_Altun_-_HalisGR-SBlack') format('svg');
-}
 

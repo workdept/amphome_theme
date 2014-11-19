@@ -10,6 +10,9 @@
 function amphome_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
+  if ($element['#href'] == 'node/737') {
+    $element['#below'] = array();
+  }
 
   if ($element['#below']) {
     // Prevent dropdown functions from being added to management menu so it
@@ -41,5 +44,9 @@ function amphome_menu_link(array $variables) {
   }
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+}
+
+function amphome_menu_tree__menu_block__main_menu($vars) {
+  return '<ul class="navbar-nav">' . $vars['tree'] . '</ul>';
 }
 
