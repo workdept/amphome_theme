@@ -19,6 +19,7 @@ Drupal.behaviors.amphome_menu = {
         $('.navbar-nav .dropdown-menu', context).each(function() {
           $(this).removeClass('dropdown-menu');
         });
+        Drupal.behaviors.amphome_menu.util.style_for_breadcrumbs();
       },
       unmatch: function(context) {
         // @todo reverse change
