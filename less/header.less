@@ -1,78 +1,83 @@
-#navbar {
-  border: 0px;
-  position: relative;
-  margin-bottom: 0;
-  margin-top: 0;
-
-  nav {
-    font-weight: 600;
-    font-size: 12px;
-    color: #000;
-  }
-  .navbar-nav > li > a,
-  .navbar-nav > li > span {
-    padding-top: 22px;
-    line-height: 13px;
-    max-width: 11em;
-    min-height: 6em;
-    text-transform: uppercase;
-
-    &:hover {
-    background-color: #fff;
-    border-bottom: 5px solid #9900ff;
-    }
-  }
-
-  .navbar-nav > .open > a,
-  .navbar-nav > .open > a:focus {
-    background-color: @component-active-bg;;
-    color: @component-active-color;
-    border-bottom: 5px solid #9900ff;
-  }
-  .dropdown-menu > li > a {
-    display: block;
-    padding: 0px;
-    clear: both;
-    font-weight: 600;
-    line-height: 1.42857143;
-    color: #8e8e8e;
-    font-size: @font-size-small;
-  }
-  .dropdown-menu > li > a:hover,
-  .dropdown-menu > li > a:focus {
-    text-decoration: none;
-    color: @component-active-color; 
-    background-color: @component-active-bg;
-  }
-  .dropdown-menu > .active > a,
-  .dropdown-menu > .active > a:hover,
-  .dropdown-menu > .active > a:focus {
-    color: @component-active-color;
-    text-decoration: none;
-    background-color: @component-active-bg;
-  }
-.boxes-box-content {
-  float: right;
-  font-size: .75em;
-  text-transform: uppercase;
-  margin-left: 5px;
-
-  a {
-  font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
-  color: #9900ff;
-  margin-left: 10px;
-
-  &:hover{
-  color: #000;
-  text-decoration: none;
-  }
-  }
-}
-  #block-search-form #edit-actions {
+@media @normal {
+  #navbar {
+    border: 0px;
+    position: relative;
     margin-bottom: 0;
+    margin-top: 0;
+
+    nav {
+      font-weight: 600;
+      font-size: 12px;
+      color: #000;
+    }
+    .navbar-nav > li > a,
+    .navbar-nav > li > span {
+      padding-top: 22px;
+      line-height: 13px;
+      max-width: 11em;
+      min-height: 6em;
+      text-transform: uppercase;
+
+      &:hover {
+      background-color: #fff;
+      border-bottom: 5px solid #9900ff;
+      }
+    }
+    .navbar-nav > .open > a,
+    .navbar-nav > .open > a:focus {
+      background-color: @component-active-bg;;
+      color: @component-active-color;
+      border-bottom: 5px solid #9900ff;
+    }
+    .dropdown-menu > li > a, 
+    .dropdown-menu > li > span {
+      display: block;
+      padding: 0px;
+      clear: both;
+      font-weight: 600;
+      line-height: 1.42857143;
+      color: #ccc;
+      font-size: @font-size-small;
+    }
+    .dropdown-menu .dropdown-menu > li > a {
+      color: #000;
+    }
+    .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus {
+      text-decoration: none;
+      color: @component-active-color; 
+      background-color: @component-active-bg;
+    }
+    .dropdown-menu > .active > a,
+    .dropdown-menu > .active > a:hover,
+    .dropdown-menu > .active > a:focus {
+      color: @component-active-color;
+      text-decoration: none;
+      background-color: @component-active-bg;
+    }
+    .boxes-box-content {
+      float: right;
+      font-size: .75em;
+      text-transform: uppercase;
+      margin-left: 5px;
+
+      a {
+      font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
+      color: #9900ff;
+      margin-left: 10px;
+
+      &:hover{
+      color: #000;
+      text-decoration: none;
+      }
+      }
+    }
+    #block-search-form #edit-actions {
+      margin-bottom: 0;
+    }
+
+
   }
-
-
 }
 
 .fullwidth {
