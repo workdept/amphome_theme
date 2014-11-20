@@ -50,11 +50,3 @@ function amphome_menu_tree__menu_block__main_menu($vars) {
   return '<ul class="navbar-nav">' . $vars['tree'] . '</ul>';
 }
 
-/**
- * Implements template_preprocess_page
- */
-function amphome_preprocess_page(&$vars) {
-  drupal_add_js('jQuery.extend(Drupal.settings, { "pathToTheme": "/' . path_to_theme() . '/" });', 'inline');
-}
-
-

@@ -52,5 +52,8 @@ function amphome_preprocess_page(&$variables) {
   else {
     $variables['navbar_classes_array'][] = 'navbar-default';
   }
+
+  // Offer path to our theme in DOM
+  drupal_add_js('jQuery.extend(Drupal.settings, { "pathToTheme": "/' . path_to_theme() . '/" });', 'inline');
 }
 
