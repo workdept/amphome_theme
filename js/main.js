@@ -98,4 +98,23 @@ Drupal.behaviors.reorder_content = {
   }
 };
 
+Drupal.behaviors.sponsoredprojects = {
+  attach: function(context, settings) {
+    if ($('.sponsoredprojects', context).length === 1) {
+      $('.projects a').each(function() {
+        var u = $(this).data('hoverimage');
+        $(this).hover(function(ev) {
+          $(this).css({
+            backgroundImage: 'url(' + u + ')'
+          });
+        }, function(ev) {
+          $(this).css({
+            backgroundImage: 'url("' + Drupal.settings.pathToTheme + '/images/bottom right corner white right triangle.png")'
+          });
+        });
+      });
+    }
+  }
+};
+
 })(jQuery);

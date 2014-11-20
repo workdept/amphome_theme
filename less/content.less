@@ -73,4 +73,85 @@ p {
   .block-title {
     .sr-only;
   }
+  .navbar {
+  min-height: 45px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #000;
+  }
+  .navbar-nav {
+  padding-left: 0px;
+
+    li > a {
+    margin-right: 25px;
+
+    &:hover {
+      background-color: #fff;
+      text-decoration: none;
+      border-bottom: 5px solid #9900ff;
+      }
+    }
+  }
+}
+
+// Breadcrumbs
+.breadcrumb {
+  background: inherit;
+  color: inherit;
+  padding: 0;
+
+  li:nth-child(1) {
+
+  }
+
+  li:nth-child(2) {
+    display: block;
+    padding-top: 10px;
+    .h1;
+    .page-header;
+    font-weight: 500;
+    color: #9900ff;
+
+    a:link,
+    a:visited,
+    a:active,
+    a:hover {
+      font-weight: 500;
+      color: #9900ff;
+    }
+  }
+  li:nth-child(3),
+  li:nth-child(4),
+  li:nth-child(5),
+  li:nth-child(6) {
+    .sr-only;
+  }
+  > active {
+    // todo
+  }
+  > li + li:before {
+    content: "";
+    padding: 0;
+  }
+}
+
+// Sponsored projects page
+.sponsoredprojects {
+  .projects {
+    .row div {
+      min-height: 200px;
+      a {
+        background: black url('../images/bottom right corner white right triangle.png') bottom right no-repeat;
+        .h2;
+        color: white;
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        height: 166px;
+        &:hover {
+          background-position: 0 0;
+          text-indent: -666px;
+        }
+      }
+    }
+  }
 }
