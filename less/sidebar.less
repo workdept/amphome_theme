@@ -1,7 +1,7 @@
 aside {
-margin-top: 15px;
+  margin-top: 15px;
 
-article {
+  article {
     padding-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
@@ -9,10 +9,10 @@ article {
     padding-right: 5px;
     border-bottom: 1px dotted gray;
   }
-section{
-  background-color: #eee;
-  padding-bottom: 10px;
-}
+  section{
+    background-color: #eee;
+    padding-bottom: 10px;
+  }
   h2 {
     background-color: #000;
     color: #fff;
@@ -24,10 +24,17 @@ section{
   }
   h3 {
     background-color: #eee;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 1.2em;
-    margin-bottom: 4px;
+    line-height: 0.8em;
+    a {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 4px;
+
+      &:hover {
+        color: #9900ff;
+        text-decoration: none;
+      }
+    }
   }
   .view-project-news {
     article {
@@ -41,8 +48,11 @@ section{
     font-weight: 700;
   }
   a {
-    font-weight: normal;
+    font-weight: bold;
     text-decoration: none;
+  }
+  .view-footer {
+    margin-left: 5px;
   }
   #block-boxes-amp-list-signup {
     margin-top: 20px;
@@ -52,12 +62,12 @@ section{
     padding-right: 10px;
     padding-bottom: 15px;
 
-      h2 {
-        margin-top: 10px;
-        padding-left: 0px;
-        background-color: lavender;
-        color: #000;
-        font-weight: 800;
+    h2 {
+      margin-top: 10px;
+      padding-left: 0px;
+      background-color: lavender;
+      color: #000;
+      font-weight: 800;
     }
     .form-control {
       display: block;
@@ -65,5 +75,5 @@ section{
       background-color: lavender;
       border: 1px solid #000;
     }
-   }
+  }
 }
