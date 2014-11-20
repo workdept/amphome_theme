@@ -1,7 +1,30 @@
 (function($) {
 
 Drupal.behaviors.amphome_menu = {
+  util: {
+    style_for_breadcrumbs: function(context) {
+      if (Drupal.behaviors.amphome_menu.state.showing_breadcrumbs) {
+        $('h1.page-header', context).hide();
+      }
+    }
+  },
+
+  state: {
+    showing_breadcrumbs: true
+  },
+
   attach: function(context, settings) {
+    enquire.register("all and (max-width: 991px)", {
+      match: function(context) {
+        $('.navbar-nav .dropdown-menu', context).each(function() {
+          $(this).removeClass('dropdown-menu');
+        });
+      },
+      unmatch: function(context) {
+        // @todo reverse change
+      }
+    });
+
     enquire.register("all and (min-width: 992px)", {
       match: function(context) {
         $('#navbar .navbar-nav > li > a', context).each(function() {
@@ -46,9 +69,13 @@ Drupal.behaviors.amphome_menu = {
         });
 
         // hide crumbs if a menuparent is visible
-        if ($('.open > ul').length > 0) {
-          $('.breadcrumb').hide();
+        if ($('.open > ul', context).length > 0) {
+          $('.breadcrumb', context).hide();
+          Drupal.behaviors.amphome_menu.state.showing_breadcrumbs = false;
         }
+
+        // style for breadcrumbs
+        Drupal.behaviors.amphome_menu.util.style_for_breadcrumbs();
       },
       unmatch: function(context) {
         // @todo reverse change
