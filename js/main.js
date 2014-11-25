@@ -3,7 +3,7 @@
 Drupal.behaviors.amphome_menu = {
   util: {
     style_for_breadcrumbs: function(context) {
-      if (Drupal.behaviors.amphome_menu.state.showing_breadcrumbs) {
+      if (Drupal.behaviors.amphome_menu.state.showing_breadcrumbs && $('.breadcrumb').length > 0) {
         $('h1.page-header', context).hide();
       }
     }
