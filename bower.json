@@ -1,0 +1,21 @@
+{
+  "name": "amphome",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bnchdrff/amphome_theme",
+  "authors": [
+    "Benjamin Chodoroff <ben@theworkdept.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "enquire": "~2.1.2",
+    "media-match": "~2.0.2"
+  }
+}

@@ -43,8 +43,8 @@ scripts[] = 'bootstrap/js/popover.js'
 scripts[] = 'bootstrap/js/scrollspy.js'
 scripts[] = 'bootstrap/js/tab.js'
 scripts[] = 'bootstrap/js/transition.js'
-scripts[] = 'js/lib/media.match.min.js'
-scripts[] = 'js/lib/enquire.min.js'
+scripts[] = 'bower_componenets/media-match/media.match.min.js'
+scripts[] = 'bower_componenets/enquire/dist/enquire.min.js'
 scripts[] = 'js/main.js'
 
 ; Disable BootstrapCDN so the compiled LESS source files can be used.
