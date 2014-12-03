@@ -122,6 +122,12 @@ Drupal.behaviors.frontpage = {
   attach: function(context, settings) {
     enquire.register("all and (min-width: 992px)", {
       match: function(context) {
+        // set minimum height
+        var $boite = $('.scrubber.sponsoredprojects', context);
+        $('#boxes-box-flex_graphic_box', context).css({
+          height: ($boite.position().top + $boite.height()) + 'px'
+        });
+
         // commençez les iScrubbings
         $('.scrubber', context).iscrubber();
       },
