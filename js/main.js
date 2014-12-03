@@ -118,4 +118,18 @@ Drupal.behaviors.sponsoredprojects = {
   }
 };
 
+Drupal.behaviors.frontpage = {
+  attach: function(context, settings) {
+    enquire.register("all and (min-width: 992px)", {
+      match: function(context) {
+        // commençez les iScrubbings
+        $('.scrubber', context).iscrubber();
+      },
+      unmatch: function(context) {
+        // arretez?
+      }
+    });
+  }
+};
+
 })(jQuery);

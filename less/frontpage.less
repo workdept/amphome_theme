@@ -1,0 +1,83 @@
+#boxes-box-flex_graphic_box {
+  .sell {
+    position: relative;
+    z-index: 2;
+    line-height: 1.4;
+    font-size: 4em;
+    background: black;
+    color: white;
+    a:link,
+    a:visited {
+      color: white;
+    }
+    a:hover,
+    a:active {
+      color: yellow;
+      text-decoration: none;
+    }
+  }
+  .scrubber {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 300px;
+    width: 300px;
+    &.amc {
+      top: 57px;
+      left: 779px;
+    }
+    &.sponsoredprojects {
+      top: 182px;
+      left: 29px;
+    }
+  }
+  .arrow {
+    display: none;
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  #boxes-box-flex_graphic_box {
+    .scrubber {
+      display: block;
+    }
+    .arrow {
+      display: block;
+      position: absolute;
+      z-index: 2;
+      background: transparent url() 0 0 no-repeat;
+      &.amc {
+        background-image: url(../images/frontpage/amc_arrow.png);
+        height: 37px;
+        width: 102px;
+        top: 30px;
+        left: 30px;
+      }
+      &.amp {
+        background-image: url(../images/frontpage/amp_arrow.png);
+        height: 63px;
+        width: 85px;
+        top: 100px;
+        left: 100px;
+      }
+      &.sponsoredprojects {
+        background-image: url(../images/frontpage/sp_arrow.png);
+        height: 56px;
+        width: 95px;
+        top: 150px;
+        left: 150px;
+      }
+    }
+    .boxes-box-content {
+      margin-left: 118px;
+    }
+  }
+}
+
+@media (min-width: @screen-lg-min) {
+  #boxes-box-flex_graphic_box {
+    .boxes-box-content {
+      margin-left: 218px;
+    }
+  }
+}
