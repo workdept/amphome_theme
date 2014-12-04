@@ -124,9 +124,11 @@ Drupal.behaviors.frontpage = {
       match: function(context) {
         // set minimum height
         var $boite = $('.scrubber.sponsoredprojects', context);
-        $('#boxes-box-flex_graphic_box', context).css({
-          height: ($boite.position().top + $boite.height()) + 'px'
-        });
+        if ($boite.length > 0) {
+          $('#boxes-box-flex_graphic_box', context).css({
+            height: ($boite.position().top + $boite.height()) + 'px'
+          });
+        }
 
         // commençez les iScrubbings
         $('.scrubber', context).iscrubber({additionalScrubKnobs: true});
