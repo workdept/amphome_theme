@@ -129,7 +129,7 @@ Drupal.behaviors.frontpage = {
         });
 
         // commençez les iScrubbings
-        $('.scrubber', context).iscrubber();
+        $('.scrubber', context).iscrubber({additionalScrubKnobs: true});
       },
       unmatch: function(context) {
         // arretez?
