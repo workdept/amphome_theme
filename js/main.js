@@ -131,7 +131,19 @@ Drupal.behaviors.frontpage = {
         }
 
         // commençez les iScrubbings
-        $('.scrubber', context).iscrubber({additionalScrubKnobs: true});
+        $('.scrubber', context)
+          .iscrubber({additionalScrubKnobs: true})
+          .each(function() {
+            var $this_scrub = $(this);
+            var scrubber_data_id = $this_scrub.data('scrubber');
+            var $knob = $('html').find('a[data-scrubber="' + scrubber_data_id + '"]');
+            $this_scrub.on('mousemove.iscrubberrrrr', function(ev) {
+              $knob.addClass('hover');
+            });
+            $this_scrub.on('mouseleave.iscrubberrrrr', function(ev) {
+              $knob.removeClass('hover');
+            });
+          });
       },
       unmatch: function(context) {
         // arretez?
