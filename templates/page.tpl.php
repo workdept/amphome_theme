@@ -150,6 +150,25 @@
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
+      <?php if ($node->field_authors && isset($node->field_authors['und']) && count($node->field_authors['und']) > 0): ?>
+      <div class="byline">Words by <?php
+
+  $len = count($node->field_authors['und']) - 1;
+  $authors = '';
+  for ($i = 0; $i <= $len; $i++) {
+    $tid = $node->field_authors['und'][$i]['tid'];
+    $term = taxonomy_term_load($tid);
+    $name = l($term->name, 'taxonomy/term/' . $tid);
+    if ($i == $len && $len > 0)
+      $authors .= "and ";
+    $authors .= $name;
+    if ($i < $len)
+      $authors .= ", ";
+  }
+  print $authors;
+
+      ?></div>
+      <?php endif; ?>
       <?php if (!empty($title)): ?>
         <h1 class="page-header"><?php print $title; ?></h1>
       <?php endif; ?>
