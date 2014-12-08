@@ -20,24 +20,24 @@
 
       &:hover {
         background-color: @component-active-bg;
-        border-bottom: 5px solid #9900ff;
+        border-bottom: 5px solid @component-active-color;
       }
       &:active {
         background-color: @component-active-bg;
         color: @component-active-color;
-        border-bottom: 5px solid #9900ff;
+        border-bottom: 5px solid @component-active-color;
       }
     }
     .navbar-nav > .open > a,
     .navbar-nav > .open > a:active {
       background-color: #fff;
       color: @component-active-color;
-      border-bottom: 5px solid #9900ff;
+      border-bottom: 5px solid @component-active-color;
     }
     .navbar-nav > .active > a,
     .navbar-nav > .active > a:hover,
     .navbar-nav > .active > a:focus {
-      color: #9900ff;
+      color: @component-active-color;
       background-color: #fff;
     }
     .dropdown-menu > li > span {
@@ -77,7 +77,7 @@
 
       a {
         font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
-        color: #9900ff;
+        color: @component-active-color;
         margin-left: 10px;
 
         &:hover {

@@ -2,7 +2,7 @@ h1 {
   font-weight: 500;
   font-size: @font-size-h1;
   line-height: 1.6em;
-  color: #9900ff;
+  color: @component-active-color;
   background-color: #ffffff;
 }
 
@@ -27,7 +27,7 @@ h4 {
   font-size: @font-size-h4;
   text-transform: uppercase;
   line-height: 1.6em;
-  color: #9900ff;
+  color: @component-active-color;
   background-color: #ffffff;
 }
 
@@ -44,46 +44,68 @@ figure, figcaption {
   font-weight: 700;
   color: #08109f;
   font-size: small;
+
+  a {
+  color: #08109f;
+  text-decoration: none;
+
+  &:hover {
+  color: #000;
+  text-decoration: none;
+  }
+  }
 }
 
 .btn-default, .btn-default.active {
-  border: 3px solid #9900ff;
+  border: 3px solid @component-active-color;
   border-radius: 50px;
   font-size: .7em;
-  letter-spacing: 2em;
+  letter-spacing: .2em;
   padding: 10px 20px 10px 20px;
   text-transform: uppercase;
 
   &:hover {
     background: transparent;
-    color: #9900ff;
+    color: @component-active-color;
   }
 }
 
 .global-link {
-	font-weight: 600;
-	color: #08109f;
-	text-decoration: none;
-}
-
-a {
-	.global-link;
-
-	&:hover {
+  font-weight: 600;
+  color: #08109f;
+  text-decoration: none;
+  &:hover {
     color: #08109f;
     text-decoration: none;
     border-bottom: 3px solid #08109f;
-	}
+  }
 }
 
-p {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+section {
+  p {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    a {
+      .global-link;
+    }
+  }
+  .page-header {
+    margin-left: 50px;
+    border: 0;
+  }
 }
 
-.page-header{
-  border-bottom: none;
-  margin-top: 18px;
-  margin-bottom: 10px;
+@media @normal {
+  #block-system-main article {
+    p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+    p {
+      img {
+        margin-left: -80px;
+      }
+    }
+  }
 }
 
 // Section links
@@ -107,14 +129,14 @@ p {
       &:hover {
         background-color: #fff;
         text-decoration: none;
-        border-bottom: 5px solid #9900ff;
+        border-bottom: 5px solid @component-active-color;
       }
 
       &:focus,
       &:active {
         background-color: #fff;
-        border-bottom: 5px solid #9900ff;
-        color: #9900ff;
+        border-bottom: 5px solid @component-active-color;
+        color: @component-active-color;
       }
     }
   }
@@ -129,7 +151,7 @@ p {
 
   li:nth-child(1) {
     a:hover {
-      color: #9900ff;
+      color: @component-active-color;
       text-decoration: none;
     }
   }
@@ -142,14 +164,14 @@ p {
     padding-top: 3px;
     padding-bottom: 0px;
     font-weight: 500;
-    color: #9900ff;
+    color: @component-active-color;
 
     a:link,
     a:visited,
     a:active,
     a:hover {
       font-weight: 500;
-      color: #9900ff;
+      color: @component-active-color;
     }
   }
   li:nth-child(3),
@@ -196,9 +218,56 @@ p {
 .node-type-news-item {
   .term-image {
     float: left;
+    margin-top: 50px;
   }
-  .byline,
-  .page-header {
-    margin-left: 120px;
+  .byline {
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #9900ff;
+    font-weight: 500;
+    font-size: smaller;
+
+    a {
+    font-weight: 600;
+    color: #9900ff;
+
+    &:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #9900ff;
+    }
+    }
   }
+
+}
+// pagination, pager
+.pagination > li > a, 
+.pagination > li > span {
+  text-decoration: none;
+  color: #9900ff;
+  background-color: #fff;
+  border: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  &:hover {
+  text-decoration: none;
+  background-color: #efd8ff;
+  color: #9900ff;
+  }
+
+  &:focus {
+  background-color: #9900ff;
+  color: #fff;
+  }
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #9900ff;
+  border-color: #000000;
+  cursor: default;
 }
