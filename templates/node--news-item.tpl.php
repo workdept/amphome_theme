@@ -1,9 +1,9 @@
 <?php if ($teaser): ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix row"<?php print $attributes; ?>>
-<div class="col-md-3">
+<div class="col-md-4">
 <?php print render($content['field_news_lead_image']); ?>
 </div>
-<div class="col-md-6">
+<div class="col-md-8">
 <?php if ($news_term_image): ?>
 <img class="term-image" src="<?php print $news_term_image; ?>" />
 <?php endif; ?>
