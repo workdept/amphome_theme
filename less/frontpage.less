@@ -1,4 +1,5 @@
 #boxes-box-flex_graphic_box {
+  margin-top: 20px;
   .sell {
     position: relative;
     z-index: 2;
@@ -24,12 +25,12 @@
     height: 300px;
     width: 300px;
     &.amc {
-      top: 25px;
-      left: 779px;
+      top: 15px;
+      left: 100px;
     }
     &.sponsoredprojects {
       top: 182px;
-      left: 29px;
+      left: -15px;
     }
   }
   .arrow {
@@ -41,6 +42,10 @@
   #boxes-box-flex_graphic_box {
     .scrubber {
       display: block;
+      &.amc {
+      top: 15px;
+      left: 650px;
+    }
     }
     .arrow {
       display: block;
@@ -51,48 +56,68 @@
         background-image: url(../images/frontpage/amc_arrow.png);
         height: 37px;
         width: 102px;
-        top: 150px;
-        left: 660px;
+        top: 160px;
+        left: 545px;
       }
       &.amp {
         background-image: url(../images/frontpage/amp_arrow.png);
         height: 63px;
         width: 85px;
-        top: 3px;
-        left: 48px;
+        top: 0px;
+        left: 35px;
       }
       &.sponsoredprojects {
         background-image: url(../images/frontpage/sp_arrow.png);
         height: 56px;
         width: 95px;
         top: 391px;
-        left: 313px;
+        left: 257px;
       }
     }
     .boxes-box-content {
-      margin-left: 118px;
+      margin-left: 135px;
     }
   }
 }
 
 @media (min-width: @screen-lg-min) {
   #boxes-box-flex_graphic_box {
-    .arrow {
+    .scrubber {
+      display: block;
       &.amc {
-        top: 176px;
-        left: 660px;
+      top: 15px;
+      left: 800px;
+    }
+    }
+    .arrow {
+      display: block;
+      position: absolute;
+      z-index: 2;
+      background: transparent url() 0 0 no-repeat;
+      &.amc {
+        background-image: url(../images/frontpage/amc_arrow.png);
+        height: 37px;
+        width: 102px;
+        top: 180px;
+        left: 685px;
       }
       &.amp {
-        top: 3px;
-        left: 134px;
+        background-image: url(../images/frontpage/amp_arrow.png);
+        height: 63px;
+        width: 85px;
+        top: 10px;
+        left: 130px;
       }
       &.sponsoredprojects {
-        top: 391px;
-        left: 313px;
+        background-image: url(../images/frontpage/sp_arrow.png);
+        height: 56px;
+        width: 95px;
+        top: 415px;
+        left: 315px;
       }
     }
     .boxes-box-content {
-      margin-left: 218px;
+      margin-left: 210px;
     }
   }
 }
@@ -100,38 +125,17 @@
 .panels-bootstrap-frontlayout {
   section {
     h2 {
-      text-transform: uppercase;
-      font-weight: bold;
-      color: black;
-      background: gray;
-      padding: 5px;
-      font-size: 90%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: @component-active-color;
+    font-size: 13px;
+    font-weight: 600;
+    border: 3px solid @component-active-color;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 2px;
     }
-    article {
-      clear: both;
-      margin-bottom: 20px;
-      padding-bottom: 20px;
-      border-bottom: 2px solid gray;
-      time {
-        float: left;
-        padding-right: .5em;
-        font-weight: bold;
-        color: gray;
-        &::after {
-          content: '/';
-        }
-      }
-      figure {
-        float: left;
-        margin-right: 20px;
-      }
-      figure.leadimage {
-        width: 40%;
-      }
-      p {
-        margin-left: 0;
-        margin-right: 0;
-      }
-    }
+  .bloglist;
   }
 }

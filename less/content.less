@@ -42,11 +42,11 @@ body {
 figure, figcaption {
   display: block;
   font-weight: 700;
-  color: #08109f;
+  color: @purple-dark;
   font-size: small;
 
   a {
-  color: #08109f;
+  color: @purple-dark;
   text-decoration: none;
 
   &:hover {
@@ -72,12 +72,12 @@ figure, figcaption {
 
 .global-link {
   font-weight: 600;
-  color: #08109f;
+  color: @purple-dark;
   text-decoration: none;
   &:hover {
-    color: #08109f;
+    color: @purple-dark;
     text-decoration: none;
-    border-bottom: 3px solid #08109f;
+    border-bottom: 3px solid @purple-dark;
   }
 }
 
@@ -88,21 +88,30 @@ section {
       .global-link;
     }
   }
-  .page-header {
-    margin-left: 50px;
-    border: 0;
+  time {
+    color: @component-active-color;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 }
 
 @media @normal {
-  #block-system-main article {
-    p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
-      margin-left: 80px;
-      margin-right: 80px;
+  .page-node #block-system-main {
+    .page-header {
+      padding-bottom: 0px;
+      margin-left: 50px;
+      margin-bottom: 0px;
+      border: 0px;
     }
-    p {
-      img {
-        margin-left: -80px;
+    article {
+      p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote, time {
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+      p {
+        img {
+          margin-left: 0px;
+        }
       }
     }
   }
@@ -163,6 +172,7 @@ section {
     .page-header;
     padding-top: 3px;
     padding-bottom: 0px;
+    margin-bottom: 0px;
     font-weight: 500;
     color: @component-active-color;
 
@@ -218,32 +228,32 @@ section {
 .node-type-news-item {
   .term-image {
     float: left;
-    margin-top: 50px;
+    margin-top: 24px;
   }
   .byline {
     margin-top: 20px;
     margin-left: 50px;
-    color: #9900ff;
+    color: @component-active-color;
     font-weight: 500;
     font-size: smaller;
 
     a {
-    font-weight: 600;
-    color: #9900ff;
+      font-weight: 600;
+      color: @component-active-color;
 
-    &:hover {
-    text-decoration: none;
-    border-bottom: 3px solid #9900ff;
-    }
+      &:hover {
+        text-decoration: none;
+        border-bottom: 3px solid @component-active-color;
+      }
     }
   }
-
 }
+
 // pagination, pager
 .pagination > li > a, 
 .pagination > li > span {
   text-decoration: none;
-  color: #9900ff;
+  color: @component-active-color;
   background-color: #fff;
   border: 0px;
   padding-top: 8px;
@@ -252,11 +262,11 @@ section {
   &:hover {
   text-decoration: none;
   background-color: #efd8ff;
-  color: #9900ff;
+  color: @component-active-color;
   }
 
   &:focus {
-  background-color: #9900ff;
+  background-color: @component-active-color;
   color: #fff;
   }
 }
@@ -267,7 +277,48 @@ section {
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
   color: #ffffff;
-  background-color: #9900ff;
+  background-color: @component-active-color;
   border-color: #000000;
   cursor: default;
+}
+
+.bloglist {
+  article {
+    clear: both;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid @purple-dark;
+    .col-md-8 {
+      // make up for h3 line-height
+      margin-top: -9px;
+    }
+    time {
+      float: left;
+      padding-right: .5em;
+      font-weight: bold;
+      color: gray;
+      &::after {
+        content: '/';
+      }
+    }
+    img.term-image {
+      float: left;
+      margin-top: 8px;
+    }
+    h3 {
+      margin: 0 0 0 50px;
+      a {
+        color: @component-active-color;
+      }
+    }
+    p {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+.view-id-amp_news.view-display-id-page,
+.view-id-amp_news.view-display-id-amp_news_byterms {
+  .bloglist;
 }
