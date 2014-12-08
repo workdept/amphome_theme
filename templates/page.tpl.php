@@ -150,11 +150,8 @@
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
-      <?php if ($node->field_news_term && isset($node->field_news_term['und']) && count($node->field_news_term['und']) === 1 && isset($node->field_news_term['und'][0]['taxonomy_term']->field_term_image)): ?>
-      <img class="term-image" src="<?php
-$img = $node->field_news_term['und'][0]['taxonomy_term']->field_term_image['und'][0]['uri'];
-print image_style_url('thumbnail', $img);
-      ?>" />
+      <?php if ($news_term_image): ?>
+      <img class="term-image" src="<?php print $news_term_image; ?>" />
       <?php endif; ?>
       <?php if ($node->field_authors && isset($node->field_authors['und']) && count($node->field_authors['und']) > 0): ?>
       <div class="byline">Words by <?php
