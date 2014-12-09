@@ -15,7 +15,7 @@
       padding-top: 29px;
       line-height: 13px;
       max-width: 11em;
-      min-height: 6em;
+      min-height: 8em;
       text-transform: uppercase;
 
       &:hover {
@@ -28,6 +28,12 @@
         border-bottom: 5px solid @component-active-color;
       }
     }
+
+    // special menu magic
+    .navbar-nav > li > a[href="/sponsored-projects"] {
+      max-width: 9em;
+    }
+
     .navbar-nav > .open > a,
     .navbar-nav > .open > a:active {
       background-color: #fff;
