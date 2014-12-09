@@ -101,13 +101,10 @@
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
-    <?php if ($display_submitted): ?>
-    <span class="submitted">
-      <?php print $user_picture; ?>
-      <?php print $submitted; ?>
-    </span>
-    <?php endif; ?>
   </header>
+  <?php if ($display_submitted): ?>
+    <time><?php print format_date($node->created, 'custom', 'F j, Y'); ?></time>
+  <?php endif; ?>
   <?php endif; ?>
   <?php
     // Hide comments, tags, and links now so that we can render them later.
