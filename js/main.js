@@ -152,4 +152,12 @@ Drupal.behaviors.frontpage = {
   }
 };
 
+Drupal.behaviors.responsivevideo = {
+  attach: function(context, settings) {
+    $('iframe[src*="youtube"], iframe[src*="vimeo"]', context).each(function() {
+      $(this).wrap('<div class="video"></div>');
+    });
+  }
+};
+
 })(jQuery);
