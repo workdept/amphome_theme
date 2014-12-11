@@ -169,6 +169,9 @@
 
       ?></div>
       <?php endif; ?>
+      <?php if (!empty($news_category)): ?>
+        <span class="category"><?php print $news_category; ?></span>
+      <?php endif; ?>
       <?php if (!empty($title)): ?>
         <h1 class="page-header"><?php print $title; ?></h1>
       <?php endif; ?>

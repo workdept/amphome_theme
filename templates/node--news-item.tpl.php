@@ -1,9 +1,10 @@
 <?php if ($teaser): ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix row"<?php print $attributes; ?>>
-<div class="col-md-4">
+<div class="col-sm-4">
 <?php print render($content['field_news_lead_image']); ?>
 </div>
-<div class="col-md-8">
+<div class="col-sm-8">
+<span class="category"><?php print $news_category; ?></span>
 <h3><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
 <time><?php print format_date($node->created, 'custom', 'F j, Y'); ?></time>
 <?php print render($content['body']); ?>
