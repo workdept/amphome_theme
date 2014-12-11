@@ -4,9 +4,6 @@
 <?php print render($content['field_news_lead_image']); ?>
 </div>
 <div class="col-md-8">
-<?php if ($news_term_image): ?>
-<img class="term-image" src="<?php print $news_term_image; ?>" />
-<?php endif; ?>
 <h3><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
 <time><?php print format_date($node->created, 'custom', 'F j, Y'); ?></time>
 <?php print render($content['body']); ?>

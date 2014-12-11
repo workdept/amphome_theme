@@ -169,9 +169,6 @@
 
       ?></div>
       <?php endif; ?>
-      <?php if ($news_term_image): ?>
-        <img class="term-image" src="<?php print $news_term_image; ?>" />
-      <?php endif; ?>
       <?php if (!empty($title)): ?>
         <h1 class="page-header"><?php print $title; ?></h1>
       <?php endif; ?>
