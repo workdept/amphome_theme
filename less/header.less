@@ -86,8 +86,13 @@
       color: #000;
       border-bottom: none;
     }
+    .dropdown-menu > li > a {
+      font-weight: 600;
+    }
+    .dropdown-menu > li > a.active,
     .dropdown-menu > li > a:hover,
     .dropdown-menu > li > a:focus {
+      font-weight: 600;
       text-decoration: none;
       color: @component-active-color;
       background-color: @component-active-bg;
@@ -96,6 +101,7 @@
     .dropdown-menu > .active > a,
     .dropdown-menu > .active > a:hover,
     .dropdown-menu > .active > a:focus {
+      font-weight: 600;
       color: @component-active-color;
       text-decoration: none;
       background-color: @component-active-bg;
@@ -127,5 +133,6 @@
 body > .fullwidth {
   width: 100%;
   border-bottom: 1px solid #000;
+  background: white;
 }
 
