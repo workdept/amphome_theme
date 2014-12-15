@@ -180,11 +180,12 @@ Drupal.behaviors.frontpage = {
   }
 };
 
-Drupal.behaviors.responsivevideo = {
+Drupal.behaviors.responsivecontent = {
   attach: function(context, settings) {
     $('iframe[src*="youtube"], iframe[src*="vimeo"]', context).each(function() {
       $(this).wrap('<div class="video"></div>');
     });
+    $('img.fullwidth').closest('p').addClass('fullwidth');
   }
 };
 
