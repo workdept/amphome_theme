@@ -5,6 +5,21 @@
     margin-bottom: 0;
     margin-top: 0;
 
+    .navbar-header {
+      a.name {
+        display: block;
+        width: 157px;
+        height: 67px;
+        text-indent: -666em;
+        overflow: hidden;
+        background: transparent url(../images/AMP_logo.png) 0 0 no-repeat;
+        &:hover,
+        &:active {
+          background-position: 0 -68px;
+        }
+      }
+    }
+
     nav {
       font-weight: 600;
       font-size: 11px;
@@ -99,7 +114,7 @@
   }
 }
 
-.fullwidth {
+body > .fullwidth {
   width: 100%;
   border-bottom: 1px solid #000;
 }
