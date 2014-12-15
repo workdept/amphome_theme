@@ -10,6 +10,8 @@
         display: block;
         width: 157px;
         height: 67px;
+        margin-top: 11px;
+        padding: 0;
         text-indent: -666em;
         overflow: hidden;
         background: transparent url(../images/AMP_logo.png) 0 0 no-repeat;
@@ -28,10 +30,14 @@
     .navbar-nav > li > a,
     .navbar-nav > li > span {
       padding-top: 29px;
+      padding-bottom: 13px;
       line-height: 13px;
       max-width: 11em;
-      min-height: 8em;
+      height: 8em;
+      display: table-cell;
+      vertical-align: bottom;
       text-transform: uppercase;
+      border-bottom: 5px solid transparent;
 
       &:hover {
         background-color: @component-active-bg;
