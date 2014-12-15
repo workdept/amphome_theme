@@ -111,6 +111,31 @@ Drupal.behaviors.amphome_menu = {
         Drupal.behaviors.amphome_menu.util.unstyle_for_breadcrumbs();
       }
     });
+
+    var menusize = function(context) {
+      var $menuparents = $("#navbar nav > ul > li > ul.dropdown-menu", context);
+      var logo_width = $('#navbar > div > div.col.col-xs-12.col-md-2').outerWidth();
+      var header_height = $('#navbar').parent().outerHeight(); // .fullwidth parent wrapper
+      var container_width = $('.main-container > div > section').css('width');
+      $menuparents.each(function() {
+        var $menuparent = $(this);
+        var left = logo_width + $menuparent.parent().position().left;
+
+        $menuparent
+          .addClass('menuparent')
+          .css({
+            width: container_width,
+            position: 'absolute',
+            left: '-' + left + 'px',
+            top: header_height + 'px'
+          });
+      });
+    };
+
+    enquire.register("all and (min-width: 1200px)", {
+      match: menusize,
+      unmatch: menusize
+    });
   }
 };
 
@@ -172,6 +197,11 @@ Drupal.behaviors.frontpage = {
               $knob.removeClass('hover');
             });
           });
+        $('.sell a[href="/about"]', context).hover(function() {
+          $('a.navbar-brand').addClass('hover');
+        }, function() {
+          $('a.navbar-brand').removeClass('hover');
+        });
       },
       unmatch: function(context) {
         // arretez?
