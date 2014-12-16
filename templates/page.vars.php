@@ -53,12 +53,8 @@ function amphome_preprocess_page(&$variables) {
     $variables['navbar_classes_array'][] = 'navbar-default';
   }
 
-  if (isset($variables['node']->field_news_term) && count($variables['node']->field_news_term['und']) === 1 && isset($variables['node']->field_news_term['und'][0]['taxonomy_term']->field_term_image)) {
-    $field_news_term = $variables['node']->field_news_term['und'][0];
-  }
-  if (isset($field_news_term)) {
-    $img = $field_news_term['taxonomy_term']->field_term_image['und'][0]['uri'];
-    $variables['news_term_image'] = image_style_url('term_image_thumb', $img);
+  if (isset($variables['node']->field_news_term) && count($variables['node']->field_news_term['und']) === 1) {
+    $variables['news_category'] = $variables['node']->field_news_term['und'][0]['taxonomy_term']->name;
   }
 
   // Offer path to our theme in DOM

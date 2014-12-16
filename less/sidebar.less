@@ -3,6 +3,7 @@
   color: @component-active-color;
   padding-left: 12px;
   border-left: 2px solid @component-active-color;
+  margin-bottom: 0px;
 }
 
 .sidebar-news-block {
@@ -29,8 +30,8 @@
       margin-bottom: 2px;
 
       &:hover {
-        color: @component-active-color;
         text-decoration: none;
+        border-bottom: 3px solid @component-active-color;
       }
     }
   }
@@ -60,7 +61,20 @@
       float: left;
     }
     h3 {
-      margin-left: 50px;
+      background-color: #fff;
+      font-size: 1.4em;
+      line-height: 1.3em;
+      margin-top: 10px;
+      a {
+        color: @purple-dark;
+        font-weight: 700;
+        margin-bottom: 2px;
+
+        &:hover {
+          text-decoration: none;
+          border-bottom: 3px solid @purple-dark;
+        }
+      }
     }
   }
   .view-footer {
@@ -96,6 +110,7 @@ aside {
     margin-top: 20px;
     margin-bottom: 10px;
     background-color: #efd8ff;
+    padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 15px;
@@ -105,7 +120,7 @@ aside {
       padding-left: 0px;
       background-color: #efd8ff;
       border: 0px;
-      color: @component-active-color;
+      color: #000;
       font-size: 11px;
       font-weight: 700;
       text-transform: uppercase;
@@ -113,9 +128,6 @@ aside {
     .form-control {
       display: block;
       margin-bottom: 10px;
-      background-color: #efd8ff;
-      color: @component-active-color;
-      border: 1px solid @component-active-color;
     }
     .btn-primary:hover,
     .btn-primary:focus,
@@ -144,8 +156,8 @@ aside {
         font-weight: 600;
 
         &:hover {
-        background-color: black;
-        text-decoration: none;
+          background-color: black;
+          text-decoration: none;
         }
       }
     }

@@ -7,6 +7,13 @@
   }
 }
 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: @component-active-color;
+  background-color: white;
+}
+
 @media (max-width: @screen-md-min) {
   .dropdown-menu {
     display: block;
@@ -44,7 +51,8 @@
   .grandparent {
     .dropdown-menu,
     > li {
-      width: 11em;
+      width: 14.5em;
+      padding-right: 1.5em;
       float: left;
     }
   }
@@ -54,7 +62,7 @@
   .grandparent {
     .dropdown-menu,
     > li {
-      width: 14em;
+      width: 17em;
     }
   }
 }

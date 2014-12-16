@@ -1,12 +1,10 @@
 <?php if ($teaser): ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix row"<?php print $attributes; ?>>
-<div class="col-md-4">
+<div class="col-sm-4">
 <?php print render($content['field_news_lead_image']); ?>
 </div>
-<div class="col-md-8">
-<?php if ($news_term_image): ?>
-<img class="term-image" src="<?php print $news_term_image; ?>" />
-<?php endif; ?>
+<div class="col-sm-8">
+<span class="category"><?php print $news_category; ?></span>
 <h3><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
 <time><?php print format_date($node->created, 'custom', 'F j, Y'); ?></time>
 <?php print render($content['body']); ?>
@@ -120,5 +118,7 @@
   </footer>
   <?php endif; ?>
   <?php print render($content['comments']); ?>
+  <div class="addthis_sharing_toolbox"></div>
 </article>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fbe3d630900e85e" async="async"></script>
 <?php endif; ?>

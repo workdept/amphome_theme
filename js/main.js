@@ -6,6 +6,9 @@ Drupal.behaviors.amphome_menu = {
       if (Drupal.behaviors.amphome_menu.state.showing_breadcrumbs && $('.breadcrumb').length > 0) {
         $('h1.page-header', context).hide();
       }
+    },
+    unstyle_for_breadcrumbs: function(context) {
+      $('h1.page-header', context).show();
     }
   },
 
@@ -17,12 +20,17 @@ Drupal.behaviors.amphome_menu = {
     enquire.register("all and (max-width: 991px)", {
       match: function(context) {
         $('.navbar-nav .dropdown-menu', context).each(function() {
+          $(this).addClass('dropdown-menu-deactivated');
           $(this).removeClass('dropdown-menu');
         });
         Drupal.behaviors.amphome_menu.util.style_for_breadcrumbs();
       },
       unmatch: function(context) {
-        // @todo reverse change
+        $('.navbar-nav .dropdown-menu-deactivated', context).each(function() {
+          $(this).addClass('dropdown-menu');
+          $(this).removeClass('dropdown-menu-deactivated');
+        });
+        Drupal.behaviors.amphome_menu.util.unstyle_for_breadcrumbs();
       }
     });
 
@@ -79,9 +87,54 @@ Drupal.behaviors.amphome_menu = {
         Drupal.behaviors.amphome_menu.util.style_for_breadcrumbs();
       },
       unmatch: function(context) {
-        // @todo reverse change
+        var $menuparents = $("#navbar nav > ul > li > ul.dropdown-menu-deactivated", context);
+
+        $menuparents.each(function() {
+          var $menuparent = $(this);
+          $menuparent
+            .removeClass('menuparent')
+            .css({
+              width: 'auto',
+              position: 'relative',
+              left: 'auto',
+              top: 'auto'
+            });
+        });
+
+        $('#navbar .navbar-nav > li > a', context).each(function() {
+          $(this)
+            .attr('data-target', '#')
+            .attr('data-toggle', 'dropdown');
+        });
+
         $('#navbar .navbar-nav > li.active-trail', context).removeClass('open');
+        Drupal.behaviors.amphome_menu.util.unstyle_for_breadcrumbs();
       }
+    });
+
+    var menusize = function(context) {
+      var $menuparents = $("#navbar nav > ul > li > ul.dropdown-menu", context);
+      var logo_width = $('#navbar > div > div.col.col-xs-12.col-md-2').outerWidth();
+      var header_height = $('#navbar').parent().outerHeight(); // .fullwidth parent wrapper
+      var container_width = $('.main-container > div > section').css('width');
+      $menuparents.each(function() {
+        var $menuparent = $(this);
+        var left = logo_width + $menuparent.parent().position().left;
+
+        $menuparent
+          .addClass('menuparent')
+          .css({
+            width: container_width,
+            position: 'absolute',
+            left: '-' + left + 'px',
+            top: header_height + 'px'
+          });
+      });
+    };
+
+    enquire.register("all and (min-width: 1200px)", {
+      match: menusize,
+      unmatch: menusize
     });
   }
 };
@@ -144,11 +197,25 @@ Drupal.behaviors.frontpage = {
               $knob.removeClass('hover');
             });
           });
+        $('.sell a[href="/about"]', context).hover(function() {
+          $('a.navbar-brand').addClass('hover');
+        }, function() {
+          $('a.navbar-brand').removeClass('hover');
+        });
       },
       unmatch: function(context) {
         // arretez?
       }
     });
+  }
+};
+
+Drupal.behaviors.responsivecontent = {
+  attach: function(context, settings) {
+    $('iframe[src*="youtube"], iframe[src*="vimeo"]', context).each(function() {
+      $(this).wrap('<div class="video"></div>');
+    });
+    $('img.fullwidth').closest('p').addClass('fullwidth');
   }
 };
 
