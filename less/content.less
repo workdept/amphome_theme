@@ -116,7 +116,7 @@ section {
     .page-header {
       padding-bottom: 0px;
       margin-left: 0px;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
       border: 0px;
     }
     #block-system-main {
@@ -157,7 +157,7 @@ section {
 
     li > a {
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 600;
       margin-right: 25px;
 
@@ -266,12 +266,13 @@ section {
 }
 
 .node-type-news-item {
+  .col-sm-9 {
+    padding-top: 24px;
+  }
   .term-image {
     float: left;
-    margin-top: 24px;
   }
   .byline {
-    margin-top: 20px;
     margin-left: 0px;
     color: @component-active-color;
     font-weight: 500;
@@ -392,6 +393,14 @@ section {
     background-color: #9900ff;
     padding: 5px;
   }
+}
+
+.control-label {
+  color: #000;
+  margin-top: 5px;
+}
+.resizable-textarea .grippie {
+  margin-bottom: 5px;
 }
 
 .view-id-amp_news.view-display-id-page,
