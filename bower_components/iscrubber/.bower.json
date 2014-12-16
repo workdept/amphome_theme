@@ -1,0 +1,14 @@
+{
+  "name": "iscrubber",
+  "homepage": "https://github.com/bnchdrff/iscrubber",
+  "version": "1.0.0",
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "d76f90894f24c274d66905113663b8738e75a642"
+  },
+  "_source": "git://github.com/bnchdrff/iscrubber.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/bnchdrff/iscrubber.git"
+}
