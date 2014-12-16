@@ -6507,7 +6507,7 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
   background-color: #ffffff;
 }
 .hover {
-  background-position: 0 -68px;
+  background-position: 0 -68px !important;
 }
 @media screen and (min-width: 992px) {
   #navbar {
@@ -6528,7 +6528,7 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
   }
   #navbar .navbar-header a.name:hover,
   #navbar .navbar-header a.name:active {
-    background-position: 0 -68px;
+    background-position: 0 -68px !important;
   }
   #navbar nav {
     font-weight: 600;
