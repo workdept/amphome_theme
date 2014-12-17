@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-less",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "main": "less/bootstrap.less",
   "ignore": [
     "**/.*",
@@ -8,14 +8,13 @@
     "components"
   ],
   "homepage": "https://github.com/jozefizso/bower-bootstrap-less",
-  "_release": "3.1.1",
+  "_release": "3.2.0",
   "_resolution": {
     "type": "version",
-    "tag": "3.1.1",
-    "commit": "4809c01aa38a6944a6354ce43e8c6d2976940832"
+    "tag": "3.2.0",
+    "commit": "2f551c828a19a7a18163594966797aa8d21f5490"
   },
   "_source": "git://github.com/jozefizso/bower-bootstrap-less.git",
-  "_target": "3.1.1",
-  "_originalSource": "bootstrap-less",
-  "_direct": true
+  "_target": "3.2.0",
+  "_originalSource": "bootstrap-less"
 }
