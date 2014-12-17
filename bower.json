@@ -15,7 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-less": "3.2.0",
     "enquire": "~2.1.2",
     "media-match": "~2.0.2",
     "iscrubber": "git://github.com/bnchdrff/iscrubber.git#1.0.1"
