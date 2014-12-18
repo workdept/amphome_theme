@@ -120,5 +120,5 @@
   <?php print render($content['comments']); ?>
   <div class="addthis_sharing_toolbox"></div>
 </article>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fbe3d630900e85e" async="async"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-546b62de68c18e7f" async="async"></script>
 <?php endif; ?>
