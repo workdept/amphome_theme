@@ -6754,7 +6754,8 @@ section time {
   .page-node #block-system-main article ol,
   .page-node #block-system-main article dl,
   .page-node #block-system-main article blockquote,
-  .page-node #block-system-main article time {
+  .page-node #block-system-main article time,
+  .page-node #block-system-main article .addthis_sharing_toolbox {
     margin-left: 80px;
     margin-right: 80px;
   }
