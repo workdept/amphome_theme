@@ -6665,7 +6665,7 @@ h4 {
 body {
   font-size: 14px;
   line-height: 1.6em;
-  color: #555;
+  color: #3d3d3d;
   background-color: #fff;
   text-rendering: optimizeLegibility;
 }
@@ -6715,7 +6715,7 @@ figcaption a:hover {
   border-bottom: 3px solid #08109f;
 }
 section p {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
 }
 section p a {
   font-weight: 600;
@@ -6998,7 +6998,7 @@ section time {
 }
 .bloglist article h3 a:hover {
   text-decoration: none;
-  color: #9900ff;
+  color: #08109f;
   border-bottom: 3px solid #08109f;
 }
 .bloglist article p {
@@ -7007,7 +7007,7 @@ section time {
 }
 .bloglist article p a:hover {
   text-decoration: none;
-  color: #9900ff;
+  color: #08109f;
   border-bottom: 3px solid #08109f;
 }
 .bloglist .category {
@@ -7069,7 +7069,7 @@ section time {
 .view-id-amp_news.view-display-id-page article h3 a:hover,
 .view-id-amp_news.view-display-id-amp_news_byterms article h3 a:hover {
   text-decoration: none;
-  color: #9900ff;
+  color: #08109f;
   border-bottom: 3px solid #08109f;
 }
 .view-id-amp_news.view-display-id-page article p,
@@ -7080,7 +7080,7 @@ section time {
 .view-id-amp_news.view-display-id-page article p a:hover,
 .view-id-amp_news.view-display-id-amp_news_byterms article p a:hover {
   text-decoration: none;
-  color: #9900ff;
+  color: #08109f;
   border-bottom: 3px solid #08109f;
 }
 .view-id-amp_news.view-display-id-page .category,
@@ -7203,7 +7203,7 @@ section time {
   text-decoration: none;
 }
 .view-project-news a:hover {
-  color: #9900ff;
+  color: #08109f;
 }
 .pane-views-amp-news-block-3 {
   background-color: #fff;
@@ -7281,7 +7281,7 @@ section time {
   text-decoration: none;
 }
 .pane-views-amp-news-block-3 .amp-news-block a:hover {
-  color: #9900ff;
+  color: #08109f;
 }
 aside {
   margin-top: 15px;
@@ -7598,21 +7598,21 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
     background-image: url(../images/frontpage/amc_arrow.png);
     height: 37px;
     width: 102px;
-    top: 165px;
+    top: 180px;
     left: 545px;
   }
   #boxes-box-flex_graphic_box .arrow.amp {
     background-image: url(../images/frontpage/amp_arrow.png);
     height: 63px;
     width: 85px;
-    top: 0px;
-    left: 33px;
+    top: 5px;
+    left: 63px;
   }
   #boxes-box-flex_graphic_box .arrow.sponsoredprojects {
     background-image: url(../images/frontpage/sp_arrow.png);
     height: 56px;
     width: 95px;
-    top: 400px;
+    top: 410px;
     left: 257px;
   }
   #boxes-box-flex_graphic_box .boxes-box-content {
@@ -7637,7 +7637,7 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
     background-image: url(../images/frontpage/amc_arrow.png);
     height: 37px;
     width: 102px;
-    top: 165px;
+    top: 185px;
     left: 685px;
   }
   #boxes-box-flex_graphic_box .arrow.amp {
@@ -7645,13 +7645,13 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
     height: 63px;
     width: 85px;
     top: 7px;
-    left: 120px;
+    left: 140px;
   }
   #boxes-box-flex_graphic_box .arrow.sponsoredprojects {
     background-image: url(../images/frontpage/sp_arrow.png);
     height: 56px;
     width: 95px;
-    top: 400px;
+    top: 415px;
     left: 315px;
   }
   #boxes-box-flex_graphic_box .boxes-box-content {
@@ -7707,7 +7707,7 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
 }
 .panels-bootstrap-frontlayout section article h3 a:hover {
   text-decoration: none;
-  color: #9900ff;
+  color: #08109f;
   border-bottom: 3px solid #08109f;
 }
 .panels-bootstrap-frontlayout section article p {
@@ -7716,7 +7716,7 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
 }
 .panels-bootstrap-frontlayout section article p a:hover {
   text-decoration: none;
-  color: #9900ff;
+  color: #08109f;
   border-bottom: 3px solid #08109f;
 }
 .panels-bootstrap-frontlayout section .category {
