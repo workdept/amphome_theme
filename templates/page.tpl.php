@@ -153,7 +153,7 @@
       <?php if (!empty($news_category)): ?>
         <span class="category"><?php print $news_category; ?></span>
       <?php endif; ?>
-      <?php if ($node->field_authors && isset($node->field_authors['und']) && count($node->field_authors['und']) > 0): ?>
+      <?php if (isset($node->field_authors) && isset($node->field_authors['und']) && count($node->field_authors['und']) > 0): ?>
       <div class="byline">Words by <?php
 
   $len = count($node->field_authors['und']) - 1;
