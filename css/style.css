@@ -6624,8 +6624,16 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
     color: #000;
     text-decoration: none;
   }
+  #navbar #block-search-form {
+    width: 212px;
+  }
   #navbar #block-search-form #edit-actions {
     margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #block-search-form {
+    width: 262px !important;
   }
 }
 body > .fullwidth {
@@ -6743,29 +6751,13 @@ section time {
     margin-bottom: 0px;
     border: 0px;
   }
-  .page-node #block-system-main article p,
-  .page-node #block-system-main article h1,
-  .page-node #block-system-main article h2,
-  .page-node #block-system-main article h3,
-  .page-node #block-system-main article h4,
-  .page-node #block-system-main article h5,
-  .page-node #block-system-main article h6,
-  .page-node #block-system-main article ul,
-  .page-node #block-system-main article ol,
-  .page-node #block-system-main article dl,
-  .page-node #block-system-main article blockquote,
-  .page-node #block-system-main article time,
-  .page-node #block-system-main article .addthis_sharing_toolbox {
+  .page-node #block-system-main article {
     margin-left: 80px;
     margin-right: 80px;
   }
   .page-node #block-system-main article p img {
     max-width: 100%;
     margin-left: 0px;
-  }
-  .page-node #block-system-main article p.fullwidth {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 #block-menu-block-1 .block-title {
