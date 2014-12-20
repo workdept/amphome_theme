@@ -7590,21 +7590,21 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
     background-image: url(../images/frontpage/amc_arrow.png);
     height: 37px;
     width: 102px;
-    top: 180px;
+    top: 165px;
     left: 545px;
   }
   #boxes-box-flex_graphic_box .arrow.amp {
     background-image: url(../images/frontpage/amp_arrow.png);
     height: 63px;
     width: 85px;
-    top: 5px;
+    top: 0px;
     left: 63px;
   }
   #boxes-box-flex_graphic_box .arrow.sponsoredprojects {
     background-image: url(../images/frontpage/sp_arrow.png);
     height: 56px;
     width: 95px;
-    top: 410px;
+    top: 400px;
     left: 257px;
   }
   #boxes-box-flex_graphic_box .boxes-box-content {
@@ -7643,7 +7643,7 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
     background-image: url(../images/frontpage/sp_arrow.png);
     height: 56px;
     width: 95px;
-    top: 415px;
+    top: 400px;
     left: 315px;
   }
   #boxes-box-flex_graphic_box .boxes-box-content {
