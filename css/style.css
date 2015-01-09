@@ -2378,8 +2378,8 @@ input[type="button"].btn-block {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');
-  src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../../bootstrap/bootstrap/fonts/glyphicons-halflings-regular.eot');
+  src: url('../../bootstrap/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../bootstrap/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../bootstrap/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../bootstrap/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -6921,6 +6921,9 @@ section time {
   font-size: .9em;
   background-color: #9900ff;
   padding: 5px;
+}
+.node-type-news-item .addthis_sharing_toolbox {
+  margin-top: 15px;
 }
 .pagination > li > a,
 .pagination > li > span {
