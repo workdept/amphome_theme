@@ -6641,6 +6641,14 @@ body > .fullwidth {
   border-bottom: 1px solid #000;
   background: white;
 }
+@media (max-width: 992px) {
+  .navbar-brand {
+    padding: 19px 0;
+  }
+  .navbar #block-search-form {
+    margin: 0;
+  }
+}
 h1 {
   font-weight: 500;
   font-size: 34px;
@@ -6794,6 +6802,17 @@ section time {
   background-color: #fff;
   border-bottom: 5px solid #9900ff;
   color: #9900ff;
+}
+@media (max-width: 992px) {
+  #block-menu-block-1 .navbar-nav {
+    margin: 0;
+  }
+  #block-menu-block-1 .navbar-nav li > a:hover,
+  #block-menu-block-1 .navbar-nav li > a:focus,
+  #block-menu-block-1 .navbar-nav li > a:active {
+    background-color: transparent;
+    border-bottom: none;
+  }
 }
 .breadcrumb {
   margin-top: 12px;
@@ -7547,6 +7566,18 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
 #navbar a[href='/sponsored-projects'] {
   max-width: 8em;
 }
+@media (max-width: 992px) {
+  .navbar-collapse {
+    max-height: inherit !important;
+  }
+  .navbar-collapse a:active {
+    color: #9900ff;
+  }
+  .navbar-collapse a:hover {
+    color: #9900ff;
+    text-decoration: none;
+  }
+}
 #boxes-box-flex_graphic_box {
   margin-top: 20px;
 }
@@ -7554,7 +7585,7 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
   position: relative;
   z-index: 2;
   line-height: 1.4;
-  font-size: 4em;
+  font-size: 1.6em;
   background: black;
   color: white;
 }
@@ -7587,6 +7618,9 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
   display: none;
 }
 @media (min-width: 992px) {
+  #boxes-box-flex_graphic_box .sell {
+    font-size: 4em;
+  }
   #boxes-box-flex_graphic_box .scrubber {
     display: block;
   }

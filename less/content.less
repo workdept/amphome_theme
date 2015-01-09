@@ -171,6 +171,22 @@ section {
   }
 }
 
+@media (max-width: @screen-md-min) {
+  #block-menu-block-1 {
+    .navbar-nav {
+      margin: 0;
+      li > a {
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: transparent;
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
 // Breadcrumbs
 .breadcrumb {
   margin-top: 12px;

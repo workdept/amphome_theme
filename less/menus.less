@@ -74,3 +74,19 @@
     max-width: 8em;
   }
 }
+
+// expanded hamburger mobile menu
+@media (max-width: @screen-md-min) {
+  .navbar-collapse {
+    max-height: inherit !important;
+    a {
+      &:active {
+        color: #9900ff;
+      }
+      &:hover {
+        color: #9900ff;
+        text-decoration: none;
+      }
+    }
+  }
+}
