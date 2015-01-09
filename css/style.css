@@ -6886,13 +6886,24 @@ section time {
   overflow: hidden;
   display: block;
   width: 100%;
-  height: 260px;
   margin-bottom: 30px;
   padding: 20px;
 }
 .sponsoredprojects .projects .row div a:hover {
   color: #000;
   text-decoration: none;
+}
+@media screen and (min-width: 992px) {
+  .sponsoredprojects .projects .row div a {
+    width: 170px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .sponsoredprojects .projects .row div a {
+    width: 220px;
+    height: 220px;
+  }
 }
 .node-type-news-item .col-sm-9 {
   padding-top: 24px;
