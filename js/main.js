@@ -22,6 +22,7 @@ Drupal.behaviors.amphome_menu = {
         $('.navbar-nav .dropdown-menu', context).each(function() {
           $(this).addClass('dropdown-menu-deactivated');
           $(this).removeClass('dropdown-menu');
+          $(this).siblings('a').removeAttr('data-toggle');
         });
         Drupal.behaviors.amphome_menu.util.style_for_breadcrumbs();
       },
