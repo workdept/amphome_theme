@@ -6730,14 +6730,23 @@ figcaption a:hover {
   text-decoration: none;
   border-bottom: 3px solid #08109f;
 }
+section ul,
+section ol,
+section dl,
 section p {
   font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
 }
+section ul a,
+section ol a,
+section dl a,
 section p a {
   font-weight: 600;
   color: #08109f;
   text-decoration: none;
 }
+section ul a:hover,
+section ol a:hover,
+section dl a:hover,
 section p a:hover {
   color: #08109f;
   text-decoration: none;
