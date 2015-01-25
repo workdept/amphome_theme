@@ -150,9 +150,6 @@
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
-      <?php if (!empty($news_category)): ?>
-        <span class="category"><?php print $news_category; ?></span>
-      <?php endif; ?>
       <?php if (isset($node->field_authors) && isset($node->field_authors['und']) && count($node->field_authors['und']) > 0): ?>
       <div class="byline">Words by <?php
 

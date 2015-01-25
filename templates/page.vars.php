@@ -53,10 +53,6 @@ function amphome_preprocess_page(&$variables) {
     $variables['navbar_classes_array'][] = 'navbar-default';
   }
 
-  if (isset($variables['node']->field_news_term) && count($variables['node']->field_news_term['und']) === 1) {
-    $variables['news_category'] = $variables['node']->field_news_term['und'][0]['taxonomy_term']->name;
-  }
-
   // Offer path to our theme in DOM
   drupal_add_js('jQuery.extend(Drupal.settings, { "pathToTheme": "/' . path_to_theme() . '/" });', 'inline');
 
