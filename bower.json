@@ -16,7 +16,6 @@
   ],
   "dependencies": {
     "enquire": "~2.1.2",
-    "media-match": "~2.0.2",
-    "iscrubber": "git://github.com/bnchdrff/iscrubber.git#1.0.1"
+    "media-match": "~2.0.2"
   }
 }

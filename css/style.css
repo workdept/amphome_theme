@@ -7634,10 +7634,25 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
   }
   #boxes-box-flex_graphic_box .scrubber {
     display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
   #boxes-box-flex_graphic_box .scrubber.amc {
     top: 15px;
     left: 650px;
+  }
+  #boxes-box-flex_graphic_box .scrubber li {
+    list-style: none;
+    width: 306px;
+    height: 306px;
+  }
+  #boxes-box-flex_graphic_box .scrubber li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
   }
   #boxes-box-flex_graphic_box .arrow {
     display: block;
@@ -7708,6 +7723,13 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
   #boxes-box-flex_graphic_box .boxes-box-content {
     margin-left: 210px;
   }
+}
+.animation li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 .panels-bootstrap-frontlayout section h2 {
   margin-bottom: 20px;

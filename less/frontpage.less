@@ -45,10 +45,19 @@
     }
     .scrubber {
       display: block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
       &.amc {
         top: 15px;
         left: 650px;
       }
+      li {
+        list-style: none;
+        width: 306px;
+        height: 306px;
+      }
+      .animation;
     }
     .arrow {
       display: block;
@@ -122,6 +131,16 @@
     .boxes-box-content {
       margin-left: 210px;
     }
+  }
+}
+
+.animation {
+  li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
   }
 }
 

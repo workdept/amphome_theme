@@ -186,15 +186,27 @@ Drupal.behaviors.frontpage = {
 
         // commençez les iScrubbings
         $('.scrubber', context)
-          .iscrubber({additionalScrubKnobs: true})
+          //.iscrubber({additionalScrubKnobs: true})
           .each(function() {
             var $this_scrub = $(this);
             var scrubber_data_id = $this_scrub.data('scrubber');
             var $knob = $('html').find('a[data-scrubber="' + scrubber_data_id + '"]');
-            $this_scrub.on('mousemove.iscrubberrrrr', function(ev) {
+            var interval;
+
+            $this_scrub.on('mouseenter.iscrubberrrrr', function(ev) {
+              $('li:gt(0)', $this_scrub).hide();
+              interval = setInterval(function() {
+                $('li:first', $this_scrub)
+                  .fadeOut(500)
+                  .next()
+                  .fadeIn(500)
+                  .end()
+                  .appendTo($this_scrub);
+              },  1000);
               $knob.addClass('hover');
             });
             $this_scrub.on('mouseleave.iscrubberrrrr', function(ev) {
+              clearInterval(interval);
               $knob.removeClass('hover');
             });
           });
