@@ -150,6 +150,9 @@
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
+      <?php if (!empty($title)): ?>
+        <h1 class="page-header"><?php print $title; ?></h1>
+      <?php endif; ?>
       <?php if (isset($node->field_authors) && isset($node->field_authors['und']) && count($node->field_authors['und']) > 0): ?>
       <div class="byline">Words by <?php
 
@@ -168,9 +171,6 @@
   print $authors;
 
       ?></div>
-      <?php endif; ?>
-      <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
