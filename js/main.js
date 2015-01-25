@@ -192,23 +192,33 @@ Drupal.behaviors.frontpage = {
             var scrubber_data_id = $this_scrub.data('scrubber');
             var $knob = $('html').find('a[data-scrubber="' + scrubber_data_id + '"]');
             var interval;
+            var scrubbing = false;
 
-            $this_scrub.on('mouseenter.iscrubberrrrr', function(ev) {
-              $('li:gt(0)', $this_scrub).hide();
-              interval = setInterval(function() {
-                $('li:first', $this_scrub)
-                  .fadeOut(500)
-                  .next()
-                  .fadeIn(500)
-                  .end()
-                  .appendTo($this_scrub);
-              },  1000);
-              $knob.addClass('hover');
-            });
-            $this_scrub.on('mouseleave.iscrubberrrrr', function(ev) {
+            var scrub = function(ev) {
+              if (!scrubbing) {
+                scrubbing = true;
+                $('li:gt(0)', $this_scrub).hide();
+                interval = setInterval(function() {
+                  $('li:first', $this_scrub)
+                    .fadeOut(500)
+                    .next()
+                    .fadeIn(500)
+                    .end()
+                    .appendTo($this_scrub);
+                }, 1000);
+                $knob.addClass('hover');
+              }
+            };
+            var descrub = function(ev) {
               clearInterval(interval);
               $knob.removeClass('hover');
-            });
+              scrubbing = false;
+            };
+
+            $this_scrub.on('mouseenter.iscrubberrrrr', scrub);
+            $this_scrub.on('mouseleave.iscrubberrrrr', descrub);
+            $knob.on('mouseenter.iscrubberrrrr', scrub);
+            $knob.on('mouseleave.iscrubberrrrr', descrub);
           });
         $('.sell a[href="/about"]', context).hover(function() {
           $('a.navbar-brand').addClass('hover');
