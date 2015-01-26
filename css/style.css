@@ -3513,7 +3513,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: lighten900FF(#000000, 33.5%);
+  color: #555555;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
@@ -6533,7 +6533,7 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
   #navbar nav {
     font-weight: 600;
     font-size: 11px;
-    color: #000;
+    color: #000000;
   }
   #navbar .navbar-nav > li > a,
   #navbar .navbar-nav > li > span {
@@ -6563,7 +6563,7 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
   }
   #navbar .navbar-nav > .open > a,
   #navbar .navbar-nav > .open > a:active {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #9900ff;
     border-bottom: 5px solid #9900ff;
   }
@@ -6571,7 +6571,7 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
   #navbar .navbar-nav > .active > a:hover,
   #navbar .navbar-nav > .active > a:focus {
     color: #9900ff;
-    background-color: #fff;
+    background-color: #ffffff;
   }
   #navbar .dropdown-menu > li > span {
     display: block;
@@ -6585,7 +6585,7 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
   }
   #navbar .dropdown-menu .dropdown-menu > li > a {
     font-weight: 600;
-    color: #000;
+    color: #000000;
     border-bottom: none;
   }
   #navbar .dropdown-menu > li > a {
@@ -6621,7 +6621,7 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
     margin-left: 10px;
   }
   #navbar .boxes-box-content a:hover {
-    color: #000;
+    color: #000000;
     text-decoration: none;
   }
   #navbar #block-search-form {
@@ -6660,14 +6660,14 @@ h2 {
   font-weight: 500;
   font-size: 28px;
   line-height: 1.6em;
-  color: #000;
+  color: #000000;
   background-color: #ffffff;
 }
 h3 {
   font-weight: 600;
   font-size: 21px;
   line-height: 1.6em;
-  color: #000;
+  color: #000000;
   background-color: #ffffff;
 }
 h4 {
@@ -6683,8 +6683,8 @@ h4 {
 body {
   font-size: 14px;
   line-height: 1.6em;
-  color: #3d3d3d;
-  background-color: #fff;
+  color: #333333;
+  background-color: #ffffff;
   text-rendering: optimizeLegibility;
 }
 body blockquote {
@@ -6705,7 +6705,7 @@ figcaption a {
 }
 figure a:hover,
 figcaption a:hover {
-  color: #000;
+  color: #000000;
   text-decoration: none;
 }
 .btn-default,
@@ -6804,13 +6804,13 @@ section time {
   margin-right: 25px;
 }
 #block-menu-block-1 .navbar-nav li > a:hover {
-  background-color: #fff;
+  background-color: #ffffff;
   text-decoration: none;
   border-bottom: 5px solid #9900ff;
 }
 #block-menu-block-1 .navbar-nav li > a:focus,
 #block-menu-block-1 .navbar-nav li > a:active {
-  background-color: #fff;
+  background-color: #ffffff;
   border-bottom: 5px solid #9900ff;
   color: #9900ff;
 }
@@ -6839,13 +6839,13 @@ section time {
   font-size: .9em;
   font-weight: 600;
   text-decoration: none;
-  background-color: fff;
+  background-color: #ffffff;
   border: 3px solid #9900ff;
   padding: 4px;
 }
 .breadcrumb li:nth-child(1) a:hover {
   text-decoration: none;
-  color: #000;
+  color: #000000;
   border: 3px solid #000;
 }
 .breadcrumb li:nth-child(2) {
@@ -6920,7 +6920,7 @@ section time {
   padding: 20px;
 }
 .sponsoredprojects .projects .row div a:hover {
-  color: #000;
+  color: #000000;
   text-decoration: none;
 }
 @media screen and (min-width: 992px) {
@@ -6957,7 +6957,7 @@ section time {
   border-bottom: 3px solid #9900ff;
 }
 .node-type-news-item .category {
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
   font-size: .9em;
   background-color: #9900ff;
@@ -6970,7 +6970,7 @@ section time {
 .pagination > li > span {
   text-decoration: none;
   color: #9900ff;
-  background-color: #fff;
+  background-color: #ffffff;
   border: 0px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -6984,7 +6984,7 @@ section time {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   background-color: #9900ff;
-  color: #fff;
+  color: #ffffff;
 }
 .pagination > .active > a,
 .pagination > .active > span,
@@ -7021,7 +7021,7 @@ section time {
   margin-top: 8px;
 }
 .bloglist article h3 {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #08109f;
   font-size: 1.4em;
   line-height: 1.4em;
@@ -7047,14 +7047,14 @@ section time {
   border-bottom: 3px solid #08109f;
 }
 .bloglist .category {
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
   font-size: .9em;
   background-color: #9900ff;
   padding: 5px;
 }
 .control-label {
-  color: #000;
+  color: #000000;
   margin-top: 5px;
 }
 .resizable-textarea .grippie {
@@ -7090,7 +7090,7 @@ section time {
 }
 .view-id-amp_news.view-display-id-page article h3,
 .view-id-amp_news.view-display-id-amp_news_byterms article h3 {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #08109f;
   font-size: 1.4em;
   line-height: 1.4em;
@@ -7121,7 +7121,7 @@ section time {
 }
 .view-id-amp_news.view-display-id-page .category,
 .view-id-amp_news.view-display-id-amp_news_byterms .category {
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
   font-size: .9em;
   background-color: #9900ff;
@@ -7164,11 +7164,11 @@ section time {
   margin-bottom: 0px;
 }
 .sidebar-news-block {
-  background-color: #fff;
+  background-color: #ffffff;
   padding-bottom: 10px;
 }
 .sidebar-news-block h2 {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #9900ff;
   font-size: 13px;
   font-weight: 600;
@@ -7179,7 +7179,7 @@ section time {
   padding-bottom: 2px;
 }
 .sidebar-news-block h3 {
-  background-color: #fff;
+  background-color: #ffffff;
   font-size: 1.4em;
   line-height: 1.3em;
   margin-top: 10px;
@@ -7215,7 +7215,7 @@ section time {
   float: left;
 }
 .view-project-news article h3 {
-  background-color: #fff;
+  background-color: #ffffff;
   font-size: 1.4em;
   line-height: 1.3em;
   margin-top: 10px;
@@ -7242,11 +7242,11 @@ section time {
   color: #08109f;
 }
 .pane-views-amp-news-block-3 {
-  background-color: #fff;
+  background-color: #ffffff;
   padding-bottom: 10px;
 }
 .pane-views-amp-news-block-3 h2 {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #9900ff;
   font-size: 13px;
   font-weight: 600;
@@ -7257,7 +7257,7 @@ section time {
   padding-bottom: 2px;
 }
 .pane-views-amp-news-block-3 h3 {
-  background-color: #fff;
+  background-color: #ffffff;
   font-size: 1.4em;
   line-height: 1.3em;
   margin-top: 10px;
@@ -7293,7 +7293,7 @@ section time {
   float: left;
 }
 .pane-views-amp-news-block-3 .amp-news-block article h3 {
-  background-color: #fff;
+  background-color: #ffffff;
   font-size: 1.4em;
   line-height: 1.3em;
   margin-top: 10px;
@@ -7323,11 +7323,11 @@ aside {
   margin-top: 15px;
 }
 aside section {
-  background-color: #fff;
+  background-color: #ffffff;
   padding-bottom: 10px;
 }
 aside section h2 {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #9900ff;
   font-size: 13px;
   font-weight: 600;
@@ -7338,7 +7338,7 @@ aside section h2 {
   padding-bottom: 2px;
 }
 aside section h3 {
-  background-color: #fff;
+  background-color: #ffffff;
   font-size: 1.4em;
   line-height: 1.3em;
   margin-top: 10px;
@@ -7370,7 +7370,7 @@ aside .pane-boxes-amp-list-signup h2 {
   padding-left: 0px;
   background-color: #efd8ff;
   border: 0px;
-  color: #000;
+  color: #000000;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
@@ -7508,7 +7508,7 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
   font-weight: 600;
   color: #08109f;
   text-decoration: none;
-  color: #000;
+  color: #000000;
   cursor: pointer;
 }
 .navbar-default .navbar-nav > li > span:hover {
@@ -7733,7 +7733,7 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
 }
 .panels-bootstrap-frontlayout section h2 {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #9900ff;
   font-size: 13px;
   font-weight: 600;
@@ -7767,7 +7767,7 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
   margin-top: 8px;
 }
 .panels-bootstrap-frontlayout section article h3 {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #08109f;
   font-size: 1.4em;
   line-height: 1.4em;
@@ -7793,21 +7793,21 @@ aside .field-type-taxonomy-term-reference .field-items a:hover {
   border-bottom: 3px solid #08109f;
 }
 .panels-bootstrap-frontlayout section .category {
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
   font-size: .9em;
   background-color: #9900ff;
   padding: 5px;
 }
 .panels-bootstrap-frontlayout section article h3 {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #08109f;
   font-size: 1.4em;
   line-height: 1.3em;
   margin-top: 0;
 }
 .panels-bootstrap-frontlayout section article span {
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
   font-size: .9em;
   background-color: #9900ff;

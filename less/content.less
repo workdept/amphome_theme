@@ -3,23 +3,23 @@ h1 {
   font-size: @font-size-h1;
   line-height: 1.6em;
   color: @component-active-color;
-  background-color: #ffffff;
+  background-color: @body-bg;
 }
 
 h2 {
   font-weight: 500;
   font-size: @font-size-h2;
   line-height: 1.6em;
-  color: #000;
-  background-color: #ffffff;
+  color: @brand-primary;
+  background-color: @body-bg;
 }
 
 h3 {
   font-weight: 600;
   font-size: @font-size-h3;
   line-height: 1.6em;
-  color: #000;
-  background-color: #ffffff;
+  color: @brand-primary;
+  background-color: @body-bg;
 }
 
 h4 {
@@ -28,7 +28,7 @@ h4 {
   text-transform: uppercase;
   line-height: 1.6em;
   color: @component-active-color;
-  background-color: #ffffff;
+  background-color: @body-bg;
   margin-top: 11px;
   margin-bottom: 5px;
 }
@@ -36,8 +36,8 @@ h4 {
 body {
   font-size: 14px;
   line-height: 1.6em;
-  color: #3d3d3d;
-  background-color: #fff;
+  color: @gray-dark;
+  background-color: @body-bg;
   text-rendering: optimizeLegibility;
 
   blockquote {
@@ -57,7 +57,7 @@ figure, figcaption {
     text-decoration: none;
 
     &:hover {
-      color: #000;
+      color: @brand-primary;
       text-decoration: none;
     }
   }
@@ -161,14 +161,14 @@ section {
       margin-right: 25px;
 
       &:hover {
-        background-color: #fff;
+        background-color: @body-bg;
         text-decoration: none;
         border-bottom: 5px solid @component-active-color;
       }
 
       &:focus,
       &:active {
-        background-color: #fff;
+        background-color: @body-bg;
         border-bottom: 5px solid @component-active-color;
         color: @component-active-color;
       }
@@ -208,13 +208,13 @@ section {
       font-size: .9em;
       font-weight: 600;
       text-decoration: none;
-      background-color: fff;
+      background-color: @body-bg;
       border: 3px solid @component-active-color;
       padding: 4px;
     }
     a:hover {
       text-decoration: none;
-      color: #000;
+      color: @brand-primary;
       border: 3px solid #000;
     }
   }
@@ -271,7 +271,7 @@ section {
         margin-bottom: 30px;
         padding: 20px;
         &:hover {
-          color: #000;
+          color: @brand-primary;
           text-decoration: none;
         }
       }
@@ -330,10 +330,10 @@ section {
     }
   }
   .category {
-    color: #fff;
+    color: @body-bg;
     font-weight: 600;
     font-size: .9em;
-    background-color: #9900ff;
+    background-color: @component-active-color;
     padding: 5px;
   }
   .addthis_sharing_toolbox {
@@ -346,20 +346,20 @@ section {
 .pagination > li > span {
   text-decoration: none;
   color: @component-active-color;
-  background-color: #fff;
+  background-color: @body-bg;
   border: 0px;
   padding-top: 8px;
   padding-bottom: 8px;
 
   &:hover {
     text-decoration: none;
-    background-color: #efd8ff;
+    background-color: @purple-lightest;
     color: @component-active-color;
   }
 
   &:focus {
     background-color: @component-active-color;
-    color: #fff;
+    color: @body-bg;
   }
 }
 .pagination > .active > a,
@@ -368,9 +368,9 @@ section {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  color: #ffffff;
+  color: @body-bg;
   background-color: @component-active-color;
-  border-color: #000000;
+  border-color: @brand-primary;
   cursor: default;
 }
 
@@ -399,7 +399,7 @@ section {
       margin-top: 8px;
     }
     h3 {
-    background-color: #fff;
+    background-color: @body-bg;
     color: @purple-dark;
     font-size: 1.4em;
     line-height: 1.4em;
@@ -430,16 +430,16 @@ section {
     }
   }
   .category {
-    color: #fff;
+    color: @body-bg;
     font-weight: 600;
     font-size: .9em;
-    background-color: #9900ff;
+    background-color: @component-active-color;
     padding: 5px;
   }
 }
 
 .control-label {
-  color: #000;
+  color: @brand-primary;
   margin-top: 5px;
 }
 .resizable-textarea .grippie {
