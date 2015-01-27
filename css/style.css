@@ -7196,11 +7196,11 @@ section time {
   font-size: .95em;
 }
 .view-project-news article {
-  color: #08109f;
-  padding-bottom: 10px;
   margin-left: 15px;
   padding-left: 5px;
   padding-right: 5px;
+  color: #08109f;
+  padding-bottom: 10px;
   border-bottom: 1px solid #08109f;
 }
 .view-project-news article time {
@@ -7230,7 +7230,9 @@ section time {
   border-bottom: 3px solid #08109f;
 }
 .view-project-news .view-footer {
-  margin-left: 5px;
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-top: 5px;
 }
 .view-project-news a {
@@ -7274,11 +7276,11 @@ section time {
   font-size: .95em;
 }
 .pane-views-amp-news-block-3 .amp-news-block article {
-  color: #08109f;
-  padding-bottom: 10px;
   margin-left: 15px;
   padding-left: 5px;
   padding-right: 5px;
+  color: #08109f;
+  padding-bottom: 10px;
   border-bottom: 1px solid #08109f;
 }
 .pane-views-amp-news-block-3 .amp-news-block article time {
@@ -7308,7 +7310,9 @@ section time {
   border-bottom: 3px solid #08109f;
 }
 .pane-views-amp-news-block-3 .amp-news-block .view-footer {
-  margin-left: 5px;
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-top: 5px;
 }
 .pane-views-amp-news-block-3 .amp-news-block a {
@@ -7321,6 +7325,11 @@ section time {
 }
 aside {
   margin-top: 15px;
+}
+aside h2.block-title {
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 aside section {
   background-color: #ffffff;
@@ -7359,14 +7368,13 @@ aside .pane-boxes-amp-list-signup {
   margin-top: 20px;
   margin-bottom: 10px;
   background-color: #efd8ff;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 15px;
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 aside #block-boxes-amp-list-signup h2,
 aside .pane-boxes-amp-list-signup h2 {
-  margin-top: 10px;
+  margin: 0;
   padding-left: 0px;
   background-color: #efd8ff;
   border: 0px;
@@ -7408,6 +7416,16 @@ aside .field-type-taxonomy-term-reference .field-items a {
 aside .field-type-taxonomy-term-reference .field-items a:hover {
   background-color: black;
   text-decoration: none;
+}
+aside .block-cck-blocks {
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.secondary-sidebar-mp {
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .footer {
   margin-top: 0;

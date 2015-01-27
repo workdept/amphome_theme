@@ -42,11 +42,9 @@
 
 .view-project-news {
   article {
+    .secondary-sidebar-mp;
     color: @purple-dark;
     padding-bottom: 10px;
-    margin-left: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
     border-bottom: 1px solid @purple-dark;
 
     time {
@@ -78,7 +76,7 @@
     }
   }
   .view-footer {
-    margin-left: 5px;
+    .secondary-sidebar-mp;
     margin-top: 5px;
   }
   a {
@@ -102,6 +100,10 @@
 aside {
   margin-top: 15px;
 
+  h2.block-title {
+    .secondary-sidebar-mp;
+  }
+
   section {
     .sidebar-news-block;
   }
@@ -110,13 +112,9 @@ aside {
     margin-top: 20px;
     margin-bottom: 10px;
     background-color: @purple-lightest;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 15px;
-
+    .secondary-sidebar-mp;
     h2 {
-      margin-top: 10px;
+      margin: 0;
       padding-left: 0px;
       background-color: @purple-lightest;
       border: 0px;
@@ -162,4 +160,14 @@ aside {
       }
     }
   }
+
+  .block-cck-blocks {
+    .secondary-sidebar-mp;
+  }
+}
+
+.secondary-sidebar-mp {
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
