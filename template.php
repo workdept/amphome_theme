@@ -50,3 +50,9 @@ function amphome_menu_tree__menu_block__main_menu($vars) {
   return '<ul class="navbar-nav">' . $vars['tree'] . '</ul>';
 }
 
+function amphome_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'search_block_form') {
+    unset($form['search_block_form']['#attributes']['title']);
+  }
+}
+
