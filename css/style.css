@@ -6943,6 +6943,7 @@ section time {
 }
 .node-type-news-item .byline {
   margin-left: 0px;
+  margin-bottom: 20px;
   color: #9900ff;
   font-weight: 500;
   font-size: smaller;
