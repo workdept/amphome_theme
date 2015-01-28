@@ -7365,10 +7365,10 @@ aside #block-boxes-amp-list-signup,
 aside .pane-boxes-amp-list-signup {
   margin-top: 20px;
   margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 15px;
   background-color: #efd8ff;
-  margin-left: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 aside #block-boxes-amp-list-signup h2,
 aside .pane-boxes-amp-list-signup h2 {
