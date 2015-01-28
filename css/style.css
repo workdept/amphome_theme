@@ -6778,6 +6778,11 @@ section time {
     max-width: 100%;
     margin-left: 0px;
   }
+  .page-node #block-system-main article p.fullwidth {
+    background: blue;
+    margin-left: -80px;
+    margin-right: -80px;
+  }
 }
 #block-menu-block-1 .block-title {
   position: absolute;
