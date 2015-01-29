@@ -46,7 +46,7 @@ Drupal.behaviors.amphome_menu = {
         var $menuparents = $("#navbar nav > ul > li > ul.dropdown-menu", context);
         var logo_width = $('#navbar > div > div.col.col-xs-12.col-md-2').outerWidth();
         var header_height = $('#navbar').parent().outerHeight(); // .fullwidth parent wrapper
-        var container_width = $('.main-container > div > section').css('width');
+        var container_width = parseInt($('.main-container > div > section').css('width'));
 
         $('#navbar .navbar-nav > li.active-trail', context)
           .addClass('open');
@@ -58,7 +58,7 @@ Drupal.behaviors.amphome_menu = {
           $menuparent
             .addClass('menuparent')
             .css({
-              width: container_width - 30,
+              width: container_width - 30 + 'px',
               position: 'absolute',
               left: '-' + left + 'px',
               top: header_height + 'px'
