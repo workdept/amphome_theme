@@ -200,12 +200,12 @@ Drupal.behaviors.frontpage = {
                 $('li:gt(0)', $this_scrub).hide();
                 interval = setInterval(function() {
                   $('li:first', $this_scrub)
-                    .fadeOut(250)
+                    .fadeOut(375)
                     .next()
-                    .fadeIn(250)
+                    .fadeIn(375)
                     .end()
                     .appendTo($this_scrub);
-                }, 500);
+                }, 750);
                 $knob.addClass('hover');
               }
             };
