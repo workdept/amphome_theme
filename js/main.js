@@ -53,12 +53,12 @@ Drupal.behaviors.amphome_menu = {
 
         $menuparents.each(function() {
           var $menuparent = $(this);
-          var left = logo_width + $menuparent.parent().position().left;
+          var left = logo_width + $menuparent.parent().position().left + 15;
 
           $menuparent
             .addClass('menuparent')
             .css({
-              width: container_width,
+              width: container_width - 30,
               position: 'absolute',
               left: '-' + left + 'px',
               top: header_height + 'px'

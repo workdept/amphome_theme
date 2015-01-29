@@ -7558,8 +7558,8 @@ aside .block-cck-blocks {
     -webkit-box-shadow: 0 0 0 #ffffff;
     -moz-box-shadow: 0 0 0 #ffffff;
     box-shadow: 0 0 0 #ffffff;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding-bottom: 10px;
   }
   .menuparent .dropdown-menu {
