@@ -6698,6 +6698,10 @@ figcaption {
   color: #08109f;
   font-size: small;
 }
+figure img,
+figcaption img {
+  max-width: 100%;
+}
 figure a,
 figcaption a {
   color: #08109f;
