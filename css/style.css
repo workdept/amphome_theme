@@ -6719,6 +6719,7 @@ figcaption a:hover {
   font-size: .7em;
   letter-spacing: .2em;
   padding: 10px 20px 10px 20px;
+  margin-top: 10px;
   text-transform: uppercase;
 }
 .btn-default:hover,
