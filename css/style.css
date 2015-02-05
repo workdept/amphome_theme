@@ -7653,6 +7653,15 @@ aside .block-cck-blocks {
 #boxes-box-flex_graphic_box .arrow {
   display: none;
 }
+@media (max-width: 992px) {
+  #boxes-box-flex_graphic_box .sell a:link,
+  #boxes-box-flex_graphic_box .sell a:visited,
+  #boxes-box-flex_graphic_box .sell a:active,
+  #boxes-box-flex_graphic_box .sell a:hover {
+    color: yellow;
+    text-decoration: none;
+  }
+}
 @media (min-width: 992px) {
   #boxes-box-flex_graphic_box .sell {
     font-size: 4em;
