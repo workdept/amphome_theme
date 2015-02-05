@@ -6914,34 +6914,36 @@ section time {
   padding: 0;
 }
 .sponsoredprojects .projects .row div {
-  min-height: 200px;
+  max-width: 220px;
 }
 .sponsoredprojects .projects .row div a {
-  background: #000000 url('../images/bottom right corner white right triangle.png') bottom right no-repeat;
+  background: #9900ff none top right no-repeat;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 1.2em;
   color: white;
   overflow: hidden;
   display: block;
   width: 100%;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 7px;
+}
+.sponsoredprojects .projects .row div a figcaption {
+  height: 3em;
+  color: #ffffff;
 }
 .sponsoredprojects .projects .row div a:hover {
   color: #000000;
   text-decoration: none;
 }
-@media screen and (min-width: 992px) {
-  .sponsoredprojects .projects .row div a {
-    width: 170px;
-    height: 170px;
-  }
+.sponsoredprojects .projects .row div a img {
+  max-width: 100%;
+  margin-bottom: 7px;
 }
-@media screen and (min-width: 1200px) {
-  .sponsoredprojects .projects .row div a {
-    width: 220px;
-    height: 220px;
+@media screen and (min-width: 992px) {
+  .page-node-737 #block-system-main article {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 .node-type-news-item .col-sm-9 {

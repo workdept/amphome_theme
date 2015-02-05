@@ -131,8 +131,8 @@ section {
     }
     #block-system-main {
       article {
-          margin-left: 80px;
-          margin-right: 80px;
+        margin-left: 80px;
+        margin-right: 80px;
         p {
           img {
             .responsive-img;
@@ -267,21 +267,29 @@ section {
 .sponsoredprojects {
   .projects {
     .row div {
-      min-height: 200px;
+      max-width: 220px;
       a {
-        background: black url('../images/bottom right corner white right triangle.png') bottom right no-repeat;
+        background: @component-active-color none top right no-repeat;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 15px;
         line-height: 1.2em;
         color: white;
         overflow: hidden;
         display: block;
         width: 100%;
         margin-bottom: 30px;
-        padding: 20px;
+        padding: 7px;
+        figcaption {
+          height: 3em;
+          color: @body-bg;
+        }
         &:hover {
           color: @brand-primary;
           text-decoration: none;
+        }
+        img {
+          max-width: 100%;
+          margin-bottom: 7px;
         }
       }
     }
@@ -289,12 +297,19 @@ section {
 }
 
 @media @normal {
+  .page-node-737 {
+    #block-system-main {
+      article {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+
   .sponsoredprojects {
     .projects {
       .row div {
         a {
-          width: 170px;
-          height: 170px;
         }
       }
     }
@@ -306,8 +321,6 @@ section {
     .projects {
       .row div {
         a {
-          width: 220px;
-          height: 220px;
         }
       }
     }
