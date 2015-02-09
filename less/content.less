@@ -267,29 +267,35 @@ section {
 .sponsoredprojects {
   .projects {
     .row div {
-      max-width: 220px;
+      max-width: 250px;
       a {
+        color: @body-bg;
         background: @component-active-color none top right no-repeat;
         font-weight: 600;
         font-size: 15px;
         line-height: 1.2em;
-        color: white;
         overflow: hidden;
         display: block;
         width: 100%;
-        margin-bottom: 30px;
+        margin: 0 auto 30px auto;
         padding: 7px;
         figcaption {
           height: 3em;
           color: @body-bg;
         }
         &:hover {
-          color: @brand-primary;
+          color: @body-bg;
+          background-color: @brand-primary;
           text-decoration: none;
         }
-        img {
-          max-width: 100%;
-          margin-bottom: 7px;
+        figure {
+          margin: 0 auto;
+          display: block;
+          img {
+            max-width: 100%;
+            margin-bottom: 7px;
+            display: block;
+          }
         }
       }
     }

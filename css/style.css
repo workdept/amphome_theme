@@ -6914,18 +6914,18 @@ section time {
   padding: 0;
 }
 .sponsoredprojects .projects .row div {
-  max-width: 220px;
+  max-width: 250px;
 }
 .sponsoredprojects .projects .row div a {
+  color: #ffffff;
   background: #9900ff none top right no-repeat;
   font-weight: 600;
   font-size: 15px;
   line-height: 1.2em;
-  color: white;
   overflow: hidden;
   display: block;
   width: 100%;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
   padding: 7px;
 }
 .sponsoredprojects .projects .row div a figcaption {
@@ -6933,12 +6933,18 @@ section time {
   color: #ffffff;
 }
 .sponsoredprojects .projects .row div a:hover {
-  color: #000000;
+  color: #ffffff;
+  background-color: #000000;
   text-decoration: none;
 }
-.sponsoredprojects .projects .row div a img {
+.sponsoredprojects .projects .row div a figure {
+  margin: 0 auto;
+  display: block;
+}
+.sponsoredprojects .projects .row div a figure img {
   max-width: 100%;
   margin-bottom: 7px;
+  display: block;
 }
 @media screen and (min-width: 992px) {
   .page-node-737 #block-system-main article {
