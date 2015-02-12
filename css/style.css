@@ -6931,6 +6931,9 @@ section time {
 .sponsoredprojects .projects .row div a figcaption {
   height: 3em;
   color: #ffffff;
+  font-weight: 500;
+  font-size: large;
+  line-height: 1.25em;
 }
 .sponsoredprojects .projects .row div a:hover {
   color: #ffffff;
