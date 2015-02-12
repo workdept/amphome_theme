@@ -223,4 +223,19 @@ Drupal.behaviors.responsivecontent = {
   }
 };
 
+Drupal.behaviors.equalheights = {
+  attach: function(context, settings) {
+    var $grid_cols = $('.specialgrid .row > div', context);
+    if ($grid_cols.length > 1) {
+      var max_height = 0;
+      $grid_cols.each(function() {
+        max_height = Math.max(max_height, $(this).outerHeight());
+      });
+      $grid_cols.each(function() {
+        $(this).css({height: max_height + 20 + 'px'});
+      });
+    }
+  }
+};
+
 })(jQuery);
