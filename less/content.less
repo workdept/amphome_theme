@@ -343,6 +343,9 @@ section {
     a {
       &:hover {
         text-decoration: none;
+        figcaption {
+          color: @component-active-color;
+        }
       }
       figure {
         margin: 0 auto;
@@ -354,7 +357,9 @@ section {
         }
         figcaption {
           color: @brand-primary;
-          font-size: 11px;
+          font-size: 13px;
+          line-height: 1.3em;
+          padding-top: 5px;
         }
       }
     }

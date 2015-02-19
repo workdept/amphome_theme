@@ -6961,6 +6961,9 @@ section time {
 .specialgrid .row div a:hover {
   text-decoration: none;
 }
+.specialgrid .row div a:hover figcaption {
+  color: #9900ff;
+}
 .specialgrid .row div a figure {
   margin: 0 auto;
   display: block;
@@ -6972,7 +6975,9 @@ section time {
 }
 .specialgrid .row div a figure figcaption {
   color: #000000;
-  font-size: 11px;
+  font-size: 13px;
+  line-height: 1.3em;
+  padding-top: 5px;
 }
 .node-type-news-item .col-sm-9 {
   padding-top: 24px;
