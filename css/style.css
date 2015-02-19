@@ -7596,6 +7596,9 @@ aside .block-cck-blocks {
     margin-right: 15px;
     padding-bottom: 10px;
   }
+  .menuparent > li > a {
+    padding-left: 0;
+  }
   .menuparent .dropdown-menu {
     display: block;
     position: relative;
