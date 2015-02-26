@@ -6970,6 +6970,7 @@ section time {
 }
 .specialgrid .row div a figure img {
   max-width: 100%;
+  height: auto;
   display: block;
   border-bottom: 3px solid #9900ff;
 }
