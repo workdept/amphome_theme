@@ -53,16 +53,21 @@ Drupal.behaviors.amphome_menu = {
 
         $menuparents.each(function() {
           var $menuparent = $(this);
-          var left = logo_width + $menuparent.parent().position().left + 15;
+          var left = logo_width + $menuparent.parent().position().left;
+          var left_padded = left + 15;
 
           $menuparent
             .addClass('menuparent')
             .css({
               width: container_width - 30 + 'px',
               position: 'absolute',
-              left: '-' + left + 'px',
+              left: '-' + left_padded + 'px',
               top: header_height + 'px'
             });
+
+          if (window.location.pathname.substr(0, 6) === '/about') {
+            $menuparent.css({paddingLeft: left + 'px'});
+          }
 
           // add class to menus with 3rd level links
           if ($menuparent.find('li li').length > 0) {
