@@ -2,10 +2,9 @@ Build
 -----
 
 ```
-npm install
 npm install -g grunt-cli
-wget https://github.com/twbs/bootstrap/archive/v3.1.1.tar.gz
-mv bootstrap-3.1.1 bootstrap
+npm install
+bower install
 grunt
 ```
 
