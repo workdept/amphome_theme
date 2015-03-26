@@ -54,16 +54,6 @@ Drupal.behaviors.amphome_menu = {
         $menuparents.each(function() {
           var $menuparent = $(this);
           var left = logo_width + $menuparent.parent().position().left;
-          var left_padded = left + 15;
-
-          $menuparent
-            .addClass('menuparent')
-            .css({
-              width: container_width - 30 + 'px',
-              position: 'absolute',
-              left: '-' + left_padded + 'px',
-              top: header_height + 'px'
-            });
 
           if (window.location.pathname.substr(0, 6) === '/about') {
             $menuparent.css({paddingLeft: left + 'px'});
@@ -137,6 +127,11 @@ Drupal.behaviors.amphome_menu = {
           });
       });
     };
+
+    enquire.register("all and (min-width: 992px)", {
+      match: menusize,
+      unmatch: menusize
+    });
 
     enquire.register("all and (min-width: 1200px)", {
       match: menusize,
