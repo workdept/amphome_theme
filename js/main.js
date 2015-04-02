@@ -125,7 +125,7 @@ Drupal.behaviors.amphome_menu = {
       });
 
       $('.main-container > div > section', context)
-        .css('padding-top', $('#navbar li.open > ul', context).css('height'));
+        .css('padding-top', $('#navbar li.open > ul', context).css('height')); // yo!
     };
 
     enquire.register("all and (min-width: 992px)", {
