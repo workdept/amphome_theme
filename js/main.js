@@ -68,9 +68,6 @@ Drupal.behaviors.amphome_menu = {
           if ($("#navbar nav .active-trail").parent('.grandparent').parent('li').hasClass('open')) {
             $('#block-menu-block-1').hide();
           }
-
-          $('.main-container > div > section', context)
-            .css('padding-top', $('#navbar li.open > ul', context).css('height'));
         });
 
         // hide crumbs if a menuparent is visible
@@ -126,6 +123,9 @@ Drupal.behaviors.amphome_menu = {
             top: header_height + 'px'
           });
       });
+
+      $('.main-container > div > section', context)
+        .css('padding-top', $('#navbar li.open > ul', context).css('height'));
     };
 
     enquire.register("all and (min-width: 992px)", {
