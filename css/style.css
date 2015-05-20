@@ -7886,7 +7886,7 @@ aside .block-cck-blocks {
   background-color: #9900ff;
   padding: 4px;
 }
-.panels-bootstrap-frontlayout .more-link {
+.panels-bootstrap-frontlayout .more-link a {
   background-color: #ffffff;
   font-size: 1.4em;
   line-height: 1.4em;
@@ -7895,7 +7895,7 @@ aside .block-cck-blocks {
   font-weight: 700;
   margin-bottom: 2px;
 }
-.panels-bootstrap-frontlayout .more-link:hover {
+.panels-bootstrap-frontlayout .more-link a:hover {
   text-decoration: none;
   color: #08109f;
   border-bottom: 3px solid #08109f;
