@@ -7674,6 +7674,9 @@ aside .block-cck-blocks {
   color: yellow;
   text-decoration: none;
 }
+#boxes-box-flex_graphic_box .sell span.line {
+  padding: 0 10px;
+}
 #boxes-box-flex_graphic_box .scrubber {
   display: none;
   position: absolute;
