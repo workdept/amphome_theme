@@ -7886,6 +7886,20 @@ aside .block-cck-blocks {
   background-color: #9900ff;
   padding: 4px;
 }
+.panels-bootstrap-frontlayout .more-link {
+  background-color: #ffffff;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin-top: 10px;
+  color: #08109f;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.panels-bootstrap-frontlayout .more-link:hover {
+  text-decoration: none;
+  color: #08109f;
+  border-bottom: 3px solid #08109f;
+}
 .ribbon {
   background-color: #a00;
   overflow: hidden;
