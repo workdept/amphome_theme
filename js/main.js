@@ -90,7 +90,7 @@ Drupal.behaviors.amphome_menu = {
               width: 'auto',
               position: 'relative',
               left: 'auto',
-              top: 'auto'
+              top: '89px'
             });
         });
 
@@ -120,9 +120,12 @@ Drupal.behaviors.amphome_menu = {
             width: container_width,
             position: 'absolute',
             left: '-' + left + 'px',
-            top: header_height + 'px'
+            top: '89px'
           });
       });
+
+      //Add class to top level menu li's
+      $('.navbar-nav li:first').addClass('top-level');
 
       $('.main-container > div > section', context)
         .css('padding-top', $('#navbar li.open > ul', context).css('height')); // yo!

@@ -6535,12 +6535,15 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
     font-size: 11px;
     color: #000000;
   }
+  #navbar .navbar-nav li.top-level {
+    max-width: 11em;
+  }
   #navbar .navbar-nav > li > a,
   #navbar .navbar-nav > li > span {
     padding-top: 29px;
     padding-bottom: 13px;
     line-height: 13px;
-    max-width: 11em;
+    max-width: 10.4em;
     height: 8em;
     display: table-cell;
     vertical-align: bottom;
