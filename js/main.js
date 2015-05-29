@@ -125,7 +125,7 @@ Drupal.behaviors.amphome_menu = {
       });
 
       //Add class to top level menu li's
-      $('.navbar-nav li:first').addClass('top-level');
+      $('ul.navbar-nav:first > li').addClass('top-level');
 
       $('.main-container > div > section', context)
         .css('padding-top', $('#navbar li.open > ul', context).css('height')); // yo!
