@@ -7656,11 +7656,17 @@ aside .block-cck-blocks {
     text-decoration: none;
   }
 }
-.mmenu-nav.mm-basic > .mm-list li {
+.mmenu-nav.mm-basic > .mm-list li:not(.mmenu-collapsed) {
   border-top: 1px solid #242a37;
   border-bottom: 1px solid #CE68FF;
   background: #9901FF;
   color: #fff;
+}
+.mmenu-nav.mm-basic > .mm-list li:not(.mmenu-collapsed):hover {
+  background: #B74FFC;
+}
+.mmenu-nav.mm-basic > .mm-list li.mmenu-collapsed {
+  border: none;
 }
 .mmenu-nav.mm-basic > .mm-list li.mmenu-expanded .mmenu-block-expanded {
   background: #9901FF;
@@ -7676,7 +7682,7 @@ aside .block-cck-blocks {
 .mm-menu .mm-list > li > a.mm-subclose {
   color: #fff;
 }
-.mmenu-nav.mm-basic .mm-subopen:before,
+.mmenu-nav.mm-basic .mm-subtitle .mm-subopen:before,
 .mmenu-nav.mm-basic .mm-subclose:before {
   border-left: 2px solid transparent;
   margin-bottom: -4px;
