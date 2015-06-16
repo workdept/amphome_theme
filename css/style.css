@@ -7662,10 +7662,10 @@ aside .block-cck-blocks {
   background: #9901FF;
   color: #fff;
 }
-.mmenu-nav.mm-basic > .mm-list li:not(.mmenu-collapsed):active.mm-subopen {
+.mmenu-nav.mm-basic > .mm-list li:not(.mmenu-collapsed) a.mm-subopen:active {
   background: #B74FFC;
 }
-.mmenu-nav.mm-basic > .mm-list li > a:not(.mm-subopen):not(.mm-subclose):not(.mm-fullsubopen).active {
+.mmenu-nav.mm-basic > .mm-list li > a:not(.mm-subopen):not(.mm-subclose):not(.mm-fullsubopen):active {
   background: #B74FFC;
 }
 .mmenu-nav.mm-basic > .mm-list li.mmenu-collapsed {
