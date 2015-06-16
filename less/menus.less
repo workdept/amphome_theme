@@ -93,3 +93,33 @@
     }
   }
 }
+
+// new mmenu mobile menu styling
+.mmenu-nav.mm-basic > .mm-list li{
+  border-top: 1px solid #242a37;
+  border-bottom: 1px solid #CE68FF;
+  background: #9901FF;
+  color:#fff;
+}
+
+.mmenu-nav.mm-basic > .mm-list li.mmenu-expanded .mmenu-block-expanded{
+  background: #9901FF;
+  font-weight: bold;
+}
+
+.mm-list a.mm-subopen{
+  border-left: 1px solid #242a37;
+}
+
+.mm-menu .mm-list > li > a.mm-subopen:after, .mm-menu .mm-list > li > a.mm-subclose:before {
+  border-color: #fff;
+}
+
+.mm-menu .mm-list > li > a.mm-subclose{
+  color:#fff;
+}
+
+.mmenu-nav.mm-basic .mm-subopen:before, .mmenu-nav.mm-basic .mm-subclose:before {
+  border-left: 2px solid transparent;
+  margin-bottom: -4px;
+}
