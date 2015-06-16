@@ -101,11 +101,14 @@
   background: #9901FF;
   color:#fff;
 
-  &:hover{
+  &:active.mm-subopen{
     background:#B74FFC;
   }
 }
 
+.mmenu-nav.mm-basic > .mm-list li > a:not(.mm-subopen):not(.mm-subclose):not(.mm-fullsubopen).active{
+  background:#B74FFC;
+}
 
 
 .mmenu-nav.mm-basic > .mm-list li.mmenu-collapsed{
