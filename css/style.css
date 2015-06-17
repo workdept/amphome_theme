@@ -7737,6 +7737,11 @@ aside .block-cck-blocks {
 #boxes-box-flex_graphic_box .arrow {
   display: none;
 }
+@media (max-width: 350px) {
+  #boxes-box-flex_graphic_box .sell span.line {
+    padding: 0;
+  }
+}
 @media (max-width: 992px) {
   #boxes-box-flex_graphic_box .sell a:link,
   #boxes-box-flex_graphic_box .sell a:visited,
