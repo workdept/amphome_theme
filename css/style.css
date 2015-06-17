@@ -7690,6 +7690,11 @@ aside .block-cck-blocks {
   border-left: 2px solid transparent;
   margin-bottom: -4px;
 }
+@media screen and (min-width: 1200px) {
+  .navbar-nav li:first-child {
+    display: none;
+  }
+}
 #boxes-box-flex_graphic_box {
   margin-top: 20px;
 }
