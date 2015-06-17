@@ -7691,7 +7691,7 @@ aside .block-cck-blocks {
   margin-bottom: -4px;
 }
 @media screen and (min-width: 1200px) {
-  .navbar-nav > li:first-child {
+  #navbar .navbar-nav > li:first-child {
     display: none;
   }
 }
