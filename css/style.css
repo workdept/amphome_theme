@@ -7690,7 +7690,7 @@ aside .block-cck-blocks {
   border-left: 2px solid transparent;
   margin-bottom: -4px;
 }
-@media screen and (min-width: 1200px) {
+@media (min-width: 992px) {
   #navbar .navbar-nav > li:first-child {
     display: none;
   }
