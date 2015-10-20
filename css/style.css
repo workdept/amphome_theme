@@ -7743,6 +7743,9 @@ aside .block-cck-blocks {
   }
 }
 @media (max-width: 992px) {
+  #boxes-box-flex_graphic_box {
+    height: auto !important;
+  }
   #boxes-box-flex_graphic_box .sell a:link,
   #boxes-box-flex_graphic_box .sell a:visited,
   #boxes-box-flex_graphic_box .sell a:active,
