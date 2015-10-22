@@ -162,7 +162,7 @@
     $term = taxonomy_term_load($tid);
     $name = l($term->name, 'taxonomy/term/' . $tid);
     if ($i == $len && $len > 0)
-      $authors .= "and ";
+      $authors .= "";
     $authors .= $name;
     if ($i < $len)
       $authors .= ", ";
