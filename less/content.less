@@ -263,6 +263,18 @@ section {
   }
 }
 
+// Hide the breadcrumbs except on sponsoredprojects subpages. 
+// On sponsoredprojects subpages, hide the pagetitle
+.breadcrumb{
+  display: none;
+}
+.section-sponsoredprojects.one-sidebar .page-header{
+  display:none;
+}
+.section-sponsoredprojects.one-sidebar .breadcrumb{
+  display: block;
+}
+
 // Sponsored projects page
 .sponsoredprojects {
   .projects {
@@ -543,3 +555,5 @@ section {
 .main-container {
   padding-bottom: 45px;
 }
+
+

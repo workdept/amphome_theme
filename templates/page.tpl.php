@@ -150,10 +150,7 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
-        <!-- check for the breadcrumb, because it is styled to replace page title -->
-        <?php if (empty($breadcrumb)): ?>
-            <h1 class="page-header"><?php print $title; ?></h1>
-        <?php endif; ?>
+        <h1 class="page-header"><?php print $title; ?></h1>
       <?php endif; ?>
       <?php if (isset($node->field_authors) && isset($node->field_authors['und']) && count($node->field_authors['und']) > 0): ?>
       <div class="byline">Words by <?php

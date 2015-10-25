@@ -6916,6 +6916,15 @@ section time {
   content: "";
   padding: 0;
 }
+.breadcrumb {
+  display: none;
+}
+.section-sponsoredprojects.one-sidebar .page-header {
+  display: none;
+}
+.section-sponsoredprojects.one-sidebar .breadcrumb {
+  display: block;
+}
 .sponsoredprojects .projects .row div {
   max-width: 250px;
 }
