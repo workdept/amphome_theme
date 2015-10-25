@@ -1,6 +1,20 @@
 (function($) {
 
 Drupal.behaviors.amphome_menu = {
+  util: {
+    style_for_breadcrumbs: function(context) {
+      if (Drupal.behaviors.amphome_menu.state.showing_breadcrumbs && $('.breadcrumb').length > 0) {
+        $('h1.page-header', context).hide();
+      }
+    },
+    unstyle_for_breadcrumbs: function(context) {
+      $('h1.page-header', context).show();
+    }
+  },
+
+  state: {
+    showing_breadcrumbs: true
+  },
 
   attach: function(context, settings) {
     enquire.register("all and (max-width: 991px)", {
@@ -10,12 +24,14 @@ Drupal.behaviors.amphome_menu = {
           $(this).removeClass('dropdown-menu');
           $(this).siblings('a').removeAttr('data-toggle');
         });
+        Drupal.behaviors.amphome_menu.util.style_for_breadcrumbs();
       },
       unmatch: function(context) {
         $('.navbar-nav .dropdown-menu-deactivated', context).each(function() {
           $(this).addClass('dropdown-menu');
           $(this).removeClass('dropdown-menu-deactivated');
         });
+        Drupal.behaviors.amphome_menu.util.unstyle_for_breadcrumbs();
       }
     });
 
