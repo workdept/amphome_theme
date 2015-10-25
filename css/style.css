@@ -6920,7 +6920,7 @@ section time {
   display: none;
 }
 .section-sponsoredprojects.one-sidebar .page-header {
-  display: none;
+  display: none !important;
 }
 .section-sponsoredprojects.one-sidebar .breadcrumb {
   display: block;
