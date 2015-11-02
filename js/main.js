@@ -55,10 +55,6 @@ Drupal.behaviors.amphome_menu = {
           var $menuparent = $(this);
           var left = logo_width + $menuparent.parent().position().left;
 
-          if (window.location.pathname.substr(0, 6) === '/about') {
-            $menuparent.css({paddingLeft: left + 'px'});
-          }
-
           // add class to menus with 3rd level links
           if ($menuparent.find('li li').length > 0) {
             $menuparent.addClass('grandparent');
