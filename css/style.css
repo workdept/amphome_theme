@@ -447,11 +447,11 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 16px;
+  font-size: 19px;
 }
 h5,
 .h5 {
-  font-size: 16px;
+  font-size: 19px;
 }
 h6,
 .h6 {
@@ -6670,15 +6670,36 @@ h3 {
   font-weight: 600;
   font-size: 21px;
   line-height: 1.6em;
-  color: #000000;
+  color: #9900ff;
   background-color: #ffffff;
 }
 h4 {
   font-weight: 800;
-  font-size: 16px;
+  font-size: 19px;
   text-transform: uppercase;
   line-height: 1.6em;
   color: #9900ff;
+  background-color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+h5 {
+  font-weight: 700;
+  font-size: 19px;
+  text-transform: none;
+  line-height: 1.6em;
+  color: #666;
+  background-color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+h6 {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  color: #9900ff;
+  letter-spacing: .2em;
   background-color: #ffffff;
   margin-top: 15px;
   margin-bottom: 5px;
@@ -6691,8 +6712,14 @@ body {
   text-rendering: optimizeLegibility;
 }
 body blockquote {
-  border-left: 5px solid #08109f;
+  border-left: 3px solid #08109f;
   color: #08109f;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 20px;
+}
+hr {
+  border-top: 1px solid #9900ff;
 }
 figure,
 figcaption {
