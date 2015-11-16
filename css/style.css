@@ -7630,6 +7630,11 @@ aside .block-cck-blocks {
     display: block;
   }
 }
+@media (max-width: 992px) {
+  .main-container > div > section.col-sm-9 {
+    padding-top: 0 !important;
+  }
+}
 @media screen and (min-width: 992px) {
   .menuparent {
     font-size: 12px;
