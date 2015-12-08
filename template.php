@@ -54,5 +54,7 @@ function amphome_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     unset($form['search_block_form']['#attributes']['title']);
   }
+  if ($form_id == 'webform_client_form_532') {
+    $form['mollom']['privacy']['#markup'] = "We use Mollom software to protect against spam. By submitting this form, you accept the <a href='https://mollom.com/web-service-privacy-policy' class='mollom-target' rel='nofollow'>Mollom privacy policy.</a>";
+  }
 }
-

@@ -7248,6 +7248,19 @@ section time {
 .search-form {
   display: none;
 }
+.mollom-privacy {
+  margin-top: 5px;
+}
+.mollom-privacy a {
+  font-weight: 600;
+  color: #08109f;
+  text-decoration: none;
+}
+.mollom-privacy a:hover {
+  color: #08109f;
+  text-decoration: none;
+  border-bottom: 3px solid #08109f;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;
