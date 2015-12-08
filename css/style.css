@@ -7245,6 +7245,31 @@ section time {
 .search-results h3 {
   margin-bottom: 0;
 }
+.search-results ol {
+  padding-left: 20px;
+}
+.search-results #edit-submit-search {
+  margin-top: 0;
+}
+.search-results .views-field-link-title,
+.search-results .views-field-link-title-2,
+.search-results .views-field-type,
+.search-results .views-field-created {
+  display: inline;
+  color: #9900ff;
+}
+.search-results .views-field-link-title:after,
+.search-results .views-field-type .field-content.news_item:after {
+  content: " | ";
+}
+.search-results .views-field-type .field-content,
+.search-results .views-field-created .field-content {
+  display: none;
+}
+.search-results .views-field-type .field-content.news_item,
+.search-results .views-field-created .field-content.news_item {
+  display: inline;
+}
 .search-form {
   display: none;
 }
