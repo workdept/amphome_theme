@@ -180,12 +180,12 @@ Drupal.behaviors.frontpage = {
                 $('li:gt(0)', $this_scrub).hide();
                 interval = setInterval(function() {
                   $('li:first', $this_scrub)
-                    .fadeOut(375)
+                    .fadeOut(900)
                     .next()
-                    .fadeIn(375)
+                    .fadeIn(900)
                     .end()
                     .appendTo($this_scrub);
-                }, 750);
+                }, 1800);
                 $knob.addClass('hover');
               }
             };
@@ -236,6 +236,14 @@ Drupal.behaviors.equalheights = {
         });
       }
     });
+  }
+};
+
+
+Drupal.behaviors.responsivecontent = {
+  attach: function(context, settings) {
+    //Remove the tooltip on search bar
+    Foundation.libs.tooltip.getTip($('#views-exposed-form-search-panel-pane-1 #edit-keys')).remove();
   }
 };
 

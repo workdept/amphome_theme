@@ -573,53 +573,81 @@ section {
     margin-bottom: 0;
 }
 
-.search-results{
-  ol{
-    padding-left:20px;
-  }
-
-  #edit-submit-search{
-    margin-top:0;
-  }
-  .views-field-link-title,
-  .views-field-link-title-2,
-  .views-field-type,
-  .views-field-created{
-    display: inline;
-    color:#9900ff;
-  }
-  .views-field-link-title,
-  .views-field-type .field-content.news_item{
-    &:after{
-      content: " | ";
+.search-results {
+    ol {
+        padding-left: 20px;
     }
-  }
+    #edit-submit-search {
+        margin-top: 0;
+    }
+    .views-field-link-title,
+    .views-field-link-title-2,
+    .views-field-type,
+    .views-field-created {
+        display: inline;
+        color: #9900ff;
+    }
+    .views-field-link-title,
+    .views-field-type .field-content.news_item {
+        &:after {
+            content: " | ";
+        }
+    }
+    .views-field-type .field-content,
+    .views-field-created .field-content {
+        display: none;
+    }
+    .views-field-type .field-content.news_item,
+    .views-field-created .field-content.news_item {
+        display: inline;
+    }
+}
 
-  .views-field-type .field-content,
-  .views-field-created .field-content{
-    display: none;
-  }
+#views-exposed-form-search-panel-pane-1 {
+    .views-exposed-form .views-exposed-widget {
+        width: 50%;
+        padding:0;
+    }
+    .form-control {
+        height: 30px;
+    }
+    #edit-submit-search:before {
+        content: "\e003";
+        padding-right:10px;
+    }
 
-  .views-field-type .field-content.news_item,
-  .views-field-created .field-content.news_item{
-    display: inline;
-  }
-
+    #edit-submit-search {
+        position: relative;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        width:30px;
+        height:30px;
+        padding:7px 22px 3px 5px;
+    }
 }
 
 .search-form {
     display: none;
 }
 
-.mollom-privacy{
-  margin-top:5px;
-   a {
-    font-weight: 600;
-    color: #08109f;
-    text-decoration: none;
-    &:hover {
+.mollom-privacy {
+    margin-top: 5px;
+    a {
+        font-weight: 600;
         color: #08109f;
         text-decoration: none;
-        border-bottom: 3px solid #08109f;
-    }}
+        &:hover {
+            color: #08109f;
+            text-decoration: none;
+            border-bottom: 3px solid #08109f;
+        }
+    }
 }
