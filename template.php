@@ -53,8 +53,27 @@ function amphome_menu_tree__menu_block__main_menu($vars) {
 function amphome_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     unset($form['search_block_form']['#attributes']['title']);
+    $form['#submit'][] = 'amphome_search_block_form_submit';
   }
   if ($form_id == 'webform_client_form_532') {
     $form['mollom']['privacy']['#markup'] = "We use Mollom software to protect against spam. By submitting this form, you accept the <a href='https://mollom.com/web-service-privacy-policy' class='mollom-target' rel='nofollow'>Mollom privacy policy.</a>";
   }
+}
+
+/**
+* Implementation of form submit function
+* Redirect default search block to use views search results
+*/
+function amphome_search_block_form_submit($form, &$form_state) {
+  // Get form ID
+  $form_id = $form['form_id']['#value'];
+  // Create new redirect
+  $form_state['redirect'] = array(
+    'search/node',
+    array(
+      'query' => array(
+        'keys' => trim($form_state['values'][$form_id]),
+      ),
+    ),
+  );
 }
