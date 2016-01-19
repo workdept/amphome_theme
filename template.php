@@ -72,7 +72,7 @@ function amphome_search_block_form_submit($form, &$form_state) {
     'search/node',
     array(
       'query' => array(
-        'keys' => trim($form_state['values'][$form_id]),
+        'search_api_views_fulltext' => trim($form_state['values'][$form_id]),
       ),
     ),
   );
