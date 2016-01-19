@@ -7248,13 +7248,13 @@ section time {
   margin-top: 0;
 }
 .search-results .views-field-link-title,
-.search-results .views-field-link-title-2,
+.search-results .views-field-link-title-1,
 .search-results .views-field-type-1,
 .search-results .views-field-created {
   display: inline;
   color: #9900ff;
 }
-.search-results .views-field-link-title:after,
+.search-results .views-field-link-title-1:after,
 .search-results .views-field-type-1 .field-content.news_item:after {
   content: " | ";
 }
