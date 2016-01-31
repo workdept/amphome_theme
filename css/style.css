@@ -6525,6 +6525,7 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
     text-indent: -666em;
     overflow: hidden;
     background: transparent url(../images/AMP_logo.png) 0 0 no-repeat;
+    background-size: 157px 133px;
   }
   #navbar .navbar-header a.name:hover,
   #navbar .navbar-header a.name:active {
