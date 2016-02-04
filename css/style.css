@@ -7318,6 +7318,9 @@ section time {
   text-decoration: none;
   border-bottom: 3px solid #08109f;
 }
+.field-name-field-sp-key-image img {
+  border-radius: 100%;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;
