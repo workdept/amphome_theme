@@ -247,13 +247,4 @@ Drupal.behaviors.search = {
   }
 };
 
-Drupal.behaviors.mobilesubmenu = {
-  attach: function(context, settings) {
-    //Toggle the sub menu navigation
-    $(".block-block-2 button").click(function() {
-        $("#block-menu-block-3 nav").toggle();
-    });
-  }
-};
-
 })(jQuery);

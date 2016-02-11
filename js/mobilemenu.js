@@ -6,7 +6,7 @@
             //Toggle the sub menu navigation
             $("#block-block-2 button").click(function() {
                 $('#block-block-2').toggleClass("closed");
-                $("#block-menu-block-3 nav").toggle();
+                $("section.block-menu-block nav").toggle();
                 $('#block-block-2 span').toggleClass("hidden");
             });
 

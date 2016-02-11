@@ -263,16 +263,16 @@
 
 //AMC menu
 
-#block-menu-block-3,
-#block-block-2{
+#block-block-2,
+section.block-menu-block{
   display: none;
 }
 
 
 
 @media (max-width: @screen-md-min) {
-  #block-menu-block-3,
-  #block-block-2{
+  #block-block-2,
+  section.block-menu-block{
     display: block;
   }
 
@@ -289,7 +289,7 @@
     margin-bottom: 20px;
   }
 
-  #block-menu-block-3{
+  section.block-menu-block{
     .block-title{
       display: none;
     }
@@ -307,10 +307,10 @@
       color:#8826cb;
     }
 
-    .navbar-default .navbar-nav > li > a{
+    .navbar ul li a{
       color:#000;
     }
-    .navbar-default .navbar-nav > li > a:hover,
+    .navbar ul li a:hover,
     .navbar ul a.active{
       color:#8826cb;
       border-bottom: none;
