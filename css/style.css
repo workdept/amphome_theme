@@ -7911,6 +7911,18 @@ aside .block-cck-blocks {
     display: none;
   }
 }
+#block-menu-block-3 {
+  display: none;
+}
+@media (max-width: 992px) {
+  #block-menu-block-3 {
+    display: block;
+  }
+  #block-menu-block-3 .navbar-default .navbar-nav > li > span:hover {
+    border: none;
+    color: #000;
+  }
+}
 #boxes-box-flex_graphic_box {
   margin-top: 20px;
 }

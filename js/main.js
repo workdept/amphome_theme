@@ -240,10 +240,19 @@ Drupal.behaviors.equalheights = {
 };
 
 
-Drupal.behaviors.responsivecontent = {
+Drupal.behaviors.search = {
   attach: function(context, settings) {
     //Remove the tooltip on search bar
     Foundation.libs.tooltip.getTip($('#views-exposed-form-search-panel-pane-1 #edit-keys')).remove();
+  }
+};
+
+Drupal.behaviors.mobilesubmenu = {
+  attach: function(context, settings) {
+    //Toggle the sub menu navigation
+    $(".block-block-2 button").click(function() {
+        $("#block-menu-block-3 nav").toggle();
+    });
   }
 };
 
