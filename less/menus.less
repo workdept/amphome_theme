@@ -243,14 +243,38 @@
 
 //AMC menu
 
-#block-menu-block-3{
+#block-menu-block-3,
+#block-block-2{
   display: none;
 }
 
-@media (max-width: @screen-md-min) {
-  #block-menu-block-3{
-    display: block;
 
+
+@media (max-width: @screen-md-min) {
+  #block-menu-block-3,
+  #block-block-2{
+    display: block;
+  }
+
+  #block-block-2.closed button.btn-default{
+    background: transparent;
+    color:#9900ff;
+  }
+
+  #block-block-2 span.hidden{
+    display: none;
+  }
+
+  #block-menu-block-3{
+    .block-title{
+      display: none;
+    }
+    .navbar{
+      background: #eeee;
+      border-top:solid 3px #08109f;
+      border-bottom:solid 3px #08109f;
+      margin-top:20px;
+    }
     .navbar-default .navbar-nav > li > span:hover{
       border:none;
       color:#000;
