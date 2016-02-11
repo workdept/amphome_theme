@@ -6810,10 +6810,6 @@ section time {
     max-width: 100%;
     margin-left: 0px;
   }
-  .page-node #block-system-main article p.fullwidth {
-    margin-left: -80px;
-    margin-right: -80px;
-  }
 }
 #block-menu-block-1 .block-title {
   position: absolute;
@@ -7939,6 +7935,9 @@ aside .block-cck-blocks {
   #block-menu-block-3 .navbar-default .navbar-nav > li > span:hover {
     border: none;
     color: #000;
+  }
+  #block-menu-block-3 .navbar ul a.active {
+    border-bottom: 3px solid #08109f;
   }
 }
 #boxes-box-flex_graphic_box {
