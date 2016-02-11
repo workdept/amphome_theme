@@ -7223,7 +7223,9 @@ section time {
   height: 100%;
 }
 .section-amc {
-  background: #ffffff url(../images/amc_backgrounds_04.png) 0 0 repeat;
+  background: #ffffff url(../images/amc_webbckgrnd_blob.png) 0 0 repeat;
+  background-position: -397px -56px;
+  background-size: 1100px;
 }
 .container {
   background: white;
