@@ -8067,6 +8067,18 @@ section.block-menu-block {
     color: #8826cb;
     border-bottom: none;
   }
+  .breadcrumb {
+    display: block;
+  }
+  .breadcrumb li {
+    display: none;
+  }
+  .breadcrumb li:nth-child(1) {
+    display: block;
+  }
+  .page-header {
+    display: block !important;
+  }
 }
 #boxes-box-flex_graphic_box {
   margin-top: 20px;
