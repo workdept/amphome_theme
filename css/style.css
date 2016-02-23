@@ -7925,15 +7925,16 @@ aside .block-cck-blocks {
 .navbar-default .navbar-toggle:hover .icon-bar {
   background-color: #fff;
 }
-.mm-menu .menu-mlid-4909:before {
+.mm-list .nav > li > a:hover,
+.mm-list .nav > li > a:focus {
+  background-color: none;
+}
+.mm-menu .menu-mlid-5051:before {
   content: "";
   border-top: solid 1px white;
   width: 35px;
   margin: 30px 20px;
   display: block;
-}
-.mm-menu .menu-mlid-4880 {
-  display: none;
 }
 .mm-menu .form-search {
   width: 65%;
