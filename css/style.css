@@ -8068,7 +8068,7 @@ section.block-menu-block {
     border-bottom: none;
   }
   .breadcrumb {
-    display: block;
+    display: block !important;
   }
   .container section .breadcrumb li {
     display: none;
