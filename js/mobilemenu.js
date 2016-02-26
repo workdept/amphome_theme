@@ -6,12 +6,7 @@
             //Toggle the sub menu navigation
             $("#block-block-2 button").click(function() {
                 $('#block-block-2').toggleClass("closed");
-<<<<<<< HEAD
                 $("section.block-menu-block nav").toggle();
-                $('#block-block-2 span').toggleClass("hidden");
-            });
-=======
-                $(".main-container section.block-menu-block nav").toggle();
                 $('#block-block-2 span').toggleClass("hidden");
             });
             
@@ -20,8 +15,6 @@
                 $(".main-container section.block-menu-block nav").toggle();
                 $('#block-block-3 span').toggleClass("hidden");
             });
->>>>>>> mobilemenu
-
         }
     };
 
