@@ -277,8 +277,15 @@ section.block-menu-block,
 
 @media (max-width: @screen-md-min) {
   #block-block-2,
-  section.block-menu-block,
   #block-block-3{
+    display: block;
+  }
+
+  section.block-menu-block{
+    display: none;
+  }
+
+  .mobile-sub-nav-open section.block-menu-block{
     display: block;
   }
 
