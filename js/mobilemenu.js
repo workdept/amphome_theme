@@ -9,6 +9,12 @@
                 $(".main-container section.block-menu-block nav").toggle();
                 $('#block-block-2 span').toggleClass("hidden");
             });
+            
+            $("#block-block-3 button").click(function() {
+                $('#block-block-3').toggleClass("closed");
+                $(".main-container section.block-menu-block nav").toggle();
+                $('#block-block-3 span').toggleClass("hidden");
+            });
 
         }
     };
