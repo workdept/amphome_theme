@@ -102,14 +102,123 @@
 }
 
 // new mmenu mobile menu styling
+
+.mmenu-nav.mm-basic > .mm-list,
+.mm-menu .mm-list,
+.mm-list .navbar-default{
+  background: #9901FF;
+}
+
+.mm-menu .mm-list{
+  padding-left: 10px;
+}
 .mmenu-nav.mm-basic > .mm-list li:not(.mmenu-collapsed){
-  border-top: 1px solid #242a37;
-  border-bottom: 1px solid #CE68FF;
   background: #9901FF;
   color:#fff;
+  border:none;
+  text-align: left;
 
-  a.mm-subopen:active{
-    background:#B74FFC;
+  a{
+    color:white;
+    font-size: 21px;
+    font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
+    font-weight: 300;
+
+    &:hover{
+      border:none;
+      color:#DCDCDC;
+    }
+  }
+}
+
+.navbar-toggle,
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus{
+  border:3px solid #9900ff;
+  background:#fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #9900ff;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar{
+  background-color:#fff;
+}
+
+.mm-list .nav > li > a:hover,
+.mm-list .nav > li > a:focus {
+    background-color: transparent;
+}
+
+.mm-menu{
+  .menu-mlid-5051:before{
+    content:"";
+    border-top: solid 1px white;
+    width: 35px;
+    margin: 30px 20px;
+    display: block;
+  }
+
+  .form-search{
+    width: 65%;
+    margin: 50px 10px 15px;
+  }
+
+  #boxes-box-footer_sociallinks{
+    text-align: left;
+    padding-left: 3%;
+
+    a {
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+    margin-right: 2px;
+    }
+
+    .facebook {
+        background-position: 6px 3px;
+        &:hover {
+            background-position: 6px -21px;
+        }
+    }
+
+    .twitter {
+        background-position: -22px 4px;
+        &:hover {
+            background-position: -22px -20px;
+        }
+    }
+    .tumblr {
+        background-position: -54px 3px;
+        &:hover {
+            background-position: -54px -21px;
+        }
+    }
+    .youtube {
+        background-position: -84px 3px;
+        &:hover {
+            background-position: -84px -21px;
+        }
+    }
+    .vimeo {
+        background-position: -118px 4px;
+        &:hover {
+            background-position: -118px -20px;
+        }
+    }
+    .flickr {
+        background-position: -153px 4px;
+        &:hover {
+            background-position: -153px -20px;
+        }
+    }
+    .instagram {
+        background-position: -186px 3px;
+        &:hover {
+            background-position: -186px -21px;
+        }
+    }
   }
 }
 
@@ -149,3 +258,107 @@
     display: none;
   }
 }
+
+
+// On-page sub menus
+
+//AMC menu
+
+#block-block-2,
+section.block-menu-block,
+#block-block-3{
+  display: none;
+}
+
+#block-menu-block-1{
+  display: block;
+}
+
+.mmenu-nav section.block-menu-block .navbar{
+  border:none;
+}
+
+@media (max-width: @screen-md-min) {
+  #block-block-2,
+  #block-block-3,
+  section.block-menu-block{
+    display: block;
+  }
+
+  #block-menu-block-1{
+    display: none;
+  }
+
+
+  .main-container section.block-menu-block nav{
+    display: none;
+  }
+
+  .mobile-sub-nav-open .main-container section.block-menu-block nav{
+    display: block;
+  }
+
+  #block-block-2.closed button.btn-default,
+  #block-block-3.closed button.btn-default{
+    background: transparent;
+    color:#9900ff;
+  }
+
+  #block-block-2 span.hidden,
+  #block-block-3 span.hidden{
+    display: none;
+  }
+
+  #block-block-2 button,
+  #block-block-3 button{
+    margin-bottom: 20px;
+  }
+
+  section.block-menu-block{
+    .block-title{
+      display: none;
+    }
+    .navbar{
+      background: #eeee;
+      border-top:solid 3px #08109f;
+      border-bottom:solid 3px #08109f;
+    }
+
+    .navbar-default .navbar-nav > li > span{
+      color:#8826cb;
+    }
+    .navbar-default .navbar-nav > li > span:hover{
+      border:none;
+      color:#8826cb;
+    }
+
+    .navbar ul li a{
+      color:#000;
+    }
+    .navbar ul li a:hover,
+    .navbar ul a.active{
+      color:#8826cb;
+      border-bottom: none;
+    }
+  }
+  .breadcrumb {
+      display: block !important;
+  }
+  .container section .breadcrumb li{
+    display: none;
+  }
+
+  .section-sponsoredprojects .container section .breadcrumb li{
+    display: block;
+  }
+  
+  .container section .breadcrumb li:nth-child(1){
+    display: block;
+  }
+  .page-header{
+    display: block !important;
+  }
+
+}
+
+
