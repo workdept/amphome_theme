@@ -8100,6 +8100,9 @@ section.block-menu-block,
     display: block !important;
   }
 }
+.node-type-news-item .dropdown-menu {
+  display: none !important;
+}
 #boxes-box-flex_graphic_box {
   margin-top: 20px;
 }
