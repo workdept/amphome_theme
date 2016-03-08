@@ -7327,7 +7327,6 @@ section time {
   display: inline-block;
   padding: 0 30px;
   border: 3px solid #8826cb;
-  border-radius: 50px;
   height: 50px;
   margin: 20px 0;
   text-transform: uppercase;
@@ -7357,15 +7356,11 @@ section time {
 }
 .view-sponsored-projects.view-display-id-block_1 {
   width: 65%;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
   border-right: 0;
 }
 .view-sponsored-projects.view-display-id-block_2 {
   width: 35%;
   text-align: right;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
   border-left: 0;
 }
 .isotope-container {
@@ -7375,7 +7370,7 @@ section time {
 .isotope-container li {
   max-width: 170px;
   list-style: none;
-  margin: 2%;
+  margin: 2% 4%;
   text-align: center;
   height: 230px;
 }
@@ -7387,7 +7382,6 @@ section time {
   .view-sponsored-projects.filter {
     width: 100%;
     border: 3px solid #8826cb;
-    border-radius: 50px;
     margin: 5px 0;
     text-align: left;
   }
