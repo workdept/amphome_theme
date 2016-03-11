@@ -7407,6 +7407,7 @@ section time {
   .view-sponsored-projects.filter li {
     width: 50px;
     margin: 5px 0;
+    text-align: center;
   }
   .view-sponsored-projects.filter h3 {
     margin-right: 10%;
