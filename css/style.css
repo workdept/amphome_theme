@@ -6513,10 +6513,6 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
 .section-sponsoredprojects header .navbar-nav li.active-trail ul {
   display: none !important;
 }
-.section-sponsoredprojects .breadcrumb,
-.section-sponsoredprojects #block-menu-block-1 {
-  display: block !important;
-}
 @media screen and (min-width: 992px) {
   #navbar {
     border: 0px;
@@ -7393,12 +7389,19 @@ section time {
   margin-bottom: 15px;
   text-align: center;
 }
+.section-sponsoredprojects .breadcrumb,
+.section-sponsoredprojects #block-menu-block-1 {
+  display: block !important;
+}
 @media (max-width: 992px) {
   .view-sponsored-projects.filter {
     width: 100%;
     border: 3px solid #8826cb;
     margin: 5px 0;
     text-align: left;
+  }
+  .section-sponsoredprojects #block-menu-block-1 {
+    display: none !important;
   }
 }
 @media (max-width: 480px) {
