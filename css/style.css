@@ -6509,6 +6509,10 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
 .hover {
   background-position: 0 -68px !important;
 }
+.page-sponsored-projects .navbar-nav li.active-trail ul,
+.section-sponsoredprojects .navbar-nav li.active-trail ul {
+  display: none !important;
+}
 @media screen and (min-width: 992px) {
   #navbar {
     border: 0px;
@@ -6561,10 +6565,6 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
     background-color: #ffffff;
     color: #9900ff;
     border-bottom: 5px solid #9900ff;
-  }
-  #navbar .page-sponsored-projects .navbar-nav .active-trail ul,
-  #navbar .section-sponsoredprojects .navbar-nav .active-trail ul {
-    display: none !important;
   }
   #navbar .navbar-nav > .open > a,
   #navbar .navbar-nav > .open > a:active {
