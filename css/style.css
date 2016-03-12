@@ -6513,6 +6513,9 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
 .section-sponsoredprojects .navbar-nav li.active-trail ul {
   display: none !important;
 }
+.section-sponsoredprojects .breadcrumb {
+  display: block !important;
+}
 @media screen and (min-width: 992px) {
   #navbar {
     border: 0px;
