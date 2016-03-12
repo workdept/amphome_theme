@@ -6562,8 +6562,9 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
     color: #9900ff;
     border-bottom: 5px solid #9900ff;
   }
-  #navbar .navbar-nav > li > a[href="/sponsored-projects"] {
-    max-width: 9em;
+  #navbar .page-sponsored-projects .navbar-nav .active-trail ul,
+  #navbar .section-sponsoredprojects .navbar-nav .active-trail ul {
+    display: none !important;
   }
   #navbar .navbar-nav > .open > a,
   #navbar .navbar-nav > .open > a:active {
