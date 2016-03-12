@@ -6513,7 +6513,8 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
 .section-sponsoredprojects header .navbar-nav li.active-trail ul {
   display: none !important;
 }
-.section-sponsoredprojects .breadcrumb {
+.section-sponsoredprojects .breadcrumb,
+.section-sponsoredprojects #block-menu-block-1 {
   display: block !important;
 }
 @media screen and (min-width: 992px) {
