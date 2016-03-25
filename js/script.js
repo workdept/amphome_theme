@@ -7,7 +7,7 @@
     	        $(".view-people .views-field-body").shorten({
     				moreText: 'read more',
     				lessText: 'read less',
-    				showChars: 50
+    				showChars: 650
 				});
             
         }
