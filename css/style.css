@@ -7436,6 +7436,14 @@ section time {
 .view-people .views-field-body {
   margin-top: 10px;
 }
+.view-people h4 {
+  margin-top: 0;
+}
+.view-people .views-row {
+  border-bottom: solid #9900ff 1px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
 .view-people .views-row:before,
 .view-people .views-row:after {
   content: " ";
