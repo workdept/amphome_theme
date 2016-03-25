@@ -1,7 +1,7 @@
 (function($, Drupal, window, document, undefined) {
 
 
-    Drupal.behaviors.my_custom_behavior = {
+    Drupal.behaviors.shorten = {
         attach: function(context, settings) {
             //Shorten people bio on person page
     	        $(".view-people .views-field-body").shorten({
