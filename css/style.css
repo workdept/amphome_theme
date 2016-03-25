@@ -7428,6 +7428,25 @@ section time {
     margin: 9px 0;
   }
 }
+/*People page */
+.view-people .views-field-field-person-photo {
+  float: left;
+  padding: 0 30px 30px 0;
+}
+.view-people .views-field-body {
+  margin-top: 10px;
+}
+.view-people .views-row:before,
+.view-people .views-row:after {
+  content: " ";
+  display: table;
+}
+.view-people .views-row:after {
+  clear: both;
+}
+.view-people .morecontent span {
+  display: none;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;
