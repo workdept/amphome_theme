@@ -7455,6 +7455,16 @@ section time {
 .view-people .morecontent span {
   display: none;
 }
+.view-people a {
+  font-weight: 600;
+  color: #08109f;
+  text-decoration: none;
+}
+.view-people a:hover {
+  color: #08109f;
+  text-decoration: none;
+  border-bottom: 3px solid #08109f;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;
