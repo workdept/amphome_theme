@@ -7452,6 +7452,9 @@ section time {
 .view-people .views-row:after {
   clear: both;
 }
+.view-people .morecontent span {
+  display: none;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;

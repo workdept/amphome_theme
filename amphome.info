@@ -45,6 +45,8 @@ scripts[] = '../bootstrap/bootstrap/js/tab.js'
 scripts[] = '../bootstrap/bootstrap/js/transition.js'
 scripts[] = 'bower_components/media-match/media.match.min.js'
 scripts[] = 'bower_components/enquire/dist/enquire.min.js'
+scripts[] = 'js/jquery.shorten.min.js'
+scripts[] = 'js/script.js'
 scripts[] = 'js/mobilemenu.js'
 scripts[] = 'js/main.js'
 
