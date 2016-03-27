@@ -7396,7 +7396,7 @@ section time {
   top: 0;
   height: 178px;
   border-radius: 100%;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 .isotope-container li.media:hover .overlay {
   background: #81b44f;
