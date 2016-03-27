@@ -376,9 +376,29 @@ section.block-menu-block,
     .navbar-nav {
       width: 100%;
     }
-    .navbar-nav li {
+    .navbar-nav li,
+    .navbar-nav > a {
       width:30%;
+      float:left;
     } 
+
+    .navbar-nav > a{
+      background: transparent;
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 600;
+      color:#000;
+
+      &:hover{
+        border:0;
+        color: #9900ff;
+      }
+      &.active{
+        color: #9900ff;
+      }
+    }
 
     .navbar-nav li.leaf a{
       background: transparent;
@@ -401,6 +421,12 @@ section.block-menu-block,
         background: #000;
         color:#fff;
         padding:16px;
+      }
+      a:hover{
+        color:#ffff00;
+      }
+      &.active a{
+        color:#ffff00;
       }
     }
 
