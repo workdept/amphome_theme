@@ -7389,6 +7389,24 @@ section time {
   margin-bottom: 15px;
   text-align: center;
 }
+.isotope-container li:hover .overlay {
+  background: #f1ea44;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 178px;
+  border-radius: 100%;
+  opacity: 0.3;
+}
+.isotope-container li.media:hover .overlay {
+  background: #81b44f;
+}
+.isotope-container li.art:hover .overlay {
+  background: #f1ea44;
+}
+.isotope-container li.tech:hover .overlay {
+  background: #bb2d7f;
+}
 .section-sponsoredprojects .breadcrumb,
 .section-sponsoredprojects #block-menu-block-1 {
   display: block !important;
