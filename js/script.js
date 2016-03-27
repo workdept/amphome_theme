@@ -17,7 +17,7 @@
     Drupal.behaviors.sponsoredprojectsmenu = {
         attach: function(context, settings) {
             //Move the donate button from the menu
-            $("a:contains('donate')").parent('li').addClass("donate");
+            $("a:contains(Donate)").parent().addClass("donate");
         }
     };
 
