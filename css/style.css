@@ -8190,13 +8190,13 @@ section.block-menu-block,
   border: 0;
   color: #9900ff;
 }
-#block-menu-block-1 .navbar-nav .menu-mlid-4675.leaf {
+#block-menu-block-1 .navbar-nav li.donate.leaf {
   position: absolute;
   right: -1px;
   bottom: 11px;
   text-align: right;
 }
-#block-menu-block-1 .navbar-nav .menu-mlid-4675.leaf a {
+#block-menu-block-1 .navbar-nav li.donate.leaf a {
   width: 50px;
   background: #000;
   color: #fff;

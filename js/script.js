@@ -14,10 +14,10 @@
         }
     };
 
-    Drupal.behaviors.sponsoredprojects = {
+    Drupal.behaviors.sponsoredprojectsmenu = {
         attach: function(context, settings) {
             //Move the donate button from the menu
-            $('a:contains("Donate")').addClass.("donate");
+            $("a:contains('donate')").parent('li').addClass("donate");
         }
     };
 
