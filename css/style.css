@@ -7731,7 +7731,6 @@ aside section h3 a:hover {
 aside section a {
   font-size: .95em;
 }
-aside #block-boxes-amp-list-signup,
 aside .pane-boxes-amp-list-signup,
 aside .small-box .boxes-box {
   margin-top: 20px;
@@ -7741,7 +7740,6 @@ aside .small-box .boxes-box {
   padding: 15px;
   background-color: #efd8ff;
 }
-aside #block-boxes-amp-list-signup h2,
 aside .pane-boxes-amp-list-signup h2,
 aside .small-box .boxes-box h2 {
   margin: 0;
@@ -7753,19 +7751,15 @@ aside .small-box .boxes-box h2 {
   font-weight: 700;
   text-transform: uppercase;
 }
-aside #block-boxes-amp-list-signup .form-control,
 aside .pane-boxes-amp-list-signup .form-control,
 aside .small-box .boxes-box .form-control {
   display: block;
   margin-bottom: 10px;
 }
-aside #block-boxes-amp-list-signup .btn-primary:hover,
 aside .pane-boxes-amp-list-signup .btn-primary:hover,
 aside .small-box .boxes-box .btn-primary:hover,
-aside #block-boxes-amp-list-signup .btn-primary:focus,
 aside .pane-boxes-amp-list-signup .btn-primary:focus,
 aside .small-box .boxes-box .btn-primary:focus,
-aside #block-boxes-amp-list-signup .btn-primary:active,
 aside .pane-boxes-amp-list-signup .btn-primary:active,
 aside .small-box .boxes-box .btn-primary:active {
   color: #efd8ff;
