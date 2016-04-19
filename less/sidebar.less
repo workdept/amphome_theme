@@ -108,7 +108,8 @@ aside {
     .sidebar-news-block;
   }
   #block-boxes-amp-list-signup,
-  .pane-boxes-amp-list-signup {
+  .pane-boxes-amp-list-signup,
+  #mc_embed_signup {
     margin-top: 20px;
     margin-bottom: 10px;
     margin-right: 0;
@@ -125,7 +126,8 @@ aside {
       font-weight: 700;
       text-transform: uppercase;
     }
-    .form-control {
+    .form-control,
+    input {
       display: block;
       margin-bottom: 10px;
     }
@@ -172,4 +174,44 @@ aside {
   margin-left: 15px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+#mc_embed_signup{
+  input{
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0px;
+        color: #ffffff;
+    background-color: #000000;
+    background-image: none;
+    border: 1px solid #000000;
+  }
+  input:focus{
+    border-color: #ffff00;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,255,0,0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,255,0,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,255,0,0.6);
+  }
+
+  input[type="submit"]{
+        color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+        padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0px;
+        display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+  }
 }

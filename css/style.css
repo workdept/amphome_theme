@@ -7732,7 +7732,8 @@ aside section a {
   font-size: .95em;
 }
 aside #block-boxes-amp-list-signup,
-aside .pane-boxes-amp-list-signup {
+aside .pane-boxes-amp-list-signup,
+aside #mc_embed_signup {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 0;
@@ -7741,7 +7742,8 @@ aside .pane-boxes-amp-list-signup {
   background-color: #efd8ff;
 }
 aside #block-boxes-amp-list-signup h2,
-aside .pane-boxes-amp-list-signup h2 {
+aside .pane-boxes-amp-list-signup h2,
+aside #mc_embed_signup h2 {
   margin: 0;
   padding-left: 0px;
   background-color: #efd8ff;
@@ -7752,16 +7754,23 @@ aside .pane-boxes-amp-list-signup h2 {
   text-transform: uppercase;
 }
 aside #block-boxes-amp-list-signup .form-control,
-aside .pane-boxes-amp-list-signup .form-control {
+aside .pane-boxes-amp-list-signup .form-control,
+aside #mc_embed_signup .form-control,
+aside #block-boxes-amp-list-signup input,
+aside .pane-boxes-amp-list-signup input,
+aside #mc_embed_signup input {
   display: block;
   margin-bottom: 10px;
 }
 aside #block-boxes-amp-list-signup .btn-primary:hover,
 aside .pane-boxes-amp-list-signup .btn-primary:hover,
+aside #mc_embed_signup .btn-primary:hover,
 aside #block-boxes-amp-list-signup .btn-primary:focus,
 aside .pane-boxes-amp-list-signup .btn-primary:focus,
+aside #mc_embed_signup .btn-primary:focus,
 aside #block-boxes-amp-list-signup .btn-primary:active,
-aside .pane-boxes-amp-list-signup .btn-primary:active {
+aside .pane-boxes-amp-list-signup .btn-primary:active,
+aside #mc_embed_signup .btn-primary:active {
   color: #efd8ff;
 }
 aside #block-boxes-blog-addthis {
@@ -7794,6 +7803,42 @@ aside .block-cck-blocks {
   margin-left: 15px;
   padding-left: 5px;
   padding-right: 5px;
+}
+#mc_embed_signup input {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 0px;
+  color: #ffffff;
+  background-color: #000000;
+  background-image: none;
+  border: 1px solid #000000;
+}
+#mc_embed_signup input:focus {
+  border-color: #ffff00;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 255, 0, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 255, 0, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 255, 0, 0.6);
+}
+#mc_embed_signup input[type="submit"] {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 0px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
 }
 .footer {
   margin-top: 0;
