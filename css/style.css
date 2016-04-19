@@ -7837,6 +7837,18 @@ aside .block-cck-blocks {
   border: 1px solid transparent;
   white-space: nowrap;
 }
+.small-box.green,
+.small-box.green h2 {
+  background-color: #81b44f;
+}
+.small-box.yellow,
+.small-box.yellow h2 {
+  background: #f1ea44;
+}
+.small-box.red,
+.small-box.red h2 {
+  background: #bb2d7f;
+}
 .footer {
   margin-top: 0;
   padding-top: 0px;
