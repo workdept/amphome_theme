@@ -22,8 +22,17 @@
             // Move the menu title into the ul
             var textToInsert = $('#block-menu-block-1 h2 a');
             $('#block-menu-block-1 .navbar-nav').prepend(textToInsert);
-            $('#block-menu-block-1 .navbar-nav > a').text('Home');
+            $('#block-menu-block-1 .navbar-nav > a').text('Home').addClass('home-link');
 
+            $('.section-sponsoredprojects #block-menu-block-1 span').each(function() {
+                $(this)
+                    .removeAttr('data-target')
+                    .removeAttr('data-toggle');
+            });
+
+            if ($('.section-sponsoredprojects #block-menu-block-1 .navbar-nav').find('li li').length > 0) {
+                $('.section-sponsoredprojects #block-menu-block-1').addClass('subheadings');
+            }
         }
     };
 

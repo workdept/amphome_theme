@@ -7483,6 +7483,47 @@ section time {
   text-decoration: none;
   border-bottom: 3px solid #08109f;
 }
+.section-sponsoredprojects #block-menu-block-1.subheadings .navbar-nav {
+  font-size: 12px;
+  font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
+}
+.section-sponsoredprojects #block-menu-block-1.subheadings .navbar-nav .dropdown-menu {
+  display: block !important;
+  background: none;
+  position: relative;
+  border: none;
+  box-shadow: none;
+  float: none;
+  padding: 0;
+}
+.section-sponsoredprojects #block-menu-block-1.subheadings .navbar-nav .dropdown-menu li {
+  float: none;
+  width: 100%;
+}
+.section-sponsoredprojects #block-menu-block-1.subheadings .navbar-nav span,
+.section-sponsoredprojects #block-menu-block-1.subheadings .navbar-nav span:hover {
+  cursor: auto;
+  border-bottom: 0;
+  padding: 0px;
+  clear: both;
+  font-weight: 600;
+  line-height: 1.42857143;
+  color: #9900ff;
+  font-size: .95em;
+  text-transform: uppercase;
+  font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
+}
+.section-sponsoredprojects #block-menu-block-1.subheadings .navbar-nav a.home-link {
+  display: none;
+}
+.section-sponsoredprojects #block-menu-block-1.subheadings .navbar-nav li {
+  width: 25%;
+  float: left;
+}
+.section-sponsoredprojects #block-menu-block-1.subheadings .navbar-nav a {
+  text-transform: capitalize;
+  font-size: 12px;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;
