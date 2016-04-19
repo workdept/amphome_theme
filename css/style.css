@@ -7731,8 +7731,9 @@ aside section h3 a:hover {
 aside section a {
   font-size: .95em;
 }
+aside #block-boxes-amp-list-signup,
 aside .pane-boxes-amp-list-signup,
-aside .small-box .boxes-box {
+aside .newsletter .boxes-box {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 0;
@@ -7740,8 +7741,9 @@ aside .small-box .boxes-box {
   padding: 15px;
   background-color: #efd8ff;
 }
+aside #block-boxes-amp-list-signup h2,
 aside .pane-boxes-amp-list-signup h2,
-aside .small-box .boxes-box h2 {
+aside .newsletter .boxes-box h2 {
   margin: 0;
   padding-left: 0px;
   background-color: #efd8ff;
@@ -7751,17 +7753,21 @@ aside .small-box .boxes-box h2 {
   font-weight: 700;
   text-transform: uppercase;
 }
+aside #block-boxes-amp-list-signup .form-control,
 aside .pane-boxes-amp-list-signup .form-control,
-aside .small-box .boxes-box .form-control {
+aside .newsletter .boxes-box .form-control {
   display: block;
   margin-bottom: 10px;
 }
+aside #block-boxes-amp-list-signup .btn-primary:hover,
 aside .pane-boxes-amp-list-signup .btn-primary:hover,
-aside .small-box .boxes-box .btn-primary:hover,
+aside .newsletter .boxes-box .btn-primary:hover,
+aside #block-boxes-amp-list-signup .btn-primary:focus,
 aside .pane-boxes-amp-list-signup .btn-primary:focus,
-aside .small-box .boxes-box .btn-primary:focus,
+aside .newsletter .boxes-box .btn-primary:focus,
+aside #block-boxes-amp-list-signup .btn-primary:active,
 aside .pane-boxes-amp-list-signup .btn-primary:active,
-aside .small-box .boxes-box .btn-primary:active {
+aside .newsletter .boxes-box .btn-primary:active {
   color: #efd8ff;
 }
 aside #block-boxes-blog-addthis {
@@ -7831,16 +7837,16 @@ aside .block-cck-blocks {
   border: 1px solid transparent;
   white-space: nowrap;
 }
-.small-box.green .boxes-box,
-.small-box.green h2 {
+.newsletter.green .boxes-box,
+.newsletter.green .boxes-box h2 {
   background-color: #81b44f;
 }
-.small-box.yellow .boxes-box,
-.small-box.yellow h2 {
+.newsletter.yellow .boxes-box .boxes-box,
+.newsletter.yellow h2 {
   background: #f1ea44;
 }
-.small-box.red .boxes-box,
-.small-box.red h2 {
+.newsletter.red .boxes-box,
+.newsletter.red .boxes-box h2 {
   background: #bb2d7f;
 }
 .footer {
