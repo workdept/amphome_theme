@@ -7390,13 +7390,18 @@ section time {
   text-align: center;
 }
 .isotope-container li:hover .overlay {
-  background: #f1ea44;
+  background: transparent;
   position: absolute;
   width: 100%;
   top: 0;
   height: 178px;
   border-radius: 100%;
   opacity: 0.65;
+}
+.isotope-container li:hover a.title {
+  color: #08109f;
+  text-decoration: none;
+  border-bottom: 3px solid #08109f;
 }
 .isotope-container li.media:hover .overlay {
   background: #81b44f;
