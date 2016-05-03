@@ -7891,15 +7891,16 @@ aside .block-cck-blocks {
   white-space: nowrap;
 }
 .newsletter.green .boxes-box,
-.newsletter.green .boxes-box h2 {
+aside .newsletter.green .boxes-box h2 {
   background-color: #81b44f;
 }
 .newsletter.yellow .boxes-box,
-.newsletter.yellow h2 {
+.newsletter.yellow h2,
+aside .newsletter.yellow .boxes-box h2 {
   background: #f1ea44;
 }
 .newsletter.red .boxes-box,
-.newsletter.red .boxes-box h2 {
+aside .newsletter.red .boxes-box h2 {
   background: #bb2d7f;
 }
 .footer {
