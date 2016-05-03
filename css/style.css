@@ -7533,7 +7533,8 @@ section time {
   height: 125px;
 }
 .art #block-menu-block-1 .navbar-nav li.donate.leaf a,
-.art #block-menu-block-1 .navbar-nav li.donate.leaf.active a {
+.art #block-menu-block-1 .navbar-nav li.donate.leaf.active a,
+.art #block-menu-block-1 .navbar-nav li.donate.leaf a:hover {
   background: #f1ea44;
   color: black;
 }
