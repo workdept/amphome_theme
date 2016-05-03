@@ -7541,16 +7541,23 @@ section time {
 }
 .art .btn-default:hover {
   border-color: #f1ea44;
+  background: white;
 }
 .media #block-menu-block-1 .navbar-nav li.donate.leaf a {
   background: #81b44f;
+  color: black;
+}
+.media #block-menu-block-1 .navbar-nav li.donate.leaf a:hover {
+  color: black;
 }
 .media .btn-default {
   background: #81b44f;
   border-color: #81b44f;
+  color: black;
 }
 .media .btn-default:hover {
   border-color: #81b44f;
+  background: white;
 }
 .tech #block-menu-block-1 .navbar-nav li.donate.leaf a {
   background: #bb2d7f;
@@ -7561,6 +7568,7 @@ section time {
 }
 .tech .btn-default:hover {
   border-color: #bb2d7f;
+  background: white;
 }
 .mission-statement {
   font-size: 20px;
@@ -7879,7 +7887,7 @@ aside .block-cck-blocks {
 .newsletter.green .boxes-box h2 {
   background-color: #81b44f;
 }
-.newsletter.yellow .boxes-box .boxes-box,
+.newsletter.yellow .boxes-box,
 .newsletter.yellow h2 {
   background: #f1ea44;
 }
