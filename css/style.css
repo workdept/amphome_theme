@@ -7532,23 +7532,27 @@ section time {
 .page-node-745 .col-md-6 {
   height: 125px;
 }
-.art #block-menu-block-1 .navbar-nav li.donate.leaf a {
+.art #block-menu-block-1 .navbar-nav li.donate.leaf a,
+.art #block-menu-block-1 .navbar-nav li.donate.leaf.active a {
   background: #f1ea44;
   color: black;
 }
 .art .btn-default {
   background: #f1ea44;
   border-color: #f1ea44;
+  color: black;
 }
 .art .btn-default:hover {
   border-color: #f1ea44;
   background: white;
 }
-.media #block-menu-block-1 .navbar-nav li.donate.leaf a {
+.media #block-menu-block-1 .navbar-nav li.donate.leaf a,
+.media #block-menu-block-1 .navbar-nav li.donate.leaf.active a {
   background: #81b44f;
   color: black;
 }
-.media #block-menu-block-1 .navbar-nav li.donate.leaf a:hover {
+.media #block-menu-block-1 .navbar-nav li.donate.leaf a:hover,
+.media #block-menu-block-1 .navbar-nav li.donate.leaf.active a:hover {
   color: black;
 }
 .media .btn-default {
@@ -7560,9 +7564,9 @@ section time {
   border-color: #81b44f;
   background: white;
 }
-.tech #block-menu-block-1 .navbar-nav li.donate.leaf a {
+.tech #block-menu-block-1 .navbar-nav li.donate.leaf a,
+.tech #block-menu-block-1 .navbar-nav li.donate.leaf.active a {
   background: #bb2d7f;
-  color: black;
 }
 .tech .btn-default {
   background: #bb2d7f;
