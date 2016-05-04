@@ -7595,6 +7595,10 @@ body.media {
 .donate-once-form .sub-section.details {
   display: none;
 }
+body.page-sponsored-projects {
+  background: url('../images/sp_background.png');
+  background-size: 100px;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;
