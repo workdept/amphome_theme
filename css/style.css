@@ -7577,6 +7577,21 @@ section time {
   border-color: #bb2d7f;
   background: white;
 }
+.btn.donate-monthly.active,
+.btn.donate-once.active {
+  color: yellow;
+}
+.donate-monthly-form,
+.donate-once-form {
+  display: none;
+}
+.donate-monthly-form.open,
+.donate-once-form.open {
+  display: block;
+}
+.donate-once-form .sub-section.details {
+  display: none;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;

@@ -36,4 +36,24 @@
         }
     };
 
+    Drupal.behaviors.toggledonations = {
+         attach: function(context, settings) {
+
+            $(".btn.donate-monthly").click(function() {
+                $(".btn").not(this).removeClass("active");
+                $(this).addClass("active");
+                $(".donate-once-form").removeClass("open");
+                $(".donate-monthly-form").addClass("open");
+            });
+
+            $(".btn.donate-once").click(function() {
+                $(".btn").not(this).removeClass("active");
+                $(this).addClass("active");
+                $(".donate-monthly-form").removeClass("open");
+                $(".donate-once-form").addClass("open");
+            });
+
+         }
+     };
+
 })(jQuery, Drupal, this, this.document);
