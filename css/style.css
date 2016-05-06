@@ -7925,6 +7925,19 @@ aside .newsletter.yellow .boxes-box h2 {
 aside .newsletter.red .boxes-box h2 {
   background: #bb2d7f;
 }
+aside .newsletter li {
+  list-style: none;
+}
+aside .newsletter li label {
+  padding-left: 5px;
+}
+aside .newsletter ul {
+  padding: 0;
+}
+aside .newsletter #mc_embed_signup input[type="radio"],
+aside .newsletter #mc_embed_signup input[type="checkbox"] {
+  height: auto;
+}
 .footer {
   margin-top: 0;
   padding-top: 0px;
