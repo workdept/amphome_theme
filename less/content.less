@@ -943,6 +943,8 @@ section {
     .btn.donate-monthly.active,
     .btn.donate-once.active{
         text-decoration: underline;
+        color:black;
+        box-shadow: none;
     }
     .btn-primary {
         color: #000;
@@ -972,6 +974,8 @@ section {
     .btn.donate-monthly.active,
     .btn.donate-once.active{
         text-decoration: underline;
+        color:black;
+        box-shadow: none;
     }
     .btn-primary {
         color: black;
@@ -997,6 +1001,8 @@ section {
     .btn.donate-monthly.active,
     .btn.donate-once.active{
         text-decoration: underline;
+        color:black;
+        box-shadow: none;
     }
     .btn-primary {
         background-color: #bb2d7f;
@@ -1007,6 +1013,16 @@ section {
 
 body.media{
     margin-top:0;
+}
+@media (min-width: @screen-md-min) {
+    .donate-form-buttons{
+        margin:0 77px;
+    }
+}
+@media (max-width: @screen-md-min) {
+    .donate-form-buttons{
+        margin:0 21px;
+    }
 }
 
 .btn.donate-monthly.active,

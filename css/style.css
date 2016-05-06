@@ -7550,6 +7550,8 @@ section time {
 .art-sp .btn.donate-monthly.active,
 .art-sp .btn.donate-once.active {
   text-decoration: underline;
+  color: black;
+  box-shadow: none;
 }
 .art-sp .btn-primary {
   color: #000;
@@ -7577,6 +7579,8 @@ section time {
 .media-sp .btn.donate-monthly.active,
 .media-sp .btn.donate-once.active {
   text-decoration: underline;
+  color: black;
+  box-shadow: none;
 }
 .media-sp .btn-primary {
   color: black;
@@ -7598,6 +7602,8 @@ section time {
 .tech-sp .btn.donate-monthly.active,
 .tech-sp .btn.donate-once.active {
   text-decoration: underline;
+  color: black;
+  box-shadow: none;
 }
 .tech-sp .btn-primary {
   background-color: #bb2d7f;
@@ -7606,6 +7612,16 @@ section time {
 }
 body.media {
   margin-top: 0;
+}
+@media (min-width: 992px) {
+  .donate-form-buttons {
+    margin: 0 77px;
+  }
+}
+@media (max-width: 992px) {
+  .donate-form-buttons {
+    margin: 0 21px;
+  }
 }
 .btn.donate-monthly.active,
 .btn.donate-once.active {
