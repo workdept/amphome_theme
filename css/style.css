@@ -7924,6 +7924,17 @@ aside .newsletter.yellow .boxes-box h2 {
 .newsletter.red .boxes-box,
 aside .newsletter.red .boxes-box h2 {
   background: #bb2d7f;
+  color: white;
+}
+.newsletter.orange .boxes-box,
+aside .newsletter.orange .boxes-box h2 {
+  background: #FECC5D;
+}
+aside .newsletter {
+  color: black;
+  font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
 }
 aside .newsletter li {
   list-style: none;
