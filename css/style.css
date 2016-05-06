@@ -7547,6 +7547,15 @@ section time {
   border-color: #f1ea44;
   background: white;
 }
+.art-sp .btn.donate-monthly.active,
+.art-sp .btn.donate-once.active {
+  text-decoration: underline;
+}
+.art-sp .btn-primary {
+  color: #000;
+  background-color: #f1ea44;
+  border-color: #f1ea44;
+}
 .media-sp #block-menu-block-1 .navbar-nav li.donate.leaf a,
 .media-sp #block-menu-block-1 .navbar-nav li.donate.leaf.active a {
   background: #81b44f;
@@ -7565,6 +7574,15 @@ section time {
   border-color: #81b44f;
   background: white;
 }
+.media-sp .btn.donate-monthly.active,
+.media-sp .btn.donate-once.active {
+  text-decoration: underline;
+}
+.media-sp .btn-primary {
+  color: black;
+  background-color: #81b44f;
+  border-color: #81b44f;
+}
 .tech-sp #block-menu-block-1 .navbar-nav li.donate.leaf a,
 .tech-sp #block-menu-block-1 .navbar-nav li.donate.leaf.active a {
   background: #bb2d7f;
@@ -7576,6 +7594,15 @@ section time {
 .tech-sp .btn-default:hover {
   border-color: #bb2d7f;
   background: white;
+}
+.tech-sp .btn.donate-monthly.active,
+.tech-sp .btn.donate-once.active {
+  text-decoration: underline;
+}
+.tech-sp .btn-primary {
+  background-color: #bb2d7f;
+  border-color: #bb2d7f;
+  color: black;
 }
 body.media {
   margin-top: 0;
