@@ -8451,6 +8451,7 @@ section.block-menu-block,
   right: -1px;
   bottom: 11px;
   text-align: right;
+  vertical-align: middle;
 }
 #block-menu-block-1 .navbar-nav li.donate.leaf a {
   width: 50px;
