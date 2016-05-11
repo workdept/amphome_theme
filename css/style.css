@@ -8735,21 +8735,21 @@ section.block-menu-block,
   padding: 15px;
 }
 .pane-bundle-homepage-box .field-name-field-home-box-text h2,
-.pane-bundle-homepage-box .field-name-field-home-box-text a {
+.pane-bundle-homepage-box .field-name-field-home-box-text p {
   background: transparent;
   color: white;
 }
-.pane-bundle-homepage-box:first-of-type {
+.pane-bundle-homepage-box.first-box {
   margin-right: 5%;
 }
-.pane-bundle-homepage-box:last-of-type:before,
-.pane-bundle-homepage-box:last-of-type:after {
+.pane-bundle-homepage-box.second-box:before,
+.pane-bundle-homepage-box.second-box:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-.pane-bundle-homepage-box:last-of-type:after {
+.pane-bundle-homepage-box.second-box:after {
   clear: both;
 }
 .ribbon {

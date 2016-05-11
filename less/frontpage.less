@@ -232,23 +232,23 @@
     width: 50%;
     padding:15px;
 
-    h2, a{
+    h2, p{
       background: transparent;
       color:white;
     }
   }
 }
 
-.pane-bundle-homepage-box:first-of-type{
+.pane-bundle-homepage-box.first-box{
   margin-right:5%;
 }
 
-.pane-bundle-homepage-box:last-of-type:before,
-.pane-bundle-homepage-box:last-of-type:after {
+.pane-bundle-homepage-box.second-box:before,
+.pane-bundle-homepage-box.second-box:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
 
-.pane-bundle-homepage-box:last-of-type:after {
+.pane-bundle-homepage-box.second-box:after {
     clear: both;
 }
