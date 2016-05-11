@@ -8448,7 +8448,7 @@ section.block-menu-block,
 }
 #block-menu-block-1 .navbar-nav li.donate.leaf {
   position: absolute;
-  right: -1px;
+  right: -2px;
   bottom: 11px;
   text-align: right;
   vertical-align: middle;
