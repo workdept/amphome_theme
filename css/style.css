@@ -8723,6 +8723,19 @@ section.block-menu-block,
   color: #08109f;
   border-bottom: 3px solid #08109f;
 }
+.pane-bundle-homepage-box {
+  width: 45%;
+  float: left;
+}
+.pane-bundle-homepage-box .field-name-field-home-box-text {
+  position: absolute;
+  bottom: 40%;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 25%;
+}
+.pane-bundle-homepage-box .field-name-field-home-box-text h2 {
+  background: transparent;
+}
 .ribbon {
   background-color: #a00;
   overflow: hidden;
