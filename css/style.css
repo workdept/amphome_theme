@@ -8724,17 +8724,33 @@ section.block-menu-block,
   border-bottom: 3px solid #08109f;
 }
 .pane-bundle-homepage-box {
-  width: 45%;
+  width: 47%;
   float: left;
 }
 .pane-bundle-homepage-box .field-name-field-home-box-text {
   position: absolute;
   bottom: 40%;
   background-color: rgba(0, 0, 0, 0.8);
-  width: 25%;
+  width: 50%;
+  padding: 15px;
 }
-.pane-bundle-homepage-box .field-name-field-home-box-text h2 {
+.pane-bundle-homepage-box .field-name-field-home-box-text h2,
+.pane-bundle-homepage-box .field-name-field-home-box-text a {
   background: transparent;
+  color: white;
+}
+.pane-bundle-homepage-box:first-of-type {
+  margin-right: 5%;
+}
+.pane-bundle-homepage-box:last-of-type:before,
+.pane-bundle-homepage-box:last-of-type:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.pane-bundle-homepage-box:last-of-type:after {
+  clear: both;
 }
 .ribbon {
   background-color: #a00;
