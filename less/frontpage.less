@@ -225,17 +225,44 @@
 .pane-bundle-homepage-box{
     width: 47%;
     float: left;
+    cursor: pointer;
   .field-name-field-home-box-text{
     position: absolute;
-    bottom: 40%;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 50%;
+    top:15%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 55%;
     padding:15px;
+    text-align: center;
+    margin-left: -19px;
+      &:hover h2{
+      text-decoration: underline;
+      }
+    }
 
     h2, p{
       background: transparent;
       color:white;
+      font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
     }
+
+    h2{
+    line-height: 36px;
+    margin: 10px 0;
+    }
+
+    p{
+      margin-bottom: 10px;
+      padding:10px;
+    }
+}
+
+.pane-bundle-homepage-box.second-box{
+  .field-name-field-home-box-text{
+    top:inherit;
+    bottom: 15%;
+    right: 0;
+    margin-left: 0;
+    margin-right:-19px;
   }
 }
 
@@ -246,11 +273,11 @@
 
     h1{
     font-weight: 600;
-    font-size: 38px;
+    font-size: 34px;
     color: #919191;
     background-color: #ffffff;
     line-height: 45px;
-    letter-spacing: .4px;
+    letter-spacing: 2.5px;
     span{
       color:black;
     }
@@ -270,3 +297,10 @@
 .pane-bundle-homepage-box.second-box:after {
     clear: both;
 }
+
+
+
+#homepage .field-name-field-home-box-image .field-items { position:relative; height:536px; width:536px; }
+#homepage .field-name-field-home-box-image img { position:absolute; left:0; top:0; }
+
+#homepage .field-name-field-home-box-link{display: none;}

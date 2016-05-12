@@ -8726,18 +8726,40 @@ section.block-menu-block,
 .pane-bundle-homepage-box {
   width: 47%;
   float: left;
+  cursor: pointer;
 }
 .pane-bundle-homepage-box .field-name-field-home-box-text {
   position: absolute;
-  bottom: 40%;
-  background-color: rgba(0, 0, 0, 0.8);
-  width: 50%;
+  top: 15%;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 55%;
   padding: 15px;
+  text-align: center;
+  margin-left: -19px;
 }
-.pane-bundle-homepage-box .field-name-field-home-box-text h2,
-.pane-bundle-homepage-box .field-name-field-home-box-text p {
+.pane-bundle-homepage-box .field-name-field-home-box-text:hover h2 {
+  text-decoration: underline;
+}
+.pane-bundle-homepage-box h2,
+.pane-bundle-homepage-box p {
   background: transparent;
   color: white;
+  font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
+}
+.pane-bundle-homepage-box h2 {
+  line-height: 36px;
+  margin: 10px 0;
+}
+.pane-bundle-homepage-box p {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.pane-bundle-homepage-box.second-box .field-name-field-home-box-text {
+  top: inherit;
+  bottom: 15%;
+  right: 0;
+  margin-left: 0;
+  margin-right: -19px;
 }
 #homepage .intro-text {
   color: #919191;
@@ -8745,11 +8767,11 @@ section.block-menu-block,
 }
 #homepage .intro-text h1 {
   font-weight: 600;
-  font-size: 38px;
+  font-size: 34px;
   color: #919191;
   background-color: #ffffff;
   line-height: 45px;
-  letter-spacing: .4px;
+  letter-spacing: 2.5px;
 }
 #homepage .intro-text h1 span {
   color: black;
@@ -8766,6 +8788,19 @@ section.block-menu-block,
 }
 .pane-bundle-homepage-box.second-box:after {
   clear: both;
+}
+#homepage .field-name-field-home-box-image .field-items {
+  position: relative;
+  height: 536px;
+  width: 536px;
+}
+#homepage .field-name-field-home-box-image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#homepage .field-name-field-home-box-link {
+  display: none;
 }
 .ribbon {
   background-color: #a00;

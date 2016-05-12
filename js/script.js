@@ -37,7 +37,7 @@
     };
 
     Drupal.behaviors.toggledonations = {
-         attach: function(context, settings) {
+        attach: function(context, settings) {
 
             $(".btn.donate-monthly").click(function() {
                 $(".btn").not(this).removeClass("active");
@@ -53,7 +53,50 @@
                 $(".donate-once-form").addClass("open");
             });
 
-         }
-     };
+        }
+    };
+
+   Drupal.behaviors.homepagehoverslides = {
+        attach: function(context, settings) {
+
+           if ($('#homepage .field-name-field-home-box-image img').parent().is( "div" ) ) {
+                $('#homepage .field-name-field-home-box-image img').unwrap();
+            }
+
+            //box 1
+            $('#homepage .first-box .field-name-field-home-box-image .field-items img:gt(0)').hide();
+            $("#homepage .first-box .field-name-field-home-box-image .field-items").hover(function() {
+                timer = setInterval(function() {
+                        $('#homepage .first-box .field-name-field-home-box-image .field-items :first-child').fadeOut()
+                            .next('img').fadeIn()
+                            .end().appendTo('#homepage .first-box .field-name-field-home-box-image .field-items');
+                    },
+                    500);
+            }, function() {
+                clearInterval(timer);
+            });
+
+            //box 2
+            $('#homepage .second-box .field-name-field-home-box-image .field-items img:gt(0)').hide();
+            $("#homepage .second-box .field-name-field-home-box-image .field-items").hover(function() {
+                timer = setInterval(function() {
+                        $('#homepage .second-box .field-name-field-home-box-image .field-items :first-child').fadeOut()
+                            .next('img').fadeIn()
+                            .end().appendTo('#homepage .second-box .field-name-field-home-box-image .field-items');
+                    },
+                    500);
+            }, function() {
+                clearInterval(timer);
+            });
+
+            $('#homepage .first-box').on('click', function(){
+                window.location = $('#homepage .first-box .field-name-field-home-box-link .field-item').text();    
+            });
+            $('#homepage .second-box').on('click', function(){
+                window.location = $('#homepage .second-box .field-name-field-home-box-link .field-item').text();    
+            });
+        }
+
+    };
 
 })(jQuery, Drupal, this, this.document);
