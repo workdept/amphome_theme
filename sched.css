@@ -1,3 +1,5 @@
 body{
-	background:url('/images/amc_webbckgrnd_blob.png')
+	background: #ffffff url('https://www.alliedmedia.org/sites/all/themes/amphome/images/amc_webbckgrnd_blob.png') 0 0 repeat;
+    background-position: -488px -256px;
+    background-size: 1100px;
 }
