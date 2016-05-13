@@ -223,7 +223,10 @@
 }
 
 .pane-bundle-homepage-box{
-    width: 47%;
+    &:hover h2{
+      text-decoration: underline;
+    }
+    width: 46%;
     float: left;
     cursor: pointer;
   .field-name-field-home-box-text{
@@ -234,9 +237,6 @@
     padding:15px;
     text-align: center;
     margin-left: -19px;
-      &:hover h2{
-      text-decoration: underline;
-      }
     }
 
     h2, p{
@@ -277,7 +277,7 @@
     color: #919191;
     background-color: #ffffff;
     line-height: 45px;
-    letter-spacing: 2.5px;
+    letter-spacing: 1.5px;
     span{
       color:black;
     }
@@ -299,8 +299,56 @@
 }
 
 
-
+#bigtop .container{
+  padding:0;
+}
 #homepage .field-name-field-home-box-image .field-items { position:relative; height:536px; width:536px; }
 #homepage .field-name-field-home-box-image img { position:absolute; left:0; top:0; }
 
 #homepage .field-name-field-home-box-link{display: none;}
+
+.pane-bundle-homepage-button{
+  width: 25%;
+  float: left;
+  margin: 25px 0 15px;
+  &:hover{
+    .field-name-field-home-button-image img{
+      border:solid 4px #08109f;
+    }
+    .field-name-field-home-button-link a{
+          color:#08109f;
+          text-decoration: none;
+    }
+  }
+
+  .field-name-field-home-button-image{
+   float: left;
+
+   img{
+    border-radius: 50%;
+    width: 125px;
+  }
+  }
+
+  .field-name-field-home-button-link{
+    display: table;
+    height: 125px;
+    .field-item{
+      display: table-cell;
+      vertical-align: middle;
+      height: 125px;
+      padding:0 12px;
+
+      a{
+        font-size: 15px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.pane-bundle-homepage-button.no-border:hover{
+  .field-name-field-home-button-image img {
+    border: 0;
+}
+}
