@@ -8727,6 +8727,7 @@ section.block-menu-block,
   width: 46%;
   float: left;
   cursor: pointer;
+  position: relative;
 }
 .pane-bundle-homepage-box:hover h2 {
   text-decoration: underline;
