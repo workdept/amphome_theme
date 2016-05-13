@@ -63,30 +63,40 @@
                 $('#homepage .field-name-field-home-box-image img').unwrap();
             }
 
+            var isFirst = true;
             //box 1
             $('#homepage .first-box .field-name-field-home-box-image .field-items img:gt(0)').hide();
             $("#homepage .first-box .field-name-field-home-box-image .field-items").hover(function() {
+                if (isFirst) { 
                 timer = setInterval(function() {
                         $('#homepage .first-box .field-name-field-home-box-image .field-items :first-child').fadeOut()
                             .next('img').fadeIn()
                             .end().appendTo('#homepage .first-box .field-name-field-home-box-image .field-items');
                     },
                     500);
+                    isFirst = false;
+                }
             }, function() {
                 clearInterval(timer);
+                isFirst = true;
             });
 
+            var isFirst1 = true;
             //box 2
             $('#homepage .second-box .field-name-field-home-box-image .field-items img:gt(0)').hide();
             $("#homepage .second-box .field-name-field-home-box-image .field-items").hover(function() {
+                if (isFirst1) { 
                 timer = setInterval(function() {
                         $('#homepage .second-box .field-name-field-home-box-image .field-items :first-child').fadeOut()
                             .next('img').fadeIn()
                             .end().appendTo('#homepage .second-box .field-name-field-home-box-image .field-items');
                     },
                     500);
+                    isFirst1 = false;
+                }
             }, function() {
                 clearInterval(timer);
+                isFirst1 = true;
             });
 
             $('#homepage .first-box').on('click', function(){
