@@ -8917,23 +8917,88 @@ section.block-menu-block,
   }
 }
 @media (max-width: 768px) {
-  .container {
-    background: purple;
-  }
   .pane-bundle-homepage-box {
     width: 100%;
     margin: 0;
+  }
+  #homepage .field-name-field-home-box-image .field-items {
+    height: auto;
   }
   #homepage .field-name-field-home-box-image img {
     position: relative;
     left: 0;
     top: 0;
+    width: 100%;
   }
   #homepage .field-name-field-home-box-image .field-items .field-item {
     display: none;
   }
   #homepage .field-name-field-home-box-image .field-items > :first-child {
     display: block;
+  }
+  .pane-bundle-homepage-box .field-name-field-home-box-text {
+    top: 10%;
+    width: 60%;
+    padding: 5%;
+  }
+  .pane-bundle-homepage-box.first-box {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 585px) {
+  .pane-bundle-homepage-button {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  .field-name-field-home-button-link {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .pane-bundle-homepage-button .field-name-field-home-button-image img {
+    margin: 0;
+    float: left;
+  }
+  .pane-bundle-homepage-button .field-name-field-home-button-link .field-item {
+    height: 105px;
+    text-align: left;
+    display: table-cell;
+  }
+}
+@media (max-width: 400px) {
+  .pane-bundle-homepage-box .field-name-field-home-box-text {
+    width: 80%;
+  }
+}
+@media (max-width: 325px) {
+  .pane-bundle-homepage-box .field-name-field-home-box-text {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 0;
+    background: black;
+  }
+  .pane-bundle-homepage-button .field-name-field-home-button-image img {
+    width: 30%;
+  }
+  .pane-bundle-homepage-button .field-name-field-home-button-link .field-item {
+    height: auto;
+  }
+}
+@media (max-width: 265px) {
+  .pane-bundle-homepage-button .field-name-field-home-button-link .field-item {
+    height: auto;
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  .pane-bundle-homepage-button .field-name-field-home-button-image img {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
+  .pane-bundle-homepage-button .field-name-field-home-button-link .field-item a {
+    text-align: center;
   }
 }
 .ribbon {
