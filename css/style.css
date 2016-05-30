@@ -8754,6 +8754,7 @@ section.block-menu-block,
 .pane-bundle-homepage-box p {
   margin-bottom: 10px;
   padding: 10px;
+  font-size: 15px;
 }
 .pane-bundle-homepage-box.second-box .field-name-field-home-box-text {
   top: inherit;
@@ -8764,15 +8765,15 @@ section.block-menu-block,
 }
 #homepage .intro-text {
   color: #919191;
-  margin-bottom: 25px;
 }
 #homepage .intro-text h1 {
   font-weight: 600;
   font-size: 34px;
   color: #919191;
   background-color: #ffffff;
-  line-height: 45px;
+  line-height: 36px;
   letter-spacing: 1.5px;
+  margin: 10px 0 15px;
 }
 #homepage .intro-text h1 span {
   color: black;
