@@ -76,7 +76,7 @@ Drupal.behaviors.homepagehoverslides = {
                                     .next('img').fadeIn()
                                     .end().appendTo('#homepage .first-box .field-name-field-home-box-image .field-items');
                             },
-                            700);
+                            1000);
                         isFirst = false;
                     }
                 }, function() {
@@ -94,7 +94,7 @@ Drupal.behaviors.homepagehoverslides = {
                                     .next('img').fadeIn()
                                     .end().appendTo('#homepage .second-box .field-name-field-home-box-image .field-items');
                             },
-                            700);
+                            1000);
                         isFirst1 = false;
                     }
                 }, function() {

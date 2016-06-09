@@ -8729,9 +8729,6 @@ section.block-menu-block,
   cursor: pointer;
   position: relative;
 }
-.pane-bundle-homepage-box:hover h2 {
-  text-decoration: underline;
-}
 .pane-bundle-homepage-box .field-name-field-home-box-text {
   position: absolute;
   top: 15%;
