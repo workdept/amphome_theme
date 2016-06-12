@@ -59,31 +59,40 @@
     Drupal.behaviors.homepagehoverslides = {
         attach: function(context, settings) {
 
+            // Cycle homepage slideshow left
             $('#homepage .first-box .field-name-field-home-box-image .field-items').cycle({
                 fx: 'none',
                 speed: 500,
                 timeout: 70,
             }).cycle("pause");
 
-            // Pause &amp; play on hover
+            // Pause; play on hover
             $('#homepage .first-box .field-name-field-home-box-image').hover(function() {
                 $(this).find('.field-items').addClass('active').cycle('resume');
             }, function() {
                 $(this).find('.field-items').removeClass('active').cycle('pause');
             });
 
-
+            // Cycle homepage slideshow right
             $('#homepage .second-box .field-name-field-home-box-image .field-items').cycle({
                 fx: 'none',
                 speed: 500,
                 timeout: 70
             }).cycle("pause");
 
-            // Pause &amp; play on hover
+            // Pause; play on hover
             $('#homepage .second-box .field-name-field-home-box-image').hover(function() {
                 $(this).find('.field-items').addClass('active').cycle('resume');
             }, function() {
                 $(this).find('.field-items').removeClass('active').cycle('pause');
+            });
+
+            // Turn homepage images into links
+            $('#homepage .first-box').on('click', function() {
+                window.location = $('#homepage .first-box .field-name-field-home-box-link .field-item').text();
+            });
+            $('#homepage .second-box').on('click', function() {
+                window.location = $('#homepage .second-box .field-name-field-home-box-link .field-item').text();
             });
         }
     };
