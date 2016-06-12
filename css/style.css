@@ -8796,10 +8796,34 @@ section.block-menu-block,
   height: 536px;
   width: 536px;
 }
-#homepage .field-name-field-home-box-image img {
+.slideshow-block {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  background: #111111 url('img/bg.jpg');
+}
+a.link {
   position: absolute;
-  left: 0;
-  top: 0;
+  height: 150px;
+  width: 200px;
+  display: block;
+  z-index: 10;
+  background: url('img/logo.png') no-repeat center top;
+}
+a.link:hover {
+  background-position: center -150px;
+}
+#homepage .field-name-field-home-box-image .field-items {
+  z-index: 0;
+  visibility: hidden;
+}
+#homepage .field-name-field-home-box-image .field-items:not(.active) .field-item:first-child {
+  visibility: visible;
+  display: block !important;
+}
+#homepage .field-name-field-home-box-image .field-items.active {
+  visibility: visible;
 }
 #homepage .field-name-field-home-box-link {
   display: none;

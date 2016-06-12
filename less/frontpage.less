@@ -218,12 +218,11 @@
 
 //Homepage Redesign
 .pane-bundle-homepage-box {
-    &:hover h2 {
-    }
+    &:hover h2 {}
     width: 46%;
     float: left;
     cursor: pointer;
-    position:relative;
+    position: relative;
     .field-name-field-home-box-text {
         position: absolute;
         top: 15%;
@@ -270,7 +269,7 @@
             background-color: #ffffff;
             line-height: 36px;
             letter-spacing: 1.5px;
-            margin:10px 0 15px;
+            margin: 10px 0 15px;
             span {
                 color: black;
             }
@@ -305,10 +304,39 @@
     width: 536px;
 }
 
-#homepage .field-name-field-home-box-image img {
+.slideshow-block {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    background: #111 url('img/bg.jpg');
+}
+
+a.link {
     position: absolute;
-    left: 0;
-    top: 0;
+    height: 150px;
+    width: 200px;
+    display: block;
+    z-index: 10;
+    background: url('img/logo.png') no-repeat center top;
+}
+
+a.link:hover {
+    background-position: center -150px;
+}
+
+#homepage .field-name-field-home-box-image .field-items {
+    z-index: 0;
+    visibility: hidden;
+}
+
+#homepage .field-name-field-home-box-image .field-items:not(.active) .field-item:first-child {
+    visibility: visible;
+    display: block !important;
+}
+
+#homepage .field-name-field-home-box-image .field-items.active {
+    visibility: visible;
 }
 
 #homepage .field-name-field-home-box-link {
