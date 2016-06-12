@@ -462,32 +462,35 @@ a.link:hover {
 }
 
 @media (max-width: @screen-sm-min) {
+    #homepage .field-name-field-home-box-image .field-items {
+        height: 550px;
+        width: 550px;
+        margin: 0 auto;
+    }
     .pane-bundle-homepage-box {
         width: 100%;
-        margin: 0;
     }
-    #homepage .field-name-field-home-box-image .field-items {
-        height: auto;
-    }
-    #homepage .field-name-field-home-box-image img {
-        position: relative;
-        left: 0;
-        top: 0;
-        width: 100%;
-    }
-    #homepage .field-name-field-home-box-image .field-items .field-item {
-        display: none;
-    }
-    #homepage .field-name-field-home-box-image .field-items >:first-child {
-        display: block;
-    }
-    .pane-bundle-homepage-box .field-name-field-home-box-text {
-        top: 10%;
-        width: 60%;
-        padding: 5%;
+    .pane-bundle-homepage-box .field-name-field-home-box-text,
+    .pane-bundle-homepage-box.second-box .field-name-field-home-box-text {
+        width: 550px;
+        margin: 0 auto;
+        position: static;
+        background: black;
     }
     .pane-bundle-homepage-box.first-box {
         margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 613px) {
+    #homepage .field-name-field-home-box-image .field-items {
+        height: 450px;
+        width: 450px;
+        margin: 0 auto;
+    }
+    .pane-bundle-homepage-box .field-name-field-home-box-text,
+    .pane-bundle-homepage-box.second-box .field-name-field-home-box-text {
+        width: 450px;
     }
 }
 
@@ -512,20 +515,67 @@ a.link:hover {
     }
 }
 
-@media (max-width: 400px) {
-    .pane-bundle-homepage-box .field-name-field-home-box-text {
-        width: 80%;
+@media (max-width: 511px) {
+    #homepage .field-name-field-home-box-image .field-items {
+        height: 350px;
+        width: 350px;
+        margin: 0 auto;
+    }
+    .pane-bundle-homepage-box .field-name-field-home-box-text,
+    .pane-bundle-homepage-box.second-box .field-name-field-home-box-text {
+        width: 350px;
+    }
+}
+
+@media (max-width: 411px) {
+    #homepage .field-name-field-home-box-image .field-items {
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .pane-bundle-homepage-box .field-name-field-home-box-text,
+    .pane-bundle-homepage-box.second-box .field-name-field-home-box-text {
+        width: 300px;
+    }
+}
+
+@media (max-width: 360px) {
+    #homepage .field-name-field-home-box-image .field-items {
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .pane-bundle-homepage-box .field-name-field-home-box-text,
+    .pane-bundle-homepage-box.second-box .field-name-field-home-box-text {
+        width: 250px;
+    }
+}
+
+@media (max-width: 315px) {
+    #homepage .field-name-field-home-box-image .field-items {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .pane-bundle-homepage-box .field-name-field-home-box-text,
+    .pane-bundle-homepage-box.second-box .field-name-field-home-box-text {
+        width: 200px;
+    }
+}
+
+@media (max-width: 220px) {
+    #homepage .field-name-field-home-box-image .field-items {
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .pane-bundle-homepage-box .field-name-field-home-box-text,
+    .pane-bundle-homepage-box.second-box .field-name-field-home-box-text {
+        width: 150px;
     }
 }
 
 @media (max-width: 325px) {
-    .pane-bundle-homepage-box .field-name-field-home-box-text {
-        width: 100%;
-        position: relative;
-        display: block;
-        margin: 0;
-        background: black;
-    }
     .pane-bundle-homepage-button .field-name-field-home-button-image img {
         width: 30%;
     }
@@ -535,12 +585,6 @@ a.link:hover {
 }
 
 @media (max-width: 265px) {
-    .pane-bundle-homepage-button .field-name-field-home-button-link .field-item {
-        height: auto;
-        width: 100%;
-        float: none;
-        display: block;
-    }
     .pane-bundle-homepage-button .field-name-field-home-button-image img {
         width: 50%;
         float: none;

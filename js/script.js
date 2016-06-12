@@ -62,7 +62,7 @@
             $('#homepage .first-box .field-name-field-home-box-image .field-items').cycle({
                 fx: 'none',
                 speed: 500,
-                timeout: 70
+                timeout: 70,
             }).cycle("pause");
 
             // Pause &amp; play on hover
