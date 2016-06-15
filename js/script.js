@@ -62,7 +62,7 @@
             // Cycle homepage slideshow left
             $('#homepage .first-box .field-name-field-home-box-image .field-items').cycle({
                 fx: 'none',
-                speed: 500,
+                speed: 1500,
                 timeout: 70,
             }).cycle("pause");
 
@@ -76,7 +76,7 @@
             // Cycle homepage slideshow right
             $('#homepage .second-box .field-name-field-home-box-image .field-items').cycle({
                 fx: 'none',
-                speed: 500,
+                speed: 1500,
                 timeout: 70
             }).cycle("pause");
 
