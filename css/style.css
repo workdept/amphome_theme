@@ -7642,6 +7642,9 @@ body.page-sponsored-projects {
   background: url('../images/sp_background.png');
   background-size: 400px;
 }
+.page-node-done header .navbar-nav li.active-trail ul {
+  display: none !important;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;
