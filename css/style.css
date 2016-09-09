@@ -8875,7 +8875,8 @@ a.link:hover {
 .pane-bundle-homepage-button.no-border:hover .field-name-field-home-button-image img {
   border: 0;
 }
-#bigtop .pane-bundle-homepage-button .contextual-links-wrapper {
+#bigtop .pane-bundle-homepage-button .contextual-links-wrapper,
+#bigtop .field-name-field-home-box-image .contextual-links-wrapper {
   display: none;
 }
 @media (max-width: 1199px) {
