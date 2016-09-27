@@ -18,6 +18,7 @@
         attach: function(context, settings) {
             //Special style for the donate button
             $("a:contains(Donate)").parent().addClass("donate");
+            $("a:contains(Donate Once)").parent().addClass("donate-once-menu-link");
 
             // Move the menu title into the ul
             var textToInsert = $('#block-menu-block-1 h2 a');

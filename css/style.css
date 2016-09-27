@@ -7556,7 +7556,7 @@ section time {
   border-color: #000;
 }
 .art-sp .donate-form-buttons .btn-primary {
-  color: #ffffff;
+  color: #000;
   background-color: #ffffff;
   border-color: #000000 solid;
 }
@@ -7587,7 +7587,7 @@ section time {
   border-color: #000;
 }
 .media-sp .donate-form-buttons .btn-primary {
-  color: #ffffff;
+  color: #000;
   background-color: #ffffff;
   border-color: #000000 solid;
 }
@@ -7612,7 +7612,7 @@ section time {
   color: black;
 }
 .tech-sp .donate-form-buttons .btn-primary {
-  color: #ffffff;
+  color: #000;
   background-color: #ffffff;
   border-color: #000000 solid;
 }
@@ -7650,6 +7650,9 @@ body.media {
   display: block;
 }
 .donate-once-form .sub-section.details {
+  display: none;
+}
+#block-menu-block-1 .navbar-nav li.donate-once-menu-link {
   display: none;
 }
 body.page-sponsored-projects {
