@@ -7553,7 +7553,7 @@ section time {
   box-shadow: none;
   color: #000;
   background-color: #f1ea44;
-  border-color: #f1ea44;
+  border-color: #000;
 }
 .art-sp .donate-form-buttons .btn-primary {
   color: #ffffff;
@@ -7584,7 +7584,7 @@ section time {
   box-shadow: none;
   color: black;
   background-color: #81b44f;
-  border-color: #81b44f;
+  border-color: #000;
 }
 .media-sp .donate-form-buttons .btn-primary {
   color: #ffffff;
@@ -7608,7 +7608,7 @@ section time {
   text-decoration: none;
   box-shadow: none;
   background-color: #bb2d7f;
-  border-color: #bb2d7f;
+  border-color: #000;
   color: black;
 }
 .tech-sp .donate-form-buttons .btn-primary {
@@ -7631,9 +7631,9 @@ body.media {
 }
 .btn.donate-monthly,
 .btn.donate-once {
-  color: #ffffff;
+  color: #000000;
   background-color: #ffffff;
-  border-color: #000000 solid;
+  border: #000000 solid;
 }
 .btn.donate-monthly.active,
 .btn.donate-once.active {
