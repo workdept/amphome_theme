@@ -7549,14 +7549,16 @@ section time {
 }
 .art-sp .btn.donate-monthly.active,
 .art-sp .btn.donate-once.active {
-  text-decoration: underline;
-  color: black;
+  text-decoration: none;
   box-shadow: none;
-}
-.art-sp .donate-form-buttons .btn-primary {
   color: #000;
   background-color: #f1ea44;
   border-color: #f1ea44;
+}
+.art-sp .donate-form-buttons .btn-primary {
+  color: #ffffff;
+  background-color: #ffffff;
+  border-color: #000000 solid;
 }
 .media-sp #block-menu-block-1 .navbar-nav li.donate.leaf a,
 .media-sp #block-menu-block-1 .navbar-nav li.donate.leaf.active a {
@@ -7578,14 +7580,16 @@ section time {
 }
 .media-sp .btn.donate-monthly.active,
 .media-sp .btn.donate-once.active {
-  text-decoration: underline;
-  color: black;
+  text-decoration: none;
   box-shadow: none;
-}
-.media-sp .donate-form-buttons .btn-primary {
   color: black;
   background-color: #81b44f;
   border-color: #81b44f;
+}
+.media-sp .donate-form-buttons .btn-primary {
+  color: #ffffff;
+  background-color: #ffffff;
+  border-color: #000000 solid;
 }
 .tech-sp #block-menu-block-1 .navbar-nav li.donate.leaf a,
 .tech-sp #block-menu-block-1 .navbar-nav li.donate.leaf.active a {
@@ -7601,14 +7605,16 @@ section time {
 }
 .tech-sp .btn.donate-monthly.active,
 .tech-sp .btn.donate-once.active {
-  text-decoration: underline;
-  color: black;
+  text-decoration: none;
   box-shadow: none;
-}
-.tech-sp .donate-form-buttons .btn-primary {
   background-color: #bb2d7f;
   border-color: #bb2d7f;
   color: black;
+}
+.tech-sp .donate-form-buttons .btn-primary {
+  color: #ffffff;
+  background-color: #ffffff;
+  border-color: #000000 solid;
 }
 body.media {
   margin-top: 0;
@@ -7626,14 +7632,14 @@ body.media {
 .btn.donate-monthly,
 .btn.donate-once {
   color: #ffffff;
-  background-color: #9900ff;
-  border-color: #9900ff;
+  background-color: #ffffff;
+  border-color: #000000 solid;
 }
 .btn.donate-monthly.active,
 .btn.donate-once.active {
-  color: #9900ff;
-  background: #fff;
-  border: #9900ff solid;
+  color: #ffffff;
+  background-color: #9900ff;
+  border-color: #9900ff;
 }
 .donate-monthly-form,
 .donate-once-form {
