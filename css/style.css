@@ -7707,7 +7707,7 @@ body.page-sponsored-projects {
   padding-right: 5px;
   color: #08109f;
   padding-bottom: 10px;
-  border-bottom: 1px solid #08109f;
+  position: relative;
 }
 .view-project-news article time {
   font-size: 12px;
@@ -7716,6 +7716,11 @@ body.page-sponsored-projects {
   float: left;
   margin-right: 1em;
   color: #08109f;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  top: 6px;
+  padding: 0 3px;
 }
 .view-project-news article figure {
   float: left;
@@ -7787,7 +7792,7 @@ body.page-sponsored-projects {
   padding-right: 5px;
   color: #08109f;
   padding-bottom: 10px;
-  border-bottom: 1px solid #08109f;
+  position: relative;
 }
 .pane-views-amp-news-block-3 .amp-news-block article time {
   font-size: 12px;
@@ -7796,6 +7801,11 @@ body.page-sponsored-projects {
   float: left;
   margin-right: 1em;
   color: #08109f;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  top: 6px;
+  padding: 0 3px;
 }
 .pane-views-amp-news-block-3 .amp-news-block article figure {
   float: left;
