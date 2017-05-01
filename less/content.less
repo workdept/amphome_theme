@@ -1110,18 +1110,36 @@ body.page-sponsored-projects{
         img{
             outline: solid 4px;
         }
-        .button.first{
+        .button.first img{
             outline-color: #434c9c;
         }
-        .button.second{
+        .button.second img{
             outline-color: #fec869;
         }
-        .button.third{
+        .button.third img{
             outline-color: #4d88c5;
         }
-        .button.last{
+        .button.last img{
             outline-color: #6bb94c;
         }
 
     }
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }

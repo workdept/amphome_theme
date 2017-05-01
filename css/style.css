@@ -7691,17 +7691,34 @@ body.page-sponsored-projects {
 .amc-home-buttons a:hover img {
   outline: solid 4px;
 }
-.amc-home-buttons a:hover .button.first {
+.amc-home-buttons a:hover .button.first img {
   outline-color: #434c9c;
 }
-.amc-home-buttons a:hover .button.second {
+.amc-home-buttons a:hover .button.second img {
   outline-color: #fec869;
 }
-.amc-home-buttons a:hover .button.third {
+.amc-home-buttons a:hover .button.third img {
   outline-color: #4d88c5;
 }
-.amc-home-buttons a:hover .button.last {
+.amc-home-buttons a:hover .button.last img {
   outline-color: #6bb94c;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cf:after {
+  clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
 }
 .mission-statement {
   font-size: 20px;
