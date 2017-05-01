@@ -7690,7 +7690,7 @@ body.page-sponsored-projects {
 }
 .amc-home-buttons a:hover img {
   outline: solid 4px;
-  -webkit-filter: grayscale(0.71) hue-rotate(156deg) saturate(1.9);
+  -webkit-filter: grayscale(0.71);
 }
 .amc-home-buttons a:hover .button.first img {
   outline-color: #434c9c;
@@ -7703,6 +7703,10 @@ body.page-sponsored-projects {
 }
 .amc-home-buttons a:hover .button.last img {
   outline-color: #6bb94c;
+}
+.view-amp-news article:hover img {
+  outline: solid 5px #08109f;
+  margin-bottom: 8px;
 }
 @media (min-width: 990px) and (max-width: 1200px) {
   .amc-home-buttons .button {
