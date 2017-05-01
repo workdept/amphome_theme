@@ -7713,8 +7713,8 @@ body.page-sponsored-projects {
 .view-project-news article img {
   width: 100%;
 }
-.view-project-news article img:hover {
-  border: solid 5px #08109f;
+.view-project-news article:hover img {
+  outline: solid 5px #08109f;
 }
 .view-project-news article time {
   font-size: 12px;
@@ -7762,17 +7762,17 @@ body.page-sponsored-projects {
 .view-project-news a:hover {
   color: #08109f;
 }
-.section-amc .view-project-news article img:hover {
-  border-color: #424C9D;
+.section-amc .view-project-news article:hover img {
+  outline-color: #424C9D;
 }
-.tech-sp .view-project-news article img:hover {
-  border-color: #bb2d7f;
+.tech-sp .view-project-news article:hover img {
+  outline-color: #bb2d7f;
 }
-.media-sp .view-project-news article img:hover {
-  border-color: #81b44f;
+.media-sp .view-project-news article:hover img {
+  outline-color: #81b44f;
 }
-.art-sp .view-project-news article img:hover {
-  border-color: #f1ea44;
+.art-sp .view-project-news article:hover img {
+  outline-color: #f1ea44;
 }
 .pane-views-amp-news-block-3 {
   background-color: #ffffff;
@@ -7818,8 +7818,8 @@ body.page-sponsored-projects {
 .pane-views-amp-news-block-3 .amp-news-block article img {
   width: 100%;
 }
-.pane-views-amp-news-block-3 .amp-news-block article img:hover {
-  border: solid 5px #08109f;
+.pane-views-amp-news-block-3 .amp-news-block article:hover img {
+  outline: solid 5px #08109f;
 }
 .pane-views-amp-news-block-3 .amp-news-block article time {
   font-size: 12px;
