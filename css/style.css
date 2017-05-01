@@ -7690,6 +7690,7 @@ body.page-sponsored-projects {
 }
 .amc-home-buttons a:hover img {
   outline: solid 4px;
+  -webkit-filter: grayscale(0.71) hue-rotate(156deg) saturate(1.9);
 }
 .amc-home-buttons a:hover .button.first img {
   outline-color: #434c9c;
@@ -7702,6 +7703,24 @@ body.page-sponsored-projects {
 }
 .amc-home-buttons a:hover .button.last img {
   outline-color: #6bb94c;
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  .amc-home-buttons .button {
+    width: 23%;
+    margin: 33px 18px 33px 0;
+  }
+}
+@media (max-width: 990px) {
+  .amc-home-buttons .button {
+    width: 44%;
+    margin: 15px 15px;
+  }
+}
+@media (max-width: 530px) {
+  .amc-home-buttons .button {
+    width: 100%;
+    margin: 25px 0 0;
+  }
 }
 .cf:before,
 .cf:after {
