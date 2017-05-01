@@ -7665,6 +7665,7 @@ body.page-sponsored-projects {
 /*AMC buttons*/
 .amc-home-buttons img {
   width: 100%;
+  outline: solid 4px;
 }
 .amc-home-buttons .button {
   width: 22%;
@@ -7692,16 +7693,16 @@ body.page-sponsored-projects {
   outline: solid 4px;
   -webkit-filter: grayscale(0.71);
 }
-.amc-home-buttons a:hover .button.first img {
+.amc-home-buttons .button.first img {
   outline-color: #434c9c;
 }
-.amc-home-buttons a:hover .button.second img {
+.amc-home-buttons .button.second img {
   outline-color: #fec869;
 }
-.amc-home-buttons a:hover .button.third img {
+.amc-home-buttons .button.third img {
   outline-color: #4d88c5;
 }
-.amc-home-buttons a:hover .button.last img {
+.amc-home-buttons .button.last img {
   outline-color: #6bb94c;
 }
 .view-amp-news article:hover img {
