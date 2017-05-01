@@ -7672,6 +7672,7 @@ body.page-sponsored-projects {
   float: left;
   margin: 33px 33px 33px 0;
   position: relative;
+  height: 128px;
 }
 .amc-home-buttons .button.last {
   margin-right: 0;
@@ -7693,17 +7694,33 @@ body.page-sponsored-projects {
   outline: solid 4px;
   -webkit-filter: grayscale(0.71);
 }
-.amc-home-buttons .button.first img {
+.amc-home-buttons .button.first {
   outline-color: #434c9c;
+  background: url('../images/amc-buttons/Reserve_Your_Housing-min.jpg');
 }
-.amc-home-buttons .button.second img {
+.amc-home-buttons .button.first:hover {
+  background: url('../images/amc-buttons/Reserve_Your_Housing-min-hover.jpg');
+}
+.amc-home-buttons .button.second {
   outline-color: #fec869;
+  background: url('../images/amc-buttons/volunteer_featured_image-min.jpeg');
 }
-.amc-home-buttons .button.third img {
+.amc-home-buttons .button.second:hover {
+  background: url('../images/amc-buttons/volunteer_featured_image-min-hover.jpeg');
+}
+.amc-home-buttons .button.third {
   outline-color: #4d88c5;
+  background: url('../images/amc-buttons/Sponsor_the_AMC-min.jpg');
 }
-.amc-home-buttons .button.last img {
+.amc-home-buttons .button.third:hover {
+  background: url('../images/amc-buttons/Sponsor_the_AMC-min-hover.jpg');
+}
+.amc-home-buttons .button.last {
   outline-color: #6bb94c;
+  background: url('../images/amc-buttons/AMC-night-min.jpeg');
+}
+.amc-home-buttons .button.last:hover {
+  background: url('../images/amc-buttons/AMC-night-min-hover.jpeg');
 }
 .view-amp-news article img {
   margin-bottom: 8px;
