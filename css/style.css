@@ -7662,6 +7662,30 @@ body.page-sponsored-projects {
 .page-node-done header .navbar-nav li.active-trail ul {
   display: none !important;
 }
+/*AMC buttons*/
+.amc-home-buttons img {
+  width: 100%;
+}
+.amc-home-buttons .button {
+  width: 22%;
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+.amc-home-buttons .button.last {
+  margin-right: 0;
+}
+.amc-home-buttons span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #fff;
+  padding: 5px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #08109f;
+  font-weight: 600;
+}
 .mission-statement {
   font-size: 20px;
   color: #9900ff;
