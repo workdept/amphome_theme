@@ -7675,14 +7675,14 @@ body.page-sponsored-projects {
 }
 .sidebar-news-block h2 {
   background-color: #ffffff;
-  color: #9900ff;
-  font-size: 13px;
+  color: #08109f;
+  font-size: 20px;
   font-weight: 600;
-  border: 3px solid #9900ff;
   padding-right: 3px;
   padding-left: 3px;
   padding-top: 3px;
   padding-bottom: 2px;
+  line-height: 22px;
 }
 .sidebar-news-block h3 {
   background-color: #ffffff;
@@ -7706,8 +7706,15 @@ body.page-sponsored-projects {
   padding-left: 5px;
   padding-right: 5px;
   color: #08109f;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   position: relative;
+  max-width: 300px;
+}
+.view-project-news article img {
+  width: 100%;
+}
+.view-project-news article img:hover {
+  border: solid 5px #08109f;
 }
 .view-project-news article time {
   font-size: 12px;
@@ -7717,7 +7724,7 @@ body.page-sponsored-projects {
   margin-right: 1em;
   color: #08109f;
   position: absolute;
-  right: 0;
+  right: 4px;
   background: #fff;
   top: 6px;
   padding: 0 3px;
@@ -7760,14 +7767,14 @@ body.page-sponsored-projects {
 }
 .pane-views-amp-news-block-3 h2 {
   background-color: #ffffff;
-  color: #9900ff;
-  font-size: 13px;
+  color: #08109f;
+  font-size: 20px;
   font-weight: 600;
-  border: 3px solid #9900ff;
   padding-right: 3px;
   padding-left: 3px;
   padding-top: 3px;
   padding-bottom: 2px;
+  line-height: 22px;
 }
 .pane-views-amp-news-block-3 h3 {
   background-color: #ffffff;
@@ -7791,8 +7798,15 @@ body.page-sponsored-projects {
   padding-left: 5px;
   padding-right: 5px;
   color: #08109f;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   position: relative;
+  max-width: 300px;
+}
+.pane-views-amp-news-block-3 .amp-news-block article img {
+  width: 100%;
+}
+.pane-views-amp-news-block-3 .amp-news-block article img:hover {
+  border: solid 5px #08109f;
 }
 .pane-views-amp-news-block-3 .amp-news-block article time {
   font-size: 12px;
@@ -7802,7 +7816,7 @@ body.page-sponsored-projects {
   margin-right: 1em;
   color: #08109f;
   position: absolute;
-  right: 0;
+  right: 4px;
   background: #fff;
   top: 6px;
   padding: 0 3px;
@@ -7853,14 +7867,14 @@ aside section {
 }
 aside section h2 {
   background-color: #ffffff;
-  color: #9900ff;
-  font-size: 13px;
+  color: #08109f;
+  font-size: 20px;
   font-weight: 600;
-  border: 3px solid #9900ff;
   padding-right: 3px;
   padding-left: 3px;
   padding-top: 3px;
   padding-bottom: 2px;
+  line-height: 22px;
 }
 aside section h3 {
   background-color: #ffffff;

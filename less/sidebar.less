@@ -10,15 +10,15 @@
   background-color: @body-bg;
   padding-bottom: 10px;
   h2 {
-    background-color: @body-bg;
-    color: @component-active-color;
-    font-size: 13px;
+    background-color: #ffffff;
+    color: #08109f;
+    font-size: 20px;
     font-weight: 600;
-    border: 3px solid @component-active-color;
     padding-right: 3px;
     padding-left: 3px;
     padding-top: 3px;
     padding-bottom: 2px;
+    line-height: 22px;
   }
   h3 {
     background-color: @body-bg;
@@ -44,8 +44,17 @@
   article {
     .secondary-sidebar-mp;
     color: @purple-dark;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     position: relative;
+    max-width: 300px;
+    
+    img{
+      width: 100%;
+    }
+    img:hover{
+      border: solid 5px #08109f;
+    }
+
     time {
       font-size: 12px;
       font-weight: 700;
@@ -54,7 +63,7 @@
       margin-right: 1em;
       color: @purple-dark;
       position: absolute;
-      right: 0;
+      right: 4px;
       background: #fff;
       top: 6px;
       padding: 0 3px;
