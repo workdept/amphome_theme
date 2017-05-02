@@ -7670,7 +7670,7 @@ body.page-sponsored-projects {
 .amc-home-buttons .button {
   width: 22%;
   float: left;
-  margin: 33px 33px 33px 0;
+  margin: 33px 33px 0 0;
   position: relative;
   height: 124px;
   background-size: 100%;
@@ -7697,6 +7697,9 @@ body.page-sponsored-projects {
   outline: solid 4px;
   -webkit-filter: grayscale(0.71);
 }
+.amc-home-buttons .button:hover {
+  outline: none;
+}
 .amc-home-buttons .button.first {
   outline-color: #434c9c;
   background-image: url('../images/amc-buttons/Reserve_Your_Housing-min.jpg');
@@ -7709,7 +7712,7 @@ body.page-sponsored-projects {
   background-image: url('../images/amc-buttons/volunteer_featured_image-min.jpeg');
 }
 .amc-home-buttons .button.second:hover {
-  background-image: url('../images/amc-buttons/volunteer_featured_image-min-hover.jpeg');
+  background-image: url('../images/amc-buttons/volunteer_featured_image-min-hover.jpg');
 }
 .amc-home-buttons .button.third {
   outline-color: #4d88c5;
@@ -7723,7 +7726,7 @@ body.page-sponsored-projects {
   background-image: url('../images/amc-buttons/AMC-night-min.jpeg');
 }
 .amc-home-buttons .button.last:hover {
-  background-image: url('../images/amc-buttons/AMC-night-min-hover.jpeg');
+  background-image: url('../images/amc-buttons/AMC-night-min-hover.jpg');
 }
 .view-amp-news article img {
   margin-bottom: 8px;
