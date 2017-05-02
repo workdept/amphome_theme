@@ -7676,6 +7676,8 @@ body.page-sponsored-projects {
   background-size: 100%;
   background-repeat: no-repeat;
   outline: solid 3px;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
 }
 .amc-home-buttons .button.last {
   margin-right: 0;
