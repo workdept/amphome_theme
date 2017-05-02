@@ -2,6 +2,7 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix row"<?php print $attributes; ?>>
 <div class="col-sm-4">
 <?php print render($content['field_news_lead_image']); ?>
+<?php print render($content['field_news_term']); ?>
 </div>
 <div class="col-sm-8">
 <h3><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
