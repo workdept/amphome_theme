@@ -7166,6 +7166,96 @@ section time {
   background-color: #9900ff;
   padding: 5px;
 }
+.view-display-id-amp_news_byterms .views-row {
+  clear: both;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: #08109f;
+  border-bottom: 1px solid #08109f;
+}
+.view-display-id-amp_news_byterms .views-row .col-md-8 {
+  margin-top: -9px;
+}
+.view-display-id-amp_news_byterms .views-row .col-sm-4 {
+  padding-left: 0;
+}
+.view-display-id-amp_news_byterms .views-row time {
+  float: left;
+  padding-right: .5em;
+  font-weight: 700;
+  color: #08109f;
+}
+.view-display-id-amp_news_byterms .views-row time::after {
+  content: '';
+}
+.view-display-id-amp_news_byterms .views-row img.term-image {
+  float: left;
+  margin-top: 8px;
+}
+.view-display-id-amp_news_byterms .views-row h3 {
+  background-color: #ffffff;
+  color: #08109f;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin-top: 10px;
+}
+.view-display-id-amp_news_byterms .views-row h3 a {
+  color: #08109f;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.view-display-id-amp_news_byterms .views-row h3 a:hover {
+  text-decoration: none;
+  color: #08109f;
+  border-bottom: 3px solid #08109f;
+}
+.view-display-id-amp_news_byterms .views-row p {
+  margin-left: 0;
+  margin-right: 0;
+}
+.view-display-id-amp_news_byterms .views-row p a:hover {
+  text-decoration: none;
+  color: #08109f;
+  border-bottom: 3px solid #08109f;
+}
+.view-display-id-amp_news_byterms .views-row .news-term {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #08109f;
+  font-weight: 600;
+  width: 117px;
+  line-height: 15px;
+}
+.view-display-id-amp_news_byterms .views-row img {
+  margin-bottom: 8px;
+}
+.view-display-id-amp_news_byterms .views-row:hover img {
+  outline: solid 5px #9900ff;
+}
+.view-display-id-amp_news_byterms .views-row.Art:hover img {
+  outline: solid 5px #f1ea44;
+}
+.view-display-id-amp_news_byterms .views-row.Media:hover img {
+  outline: solid 5px #81b44f;
+}
+.view-display-id-amp_news_byterms .views-row.Tech:hover img {
+  outline: solid 5px #bb2d7f;
+}
+.view-display-id-amp_news_byterms .views-row.AMC:hover img {
+  outline: solid 5px #08109f;
+}
+.view-display-id-amp_news_byterms .category {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: .9em;
+  background-color: #9900ff;
+  padding: 5px;
+}
 .page-header sub,
 .view-amp-news sub,
 .view-project-news sub {
