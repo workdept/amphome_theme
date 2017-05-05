@@ -7131,7 +7131,7 @@ section time {
 .bloglist .views-row .news-term {
   position: absolute;
   top: 10px;
-  left: 26px;
+  left: 10px;
   background: #fff;
   padding: 3px 5px;
   text-transform: uppercase;
@@ -7240,7 +7240,7 @@ section time {
 .view-id-amp_news.view-display-id-amp_news_byterms .views-row .news-term {
   position: absolute;
   top: 10px;
-  left: 26px;
+  left: 10px;
   background: #fff;
   padding: 3px 5px;
   text-transform: uppercase;
@@ -8960,7 +8960,7 @@ section.block-menu-block,
 .panels-bootstrap-frontlayout section .views-row .news-term {
   position: absolute;
   top: 10px;
-  left: 26px;
+  left: 10px;
   background: #fff;
   padding: 3px 5px;
   text-transform: uppercase;
