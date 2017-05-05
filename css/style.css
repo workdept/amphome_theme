@@ -7145,6 +7145,18 @@ section time {
   margin-bottom: 8px;
 }
 .bloglist .views-row:hover img {
+  outline: solid 5px #9900ff;
+}
+.bloglist .views-row.Art:hover img {
+  outline: solid 5px #f1ea44;
+}
+.bloglist .views-row.Media:hover img {
+  outline: solid 5px #81b44f;
+}
+.bloglist .views-row.Tech:hover img {
+  outline: solid 5px #bb2d7f;
+}
+.bloglist .views-row.AMC:hover img {
   outline: solid 5px #08109f;
 }
 .bloglist .category {
@@ -7244,6 +7256,22 @@ section time {
 }
 .view-id-amp_news.view-display-id-page .views-row:hover img,
 .view-id-amp_news.view-display-id-amp_news_byterms .views-row:hover img {
+  outline: solid 5px #9900ff;
+}
+.view-id-amp_news.view-display-id-page .views-row.Art:hover img,
+.view-id-amp_news.view-display-id-amp_news_byterms .views-row.Art:hover img {
+  outline: solid 5px #f1ea44;
+}
+.view-id-amp_news.view-display-id-page .views-row.Media:hover img,
+.view-id-amp_news.view-display-id-amp_news_byterms .views-row.Media:hover img {
+  outline: solid 5px #81b44f;
+}
+.view-id-amp_news.view-display-id-page .views-row.Tech:hover img,
+.view-id-amp_news.view-display-id-amp_news_byterms .views-row.Tech:hover img {
+  outline: solid 5px #bb2d7f;
+}
+.view-id-amp_news.view-display-id-page .views-row.AMC:hover img,
+.view-id-amp_news.view-display-id-amp_news_byterms .views-row.AMC:hover img {
   outline: solid 5px #08109f;
 }
 .view-id-amp_news.view-display-id-page .category,
@@ -8946,6 +8974,18 @@ section.block-menu-block,
   margin-bottom: 8px;
 }
 .panels-bootstrap-frontlayout section .views-row:hover img {
+  outline: solid 5px #9900ff;
+}
+.panels-bootstrap-frontlayout section .views-row.Art:hover img {
+  outline: solid 5px #f1ea44;
+}
+.panels-bootstrap-frontlayout section .views-row.Media:hover img {
+  outline: solid 5px #81b44f;
+}
+.panels-bootstrap-frontlayout section .views-row.Tech:hover img {
+  outline: solid 5px #bb2d7f;
+}
+.panels-bootstrap-frontlayout section .views-row.AMC:hover img {
   outline: solid 5px #08109f;
 }
 .panels-bootstrap-frontlayout section .category {
