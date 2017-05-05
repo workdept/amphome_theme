@@ -7166,9 +7166,9 @@ section time {
   background-color: #9900ff;
   padding: 5px;
 }
-.page-header .sub,
-.view-amp-news .sub,
-.view-project-news .sub {
+.page-header sub,
+.view-amp-news sub,
+.view-project-news sub {
   bottom: 0;
   font-size: 82%;
   text-transform: uppercase;
