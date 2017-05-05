@@ -7730,12 +7730,6 @@ body.page-sponsored-projects {
 .amc-home-buttons .button.last:hover {
   background-image: url('../images/amc-buttons/AMC-night-min-hover.jpg');
 }
-.view-amp-news article img {
-  margin-bottom: 8px;
-}
-.view-amp-news article:hover img {
-  outline: solid 5px #08109f;
-}
 @media (min-width: 990px) and (max-width: 1200px) {
   .amc-home-buttons .button {
     width: 23%;
@@ -7782,19 +7776,6 @@ body.page-sponsored-projects {
     height: 130px;
     float: none;
   }
-}
-.node-news-item .field-name-field-news-term {
-  position: absolute;
-  top: 10px;
-  left: 26px;
-  background: #fff;
-  padding: 3px 5px;
-  text-transform: uppercase;
-  font-size: 11px;
-  color: #08109f;
-  font-weight: 600;
-  width: 117px;
-  line-height: 15px;
 }
 .cf:before,
 .cf:after {
@@ -8904,19 +8885,38 @@ section.block-menu-block,
   background-color: #9900ff;
   padding: 5px;
 }
-.panels-bootstrap-frontlayout section article h3 {
+.panels-bootstrap-frontlayout .view-amp-news .views-row h3 {
   background-color: #ffffff;
   color: #08109f;
   font-size: 1.4em;
   line-height: 1.3em;
   margin-top: 0;
 }
-.panels-bootstrap-frontlayout section article span {
+.panels-bootstrap-frontlayout .view-amp-news .views-row span {
   color: #ffffff;
   font-weight: 600;
   font-size: .9em;
   background-color: #9900ff;
   padding: 4px;
+}
+.panels-bootstrap-frontlayout .view-amp-news .views-row .news-term {
+  position: absolute;
+  top: 10px;
+  left: 26px;
+  background: #fff;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #08109f;
+  font-weight: 600;
+  width: 117px;
+  line-height: 15px;
+}
+.panels-bootstrap-frontlayout .view-amp-news .views-row img {
+  margin-bottom: 8px;
+}
+.panels-bootstrap-frontlayout .view-amp-news .views-row:hover img {
+  outline: solid 5px #08109f;
 }
 .panels-bootstrap-frontlayout .more-link a {
   background-color: #ffffff;
