@@ -7839,6 +7839,10 @@ body.page-sponsored-projects {
 .amc-home-buttons img {
   width: 100%;
 }
+.amc-home-buttons .button {
+  float: left;
+  position: relative;
+}
 .amc-home-buttons .button img {
   width: 187px;
   float: left;
