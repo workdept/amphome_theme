@@ -1130,12 +1130,13 @@ body.page-sponsored-projects{
     .button{
         float: left;
         position: relative;
+        width:187px;
+        height: 124px;
+        margin: 33px 33px 0 0;
     }
 
     .button img{
         width:187px;
-        float:left;
-        margin: 33px 33px 0 0;
         position: relative;
         height: 124px;
         outline:solid 3px;
@@ -1143,7 +1144,8 @@ body.page-sponsored-projects{
          transition: background-image 0.2s ease-in-out;
     }
 
-    .button.last img{
+    .button.last img,
+    .button.last{
         margin-right:0;
     }
 
@@ -1186,57 +1188,86 @@ body.page-sponsored-projects{
 }
 
 @media (min-width: 990px) and (max-width: 1200px) {
-    .amc-home-buttons .button img{
+    .amc-home-buttons .button{
         width: 23%;
         margin: 33px 18px 33px 0;
+        height: 107px;
+    }
+    .amc-home-buttons .button img{
+        width: 100%;
         height: 107px;
     }
 }
 
 
 @media (max-width: 990px){
-    .amc-home-buttons .button img {
+    .amc-home-buttons .button {
         width: 44%;
         margin: 15px 15px;
+        height: 155px;
+    }
+    .amc-home-buttons .button img {
+        width: 100%;
         height: 155px;
     }
 }
 
 @media (max-width: 767px){
-    .amc-home-buttons .button  img{
+    .amc-home-buttons .button{
      width: 303px;
      margin: 15px 15px;
+     height: 200px;
+    }
+    .amc-home-buttons .button img{
+     width: 303px;
      height: 200px;
     }
 }
 
 @media (max-width: 700px){
-    .amc-home-buttons .button img{
+    .amc-home-buttons .button{
     width: 205px;
     margin: 15px 15px;
+    height: 135px;
+    }
+    .amc-home-buttons .button img{
+    width: 205px;
     height: 135px;
     }
 }
 
 
 @media (max-width: 530px){
-    .amc-home-buttons .button img {
+    .amc-home-buttons .button {
     width: 300px;
     margin: 15px auto;
     height: 200px;
     float: none;
     }
-    .amc-home-buttons .button.last img{
+    .amc-home-buttons .button img {
+    width: 300px;
+    height: 200px;
+    float: none;
+    }
+    .amc-home-buttons .button.last{
         margin: 15px auto;
     }
 }
 
 @media (max-width: 305px){
-    .amc-home-buttons .button img{
+    .amc-home-buttons .button{
         width: 200px;
         margin: 15px auto;
         height: 130px;
         float: none;
+    }
+        .amc-home-buttons .button img{
+        width: 200px;
+        height: 130px;
+        float: none;
+    }
+    .amc-home-buttons .button.last img, .amc-home-buttons .button.last {
+        margin-right:auto;
     }
 }
 
