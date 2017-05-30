@@ -7838,21 +7838,18 @@ body.page-sponsored-projects {
 /*AMC buttons*/
 .amc-home-buttons img {
   width: 100%;
-  outline: solid 4px;
 }
-.amc-home-buttons .button {
+.amc-home-buttons .button img {
   width: 187px;
   float: left;
   margin: 33px 33px 0 0;
   position: relative;
   height: 124px;
-  background-size: 100%;
-  background-repeat: no-repeat;
   outline: solid 3px;
   -webkit-transition: background-image 0.2s ease-in-out;
   transition: background-image 0.2s ease-in-out;
 }
-.amc-home-buttons .button.last {
+.amc-home-buttons .button.last img {
   margin-right: 0;
 }
 .amc-home-buttons span {
@@ -7870,80 +7867,63 @@ body.page-sponsored-projects {
 }
 .amc-home-buttons a:hover img {
   outline: solid 4px;
-  -webkit-filter: grayscale(0.71);
 }
-.amc-home-buttons .button:hover {
+.amc-home-buttons .button img:hover {
   outline: none;
 }
-.amc-home-buttons .button.first {
+.amc-home-buttons .button.first img {
   outline-color: #434c9c;
-  background-image: url('../images/amc-buttons/Reserve_Your_Housing-min.jpg');
 }
-.amc-home-buttons .button.first:hover {
-  background-image: url('../images/amc-buttons/Reserve_Your_Housing-min-hover.jpg');
-}
-.amc-home-buttons .button.second {
+.amc-home-buttons .button.second img {
   outline-color: #fec869;
-  background-image: url('../images/amc-buttons/reserve-table-min.jpg');
 }
-.amc-home-buttons .button.second:hover {
-  background-image: url('../images/amc-buttons/reserve-table-hover-min.jpg');
-}
-.amc-home-buttons .button.third {
+.amc-home-buttons .button.third img {
   outline-color: #4d88c5;
-  background-image: url('../images/amc-buttons/Sponsor_the_AMC-min.jpg');
 }
-.amc-home-buttons .button.third:hover {
-  background-image: url('../images/amc-buttons/Sponsor_the_AMC-min-hover.jpg');
-}
-.amc-home-buttons .button.last {
+.amc-home-buttons .button.last img {
   outline-color: #6bb94c;
-  background-image: url('../images/amc-buttons/AMC-night-min.jpeg');
-}
-.amc-home-buttons .button.last:hover {
-  background-image: url('../images/amc-buttons/AMC-night-min-hover.jpg');
 }
 @media (min-width: 990px) and (max-width: 1200px) {
-  .amc-home-buttons .button {
+  .amc-home-buttons .button img {
     width: 23%;
     margin: 33px 18px 33px 0;
     height: 107px;
   }
 }
 @media (max-width: 990px) {
-  .amc-home-buttons .button {
+  .amc-home-buttons .button img {
     width: 44%;
     margin: 15px 15px;
     height: 155px;
   }
 }
 @media (max-width: 767px) {
-  .amc-home-buttons .button {
+  .amc-home-buttons .button img {
     width: 303px;
     margin: 15px 15px;
     height: 200px;
   }
 }
 @media (max-width: 700px) {
-  .amc-home-buttons .button {
+  .amc-home-buttons .button img {
     width: 205px;
     margin: 15px 15px;
     height: 135px;
   }
 }
 @media (max-width: 530px) {
-  .amc-home-buttons .button {
+  .amc-home-buttons .button img {
     width: 300px;
     margin: 15px auto;
     height: 200px;
     float: none;
   }
-  .amc-home-buttons .button.last {
+  .amc-home-buttons .button.last img {
     margin: 15px auto;
   }
 }
 @media (max-width: 305px) {
-  .amc-home-buttons .button {
+  .amc-home-buttons .button img {
     width: 200px;
     margin: 15px auto;
     height: 130px;
