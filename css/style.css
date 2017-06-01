@@ -9487,6 +9487,12 @@ a.link:hover {
     text-align: center;
   }
 }
+@media (min-width: 991px) and (max-width: 1200px) {
+  #block-boxes-sell-links {
+    width: 223px;
+    margin-left: -10px;
+  }
+}
 .ribbon {
   background-color: #a00;
   overflow: hidden;
