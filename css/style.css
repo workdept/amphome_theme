@@ -7980,6 +7980,7 @@ figure > figcaption {
 }
 figure {
   background: #fff;
+  margin-top: 15px;
 }
 .cf:before,
 .cf:after {
