@@ -7978,6 +7978,9 @@ figure > figcaption {
   padding: 3px 0em 0.6em;
   background: none;
 }
+figure {
+  background: #fff;
+}
 .cf:before,
 .cf:after {
   content: " ";
