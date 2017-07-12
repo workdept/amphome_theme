@@ -7974,6 +7974,10 @@ body.page-sponsored-projects {
     margin-right: auto;
   }
 }
+figure > figcaption {
+  padding: 3px 0em 0.6em;
+  background: none;
+}
 .cf:before,
 .cf:after {
   content: " ";
