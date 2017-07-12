@@ -7991,6 +7991,27 @@ figure {
     margin: 0;
   }
 }
+.view-amp-news .view-filters .views-widget {
+  float: left;
+}
+.view-amp-news .form-control {
+  float: left;
+  height: 30px;
+  font-size: 13px;
+}
+.view-amp-news label {
+  float: left;
+  line-height: 28px;
+  margin-right: 13px;
+}
+.view-amp-news .views-exposed-widgets {
+  margin-bottom: 2em;
+  float: right;
+}
+.page-news h1.page-header {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 .cf:before,
 .cf:after {
   content: " ";
