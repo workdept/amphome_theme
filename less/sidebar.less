@@ -298,3 +298,27 @@ aside .newsletter{
   }
 }
 
+.view-social-media-buttons.sp-social-buttons{
+  a{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+
+  a.social-button:before{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    color:white;
+  }
+
+  a.facebook:before{
+    content: "\f09a";
+    background:blue;
+  }
+}
+
