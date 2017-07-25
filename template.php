@@ -77,3 +77,8 @@ function amphome_search_block_form_submit($form, &$form_state) {
     ),
   );
 }
+
+
+function amphome_preprocess_html(&$variables) {
+  drupal_add_js('https://use.fontawesome.com/1533770d52.js', 'external');
+}
