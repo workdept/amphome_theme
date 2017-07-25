@@ -8434,8 +8434,9 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   line-height: 0;
   font-size: 20px;
   color: white;
-  width: 35px;
+  width: 39px;
   text-align: center;
+  border: solid 2px white;
 }
 .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
 .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a,
@@ -8446,7 +8447,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
 .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
   color: #7951a1;
-  border: solid 1px #7951a1;
+  border: solid 2px #7951a1;
   background: white;
 }
 .art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
@@ -8458,7 +8459,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 .art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
 .art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
   color: #f1ea44;
-  border: solid 1px #f1ea44;
+  border: solid 2px #f1ea44;
   background: white;
 }
 .tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
@@ -8470,7 +8471,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 .tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
 .tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
   color: #81b44f;
-  border: solid 1px #81b44f;
+  border: solid 2px #81b44f;
   background: white;
 }
 .media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
@@ -8482,7 +8483,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 .media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
 .media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
   color: #bb2d7f;
-  border: solid 1px #bb2d7f;
+  border: solid 2px #bb2d7f;
   background: white;
 }
 .footer {
