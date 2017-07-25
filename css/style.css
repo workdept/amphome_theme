@@ -8012,6 +8012,10 @@ figure {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+.field-name-body table td,
+.field-name-body table th {
+  padding: 3px;
+}
 .cf:before,
 .cf:after {
   content: " ";
