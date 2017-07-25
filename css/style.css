@@ -8421,45 +8421,69 @@ aside .newsletter #mc_embed_signup input[type="radio"],
 aside .newsletter #mc_embed_signup input[type="checkbox"] {
   height: auto;
 }
+.view-social-media-buttons.sp-social-buttons {
+  margin-top: 90px;
+  margin-left: 10px;
+}
 .view-social-media-buttons.sp-social-buttons a {
   float: left;
-  padding: 14px;
+  padding: 8px;
   background: blue;
   margin-right: 10px;
   border-radius: 100%;
   line-height: 0;
   font-size: 20px;
   color: white;
-  width: 47px;
+  width: 35px;
   text-align: center;
-}
-.view-social-media-buttons.sp-social-buttons a:hover {
-  color: black;
 }
 .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
 .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a,
 .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a {
   background: #7951a1;
 }
-.view-social-media-buttons.sp-social-buttons .art-sp .views-field-field-facebook a,
-.view-social-media-buttons.sp-social-buttons .art-sp .views-field-field-linkedin a,
-.view-social-media-buttons.sp-social-buttons .art-sp .views-field-field-twitter a {
+.view-social-media-buttons.sp-social-buttons .views-field-field-facebook a:hover,
+.view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
+.view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
+  color: #7951a1;
+  border: solid 1px #7951a1;
+  background: white;
+}
+.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
+.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a,
+.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a {
   background: #f1ea44;
 }
-.view-social-media-buttons.sp-social-buttons .tech-sp .views-field-field-facebook a,
-.view-social-media-buttons.sp-social-buttons .tech-sp .views-field-field-linkedin a,
-.view-social-media-buttons.sp-social-buttons .tech-sp .views-field-field-twitter a {
-  background: #f1ea44;
+.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a:hover,
+.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
+.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
+  color: #f1ea44;
+  border: solid 1px #f1ea44;
+  background: white;
 }
-.view-social-media-buttons.sp-social-buttons .media-sp .views-field-field-facebook a,
-.view-social-media-buttons.sp-social-buttons .media-sp .views-field-field-linkedin a,
-.view-social-media-buttons.sp-social-buttons .media-sp .views-field-field-twitter a {
+.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
+.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a,
+.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a {
   background: #81b44f;
 }
-.view-social-media-buttons.sp-social-buttons .art-sp .views-field-field-facebook a,
-.view-social-media-buttons.sp-social-buttons .art-sp .views-field-field-linkedin a,
-.view-social-media-buttons.sp-social-buttons .art-sp .views-field-field-twitter a {
+.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a:hover,
+.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
+.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
+  color: #81b44f;
+  border: solid 1px #81b44f;
+  background: white;
+}
+.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
+.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a,
+.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a {
   background: #bb2d7f;
+}
+.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a:hover,
+.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
+.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
+  color: #bb2d7f;
+  border: solid 1px #bb2d7f;
+  background: white;
 }
 .footer {
   margin-top: 0;
