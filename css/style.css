@@ -8452,19 +8452,19 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   background: white;
 }
 .tech-sp .view-social-media-buttons.sp-social-buttons a {
-  background: #81b44f;
+  background: #bb2d7f;
 }
 .tech-sp .view-social-media-buttons.sp-social-buttons a:hover {
   color: #81b44f;
-  border: solid 2px #81b44f;
+  border: solid 2px #bb2d7f;
   background: white;
 }
 .media-sp .view-social-media-buttons.sp-social-buttons a {
-  background: #bb2d7f;
+  background: #81b44f;
 }
 .media-sp .view-social-media-buttons.sp-social-buttons a:hover {
   color: #bb2d7f;
-  border: solid 2px #bb2d7f;
+  border: solid 2px #81b44f;
   background: white;
 }
 .footer {
