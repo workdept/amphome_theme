@@ -8467,10 +8467,13 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border: solid 2px #81b44f;
   background: white;
 }
-.section-amc .sp-social-buttons a {
+.section-amc .sp-social-buttons.amc {
+  margin-top: 60px;
+}
+.section-amc .sp-social-buttons.amc a {
   background: #25408f;
 }
-.section-amc .sp-social-buttons a:hover {
+.section-amc .sp-social-buttons.amc a:hover {
   color: #25408f;
   border: solid 2px #25408f;
   background: white;
