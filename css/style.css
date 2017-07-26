@@ -8428,7 +8428,6 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 .view-social-media-buttons.sp-social-buttons a {
   float: left;
   padding: 8px;
-  background: blue;
   margin-right: 10px;
   border-radius: 100%;
   line-height: 0;
@@ -8437,51 +8436,33 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   width: 39px;
   text-align: center;
   border: solid 2px white;
-}
-.view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
-.view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a,
-.view-social-media-buttons.sp-social-buttons .views-field-field-twitter a {
   background: #7951a1;
 }
-.view-social-media-buttons.sp-social-buttons .views-field-field-facebook a:hover,
-.view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
-.view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
+.view-social-media-buttons.sp-social-buttons a:hover {
   color: #7951a1;
   border: solid 2px #7951a1;
   background: white;
 }
-.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
-.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a,
-.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a {
+.art-sp .view-social-media-buttons.sp-social-buttons a {
   background: #f1ea44;
 }
-.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a:hover,
-.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
-.art-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
+.art-sp .view-social-media-buttons.sp-social-buttons a:hover {
   color: #f1ea44;
   border: solid 2px #f1ea44;
   background: white;
 }
-.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
-.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a,
-.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a {
+.tech-sp .view-social-media-buttons.sp-social-buttons a {
   background: #81b44f;
 }
-.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a:hover,
-.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
-.tech-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
+.tech-sp .view-social-media-buttons.sp-social-buttons a:hover {
   color: #81b44f;
   border: solid 2px #81b44f;
   background: white;
 }
-.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a,
-.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a,
-.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a {
+.media-sp .view-social-media-buttons.sp-social-buttons a {
   background: #bb2d7f;
 }
-.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-facebook a:hover,
-.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-linkedin a:hover,
-.media-sp .view-social-media-buttons.sp-social-buttons .views-field-field-twitter a:hover {
+.media-sp .view-social-media-buttons.sp-social-buttons a:hover {
   color: #bb2d7f;
   border: solid 2px #bb2d7f;
   background: white;
