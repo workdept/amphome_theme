@@ -8421,11 +8421,11 @@ aside .newsletter #mc_embed_signup input[type="radio"],
 aside .newsletter #mc_embed_signup input[type="checkbox"] {
   height: auto;
 }
-.view-social-media-buttons.sp-social-buttons {
+.sp-social-buttons {
   margin-top: 90px;
   margin-left: 10px;
 }
-.view-social-media-buttons.sp-social-buttons a {
+.sp-social-buttons a {
   float: left;
   padding: 8px;
   margin-right: 10px;
@@ -8438,31 +8438,31 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border: solid 2px white;
   background: #7951a1;
 }
-.view-social-media-buttons.sp-social-buttons a:hover {
+.sp-social-buttons a:hover {
   color: #7951a1;
   border: solid 2px #7951a1;
   background: white;
 }
-.art-sp .view-social-media-buttons.sp-social-buttons a {
+.art-sp .sp-social-buttons a {
   background: #f1ea44;
 }
-.art-sp .view-social-media-buttons.sp-social-buttons a:hover {
+.art-sp .sp-social-buttons a:hover {
   color: #f1ea44;
   border: solid 2px #f1ea44;
   background: white;
 }
-.tech-sp .view-social-media-buttons.sp-social-buttons a {
+.tech-sp .sp-social-buttons a {
   background: #bb2d7f;
 }
-.tech-sp .view-social-media-buttons.sp-social-buttons a:hover {
+.tech-sp .sp-social-buttons a:hover {
   color: #81b44f;
   border: solid 2px #bb2d7f;
   background: white;
 }
-.media-sp .view-social-media-buttons.sp-social-buttons a {
+.media-sp .sp-social-buttons a {
   background: #81b44f;
 }
-.media-sp .view-social-media-buttons.sp-social-buttons a:hover {
+.media-sp .sp-social-buttons a:hover {
   color: #bb2d7f;
   border: solid 2px #81b44f;
   background: white;
@@ -8478,7 +8478,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border: solid 2px #25408f;
   background: white;
 }
-.view-social-media-buttons.sp-social-buttons.amp {
+.sp-social-buttons.amp {
   margin-top: 40px;
 }
 .footer {
