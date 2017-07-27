@@ -8443,26 +8443,32 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border: solid 2px #7951a1;
   background: white;
 }
-.art-sp .sp-social-buttons a {
+.art-sp .sp-social-buttons a,
+.sp-social-buttons .Art a {
   background: #f1ea44;
 }
-.art-sp .sp-social-buttons a:hover {
+.art-sp .sp-social-buttons a:hover,
+.sp-social-buttons .Art a:hover {
   color: #f1ea44;
   border: solid 2px #f1ea44;
   background: white;
 }
-.tech-sp .sp-social-buttons a {
+.tech-sp .sp-social-buttons a,
+.sp-social-buttons .Tech a {
   background: #bb2d7f;
 }
-.tech-sp .sp-social-buttons a:hover {
+.tech-sp .sp-social-buttons a:hover,
+.sp-social-buttons .Tech a:hover {
   color: #81b44f;
   border: solid 2px #bb2d7f;
   background: white;
 }
-.media-sp .sp-social-buttons a {
+.media-sp .sp-social-buttons a,
+.sp-social-buttons .Media a {
   background: #81b44f;
 }
-.media-sp .sp-social-buttons a:hover {
+.media-sp .sp-social-buttons a:hover,
+.sp-social-buttons .Media a:hover {
   color: #bb2d7f;
   border: solid 2px #81b44f;
   background: white;
