@@ -8459,7 +8459,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 }
 .tech-sp .sp-social-buttons a:hover,
 .sp-social-buttons .Tech a:hover {
-  color: #81b44f;
+  color: #bb2d7f;
   border: solid 2px #bb2d7f;
   background: white;
 }
@@ -8469,7 +8469,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 }
 .media-sp .sp-social-buttons a:hover,
 .sp-social-buttons .Media a:hover {
-  color: #bb2d7f;
+  color: #81b44f;
   border: solid 2px #81b44f;
   background: white;
 }
@@ -8486,6 +8486,12 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 }
 .sp-social-buttons.amp {
   margin-top: 40px;
+}
+.backto-project-link a {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 10px;
+  letter-spacing: -0.5px;
 }
 .footer {
   margin-top: 0;
