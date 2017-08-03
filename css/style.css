@@ -8489,8 +8489,9 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border: solid 2px #25408f;
   background: white;
 }
-.sp-social-buttons.amp {
-  margin-top: 40px;
+.sp-social-buttons.amp,
+.sp-social-buttons.amc {
+  margin-top: 20px;
 }
 .node-type-news-item .sp-social-buttons,
 .node-type-news-item .backto-project-link a {
