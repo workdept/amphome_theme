@@ -8456,6 +8456,9 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border: solid 2px #9900ff;
   background: white;
 }
+.section-sponsoredprojects .sp-social-buttons .view-header {
+  display: none;
+}
 .art-sp .sp-social-buttons a,
 .sp-social-buttons .Art a {
   background: #f1ea44;
