@@ -8430,6 +8430,13 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   margin-top: 90px;
   margin-left: 10px;
 }
+.sp-social-buttons .view-header {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -10px;
+}
 .sp-social-buttons a {
   float: left;
   padding: 8px;
@@ -8498,7 +8505,6 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   margin-left: 20px;
 }
 .backto-project-link {
-  margin-top: -15px;
   margin-left: 10px;
 }
 .backto-project-link a {
@@ -8512,18 +8518,21 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   width: 65px;
   float: left;
   margin-left: 14px;
-}
-.backto-project-link .view-header {
-  color: #000000;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-left: -10px;
+  margin-top: 8px;
 }
 .backto-project-link .views-field-field-sp-key-image img {
   border-radius: 100%;
   width: 85px;
   float: left;
+}
+.backto-project-link .Art a span {
+  color: #f1ea44;
+}
+.backto-project-link .Tech a span {
+  color: #bb2d7f;
+}
+.backto-project-link .Media a span {
+  color: #81b44f;
 }
 .footer {
   margin-top: 0;
