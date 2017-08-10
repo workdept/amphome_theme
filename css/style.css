@@ -8436,6 +8436,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   font-weight: 700;
   text-transform: uppercase;
   margin-left: -10px;
+  margin-bottom: 10px;
 }
 .sp-social-buttons a {
   float: left;
@@ -8506,6 +8507,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 }
 .backto-project-link {
   margin-left: 10px;
+  margin-top: 5px;
 }
 .backto-project-link a {
   font-weight: 600;
@@ -8519,20 +8521,39 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   float: left;
   margin-left: 14px;
   margin-top: 8px;
+  font-weight: 700;
 }
 .backto-project-link .views-field-field-sp-key-image img {
   border-radius: 100%;
   width: 85px;
   float: left;
 }
+.backto-project-link .overlay {
+  background: transparent;
+  position: absolute;
+  width: 85px;
+  top: 0;
+  height: 85px;
+  border-radius: 100%;
+  opacity: 0.65;
+}
 .backto-project-link .Art a span {
   color: #f1ea44;
+}
+.backto-project-link .Art a:hover .overlay {
+  background: #f1ea44;
 }
 .backto-project-link .Tech a span {
   color: #bb2d7f;
 }
+.backto-project-link .Tech a:hover .overlay {
+  background: #bb2d7f;
+}
 .backto-project-link .Media a span {
   color: #81b44f;
+}
+.backto-project-link .Media a:hover .overlay {
+  background: #81b44f;
 }
 .footer {
   margin-top: 0;
