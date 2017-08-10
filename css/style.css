@@ -8497,11 +8497,33 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 .node-type-news-item .backto-project-link a {
   margin-left: 20px;
 }
+.backto-project-link {
+  margin-top: -15px;
+  margin-left: 10px;
+}
 .backto-project-link a {
-  text-transform: uppercase;
   font-weight: 600;
   margin-left: 10px;
-  letter-spacing: -0.5px;
+  font-size: 17px;
+  margin-top: 8px;
+}
+.backto-project-link span {
+  display: block;
+  width: 65px;
+  float: left;
+  margin-left: 14px;
+}
+.backto-project-link .view-header {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -10px;
+}
+.backto-project-link .views-field-field-sp-key-image img {
+  border-radius: 100%;
+  width: 85px;
+  float: left;
 }
 .footer {
   margin-top: 0;
