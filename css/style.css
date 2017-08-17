@@ -8558,6 +8558,10 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 .backto-project-link .Media a:hover .overlay {
   background: #81b44f;
 }
+.sp-social-buttons a.soundcloud {
+  font-size: 16px;
+  padding: 10px 8px;
+}
 .footer {
   margin-top: 0;
   padding-top: 0px;
