@@ -7992,7 +7992,7 @@ figure {
   }
 }
 .view-news-category-dropdown {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .view-news-category-dropdown .form-control {
   height: 30px;
@@ -8008,10 +8008,11 @@ figure {
   float: right;
 }
 #block-views-news-category-dropdown-block h2 {
-  margin-left: 10px;
+  margin-left: 0;
   font-size: 15px;
   margin-bottom: 0;
   color: black;
+  padding-left: 0;
 }
 .field-name-body table td,
 .field-name-body table th {
@@ -8536,6 +8537,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   height: 85px;
   border-radius: 100%;
   opacity: 0.65;
+  top: 0;
 }
 .backto-project-link .Art a span {
   color: #f1ea44;
