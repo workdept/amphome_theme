@@ -8344,6 +8344,8 @@ aside .block-cck-blocks {
   margin-left: 15px;
   padding-left: 5px;
   padding-right: 5px;
+  padding-left: 0;
+  margin-left: 0;
 }
 .secondary-sidebar-mp {
   margin-left: 15px;
@@ -8505,7 +8507,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 }
 .node-type-news-item .sp-social-buttons,
 .node-type-news-item .backto-project-link a {
-  margin-left: 20px;
+  margin-left: 0;
 }
 .backto-project-link {
   margin-top: 5px;
