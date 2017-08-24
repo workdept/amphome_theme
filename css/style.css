@@ -8285,7 +8285,7 @@ aside .newsletter .boxes-box {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 0;
-  margin-left: 10px;
+  margin-left: 0;
   padding: 15px;
   background-color: #efd8ff;
 }
@@ -8428,14 +8428,12 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 }
 .sp-social-buttons {
   margin-top: 90px;
-  margin-left: 10px;
 }
 .sp-social-buttons .view-header {
   color: #000000;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-left: -10px;
   margin-bottom: 10px;
 }
 .sp-social-buttons a {
@@ -8509,8 +8507,8 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   margin-left: 20px;
 }
 .backto-project-link {
-  margin-left: 10px;
   margin-top: 5px;
+  position: relative;
 }
 .backto-project-link a {
   font-weight: 600;
@@ -8535,7 +8533,6 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   background: transparent;
   position: absolute;
   width: 85px;
-  top: 5px;
   height: 85px;
   border-radius: 100%;
   opacity: 0.65;
