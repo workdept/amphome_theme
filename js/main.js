@@ -105,7 +105,7 @@ Drupal.behaviors.amphome_menu = {
       var $menuparents = $("#navbar nav > ul > li > ul.dropdown-menu", context);
       var logo_width = $('#navbar > div > div.col.col-xs-12.col-md-2').outerWidth();
       var header_height = $('#navbar').parent().outerHeight(); // .fullwidth parent wrapper
-      var container_width = $('.main-container > div > section > article').css('width');
+      var container_width = $('.main-container > div > section > div').css('width');
       $menuparents.each(function() {
         var $menuparent = $(this);
         var left = logo_width + $menuparent.parent().position().left;
