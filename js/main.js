@@ -113,7 +113,7 @@ Drupal.behaviors.amphome_menu = {
         $menuparent
           .addClass('menuparent')
           .css({
-            width: container_width,
+            width: container_width - 31,
             position: 'absolute',
             left: '-' + left + 'px',
             top: '89px'
