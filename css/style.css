@@ -9481,6 +9481,9 @@ a.link:hover {
 #bigtop .pane-bundle-homepage-box .contextual-links-wrapper {
   display: none;
 }
+.pane-bundle-homepage-box h2.pane-title {
+  display: none;
+}
 @media (max-width: 1199px) {
   #homepage .field-name-field-home-box-image .field-items {
     height: 450px;
@@ -9536,9 +9539,6 @@ a.link:hover {
     line-height: 36px;
     margin: 0px 0;
     font-size: 22px;
-  }
-  .pane-bundle-homepage-box h2.pane-title {
-    display: none;
   }
   .pane-bundle-homepage-button .field-name-field-home-button-image img {
     width: 105px;
