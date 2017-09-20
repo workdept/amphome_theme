@@ -95,6 +95,9 @@
             $('#homepage .second-box').on('click', function() {
                 window.location = $('#homepage .second-box .field-name-field-home-box-link .field-item').text();
             });
+
+            //Add a class to image links
+            $('img').parent('a').addClass('contains-image');
         }
     };
 
