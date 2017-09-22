@@ -6719,6 +6719,12 @@ body {
 hr {
   border-top: 1px solid #9900ff;
 }
+.btn-default:hover,
+.btn-default.active:hover {
+  background: transparent;
+  color: #9900ff;
+  border: 3px solid #8826cb;
+}
 figure,
 figcaption {
   display: block;
@@ -9057,6 +9063,7 @@ section.block-menu-block,
   }
   section.block-menu-block .navbar ul li a {
     color: #000;
+    border: none;
   }
   section.block-menu-block .navbar ul li a:hover,
   section.block-menu-block .navbar ul a.active {
