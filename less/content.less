@@ -1331,24 +1331,34 @@ blockquote {
     font-size: 25px;
     font-weight: 500;
     line-height: 32px;
-    padding: 30px 120px;
+    padding: 25px 0;
+    position: relative;
+    border: 0;
+    border-top: 2px #9900ff solid;
+    border-bottom: 2px #9900ff solid;
+    text-align: center;
+    margin: 40px 0;
 }
 
 blockquote:before {
-    top: 0;
-    left: 0;
+    top: -20px;
+    left: -20px;
     content: "\201C";
 }
 blockquote:before, blockquote:after {
     position: absolute;
     width: 60px;
     height: 60px;
-    font-size: 120px;
+    font-size: 75px;
     line-height: 1;
+    padding: 0;
+    margin: 0;
+    color:#9900ff;
+    background: white;
 }
 blockquote:after {
-    top: 0;
-    right: 0;
+    bottom: -37px;
+    right: -20px;
     content: "\201D";
 }
 
