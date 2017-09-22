@@ -62,13 +62,6 @@ body {
     color: @gray-dark;
     background-color: @body-bg;
     text-rendering: optimizeLegibility;
-    blockquote {
-        border-left: 3px solid @purple-dark;
-        color: @purple-dark;
-        font-size: 1.1em;
-        font-weight: 600;
-        padding: 20px;
-    }
 }
 
 hr {
@@ -1333,6 +1326,32 @@ figure {
 a.contains-image:hover { 
     border: none; 
 }
+
+blockquote {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 30px 120px;
+}
+
+blockquote:before {
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:before, blockquote:after {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    font-size: 120px;
+    line-height: 1;
+}
+blockquote:after {
+    top: 0;
+    right: 0;
+    content: "\201D";
+}
+
 
 .cf:before,
 .cf:after {
