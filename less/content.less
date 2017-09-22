@@ -1348,7 +1348,7 @@ blockquote:before {
 blockquote:before, blockquote:after {
     position: absolute;
     width: 60px;
-    height: 60px;
+    height: 40px;
     font-size: 75px;
     line-height: 1;
     padding: 0;
@@ -1357,9 +1357,34 @@ blockquote:before, blockquote:after {
     background: white;
 }
 blockquote:after {
-    bottom: -37px;
+    bottom: -20px;
     right: -20px;
     content: "\201D";
+}
+
+blockquote cite{
+    font-style: normal;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 39px;
+    margin: 10px 0 0;
+    font-weight: 600;
+}
+
+figure, figcaption {
+    font-weight: 500;
+    color:#9900ff;
+}
+
+article a {
+    border-bottom: solid 1px purple;
+    font-weight: 500;
+}
+
+article a:hover{
+    background:#fffd38;
+
 }
 
 
