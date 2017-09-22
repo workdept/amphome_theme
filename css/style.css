@@ -6624,10 +6624,13 @@ div.features-export-list .form-type-checkbox input[type=checkbox] {
     font-family: "HalisGR", Helvetica Neue, Arial, sans-serif;
     color: #9900ff;
     margin-left: 10px;
+    border: 0;
   }
   #navbar .boxes-box-content a:hover {
     color: #000000;
     text-decoration: none;
+    border-bottom: 3px solid #08109f;
+    background-color: transparent;
   }
   #navbar #block-search-form {
     width: 212px;
@@ -8069,6 +8072,7 @@ section dl a,
 section p a {
   border-bottom: solid 1px purple;
   font-weight: 500;
+  color: black;
 }
 article a:hover,
 section ul a:hover,
@@ -8077,6 +8081,8 @@ section dl a:hover,
 section p a:hover {
   background: #fffd38;
   text-decoration: none;
+  border: none;
+  color: black;
 }
 body {
   font-size: 15px;
@@ -8181,10 +8187,14 @@ article .field-name-body {
   color: #08109f;
   font-weight: 700;
   margin-bottom: 2px;
+  border-bottom: 0;
 }
 .view-project-news article h3 a:hover {
+  color: #08109f;
   text-decoration: none;
   border-bottom: none;
+  background: transparent;
+  border-bottom: 3px solid #08109f;
 }
 .view-project-news .view-footer {
   margin-left: 15px;
@@ -8286,10 +8296,14 @@ article .field-name-body {
   color: #08109f;
   font-weight: 700;
   margin-bottom: 2px;
+  border-bottom: 0;
 }
 .pane-views-amp-news-block-3 .amp-news-block article h3 a:hover {
+  color: #08109f;
   text-decoration: none;
   border-bottom: none;
+  background: transparent;
+  border-bottom: 3px solid #08109f;
 }
 .pane-views-amp-news-block-3 .amp-news-block .view-footer {
   margin-left: 15px;
@@ -9086,6 +9100,7 @@ section.block-menu-block,
   background: transparent;
   margin: 0;
   padding: 0;
+  border: 0;
 }
 #block-menu-block-1 .navbar-nav li.leaf a:hover {
   border: 0;
