@@ -8062,16 +8062,27 @@ figcaption {
   font-weight: 500;
   color: #9900ff;
 }
-article a {
+article a,
+section ul a,
+section ol a,
+section dl a,
+section p a {
   border-bottom: solid 1px purple;
   font-weight: 500;
 }
-article a:hover {
+article a:hover,
+section ul a:hover,
+section ol a:hover,
+section dl a:hover,
+section p a:hover {
   background: #fffd38;
   text-decoration: none;
 }
 body {
   font-size: 15px;
+}
+article .field-name-body {
+  margin: 0 72px;
 }
 .cf:before,
 .cf:after {
