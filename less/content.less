@@ -240,6 +240,7 @@ section {
     li:nth-child(2) {
         display: block;
         padding-top: 10px;
+        border-bottom: 0;
         .h1;
         .page-header;
         padding-top: 3px;
@@ -251,6 +252,7 @@ section {
         a:link, a:visited, a:active, a:hover {
             font-weight: 500;
             color: @component-active-color;
+            background-size: 0;
         }
     }
     li:nth-child(3),
@@ -1434,6 +1436,10 @@ article .field-name-body{
     background: transparent;
     color: #9900ff;
     border: solid;
+}
+
+article.node-news-item time{
+    margin:0 72px;
 }
 
 /**
