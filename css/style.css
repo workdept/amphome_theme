@@ -6922,7 +6922,8 @@ section time {
 .breadcrumb li:nth-child(2) a:hover {
   font-weight: 500;
   color: #9900ff;
-  background-size: 0;
+  background: none;
+  border: 0;
 }
 .breadcrumb li:nth-child(3),
 .breadcrumb li:nth-child(4),
