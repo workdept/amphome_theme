@@ -6738,7 +6738,6 @@ article .field-name-body li {
 article .field-name-body li:before {
   content: "• ";
   color: #9900ff;
-  padding-right: 8px;
 }
 figure,
 figcaption {
