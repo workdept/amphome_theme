@@ -8710,6 +8710,10 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border-top: 1px solid #000;
 }
 #block-boxes-footer-logo {
+  width: 50%;
+  float: left;
+}
+#block-boxes-footer-logo #boxes-box-footer_logo {
   width: 465px;
 }
 #block-boxes-footer-logo img {
@@ -8726,6 +8730,8 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   padding-left: 25px;
 }
 #block-boxes-footer-links {
+  width: 50%;
+  float: left;
   margin-top: 25px;
 }
 #block-boxes-footer-links li {
@@ -8741,7 +8747,10 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   line-height: 0;
 }
 #block-boxes-footer-sociallinks {
-  float: right;
+  width: 50%;
+  float: left;
+}
+#block-boxes-footer-sociallinks #boxes-box-footer_links {
   width: 260px;
 }
 #block-boxes-footer-sociallinks h2 {
@@ -8753,11 +8762,55 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 #block-boxes-footer-sociallinks .sp-social-buttons {
   margin-top: 0;
 }
+#block-boxes-footer-sociallinks .sp-social-buttons a {
+  background: #fff;
+  color: #000;
+}
+#block-boxes-footer-sociallinks .sp-social-buttons a:hover {
+  background: #000;
+  color: #fff;
+  border: #fff solid 2px;
+}
+#block-boxes-footer-newsletter {
+  width: 50%;
+  float: left;
+}
+#block-boxes-footer-newsletter #boxes-box-footer_links {
+  width: 260px;
+}
 #block-boxes-footer-newsletter h2 {
   background: transparent;
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
+}
+#block-boxes-footer-newsletter input {
+  background: #fff;
+  color: #000;
+  margin-bottom: 8px;
+}
+#block-boxes-footer-newsletter #mc_embed_signup input[type="submit"] {
+  background: #000;
+  border: solid 2px #fff;
+  text-transform: uppercase;
+}
+#block-boxes-footer-newsletter ::-webkit-input-placeholder {
+  /* Chrome */
+  color: #000;
+}
+#block-boxes-footer-newsletter :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #000;
+}
+#block-boxes-footer-newsletter ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #000;
+  opacity: 1;
+}
+#block-boxes-footer-newsletter :-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #000;
+  opacity: 1;
 }
 .navbar-default .navbar-nav > li > span {
   font-weight: 600;

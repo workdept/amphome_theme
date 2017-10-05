@@ -13,7 +13,11 @@
 }
 
 #block-boxes-footer-logo {
-    width: 465px;
+    width: 50%;
+    float: left;
+    #boxes-box-footer_logo {
+        width: 465px;
+    }
     img {
         width: 175px;
         margin: 10px 33px;
@@ -30,6 +34,8 @@
 }
 
 #block-boxes-footer-links {
+    width: 50%;
+    float: left;
     margin-top: 25px;
     li {
         color: #fff;
@@ -46,8 +52,11 @@
 }
 
 #block-boxes-footer-sociallinks {
-    float: right;
-    width: 260px;
+    width: 50%;
+    float: left;
+    #boxes-box-footer_links {
+        width: 260px;
+    }
     h2 {
         background: transparent;
         color: #fff;
@@ -57,13 +66,56 @@
     .sp-social-buttons {
         margin-top: 0;
     }
+    .sp-social-buttons a {
+        background: #fff;
+        color: #000;
+    }
+    .sp-social-buttons a:hover {
+        background: #000;
+        color: #fff;
+        border: #fff solid 2px;
+    }
 }
 
 #block-boxes-footer-newsletter {
+    width: 50%;
+    float: left;
+    #boxes-box-footer_links {
+        width: 260px;
+    }
     h2 {
         background: transparent;
         color: #fff;
         font-size: 12px;
         text-transform: uppercase;
+    }
+    input {
+        background: #fff;
+        color: #000;
+        margin-bottom: 8px;
+    }
+    #mc_embed_signup input[type="submit"]{
+    background: #000;
+    border: solid 2px #fff;
+    text-transform: uppercase;
+    }
+
+    ::-webkit-input-placeholder {
+        /* Chrome */
+        color: #000;
+    }
+    :-ms-input-placeholder {
+        /* IE 10+ */
+        color: #000;
+    }
+    ::-moz-placeholder {
+        /* Firefox 19+ */        
+        color: #000;
+        opacity: 1;
+    }
+    :-moz-placeholder {
+        /* Firefox 4 - 18 */
+        color: #000;
+        opacity: 1;
     }
 }
