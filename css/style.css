@@ -6731,13 +6731,14 @@ article .field-name-body ul {
   margin: 0;
 }
 article .field-name-body li {
-  padding-left: 1em;
+  padding-left: 2em;
   text-indent: -0.7em;
   margin-bottom: 8px;
 }
 article .field-name-body li:before {
   content: "• ";
   color: #9900ff;
+  padding-right: 8px;
 }
 figure,
 figcaption {
