@@ -6725,16 +6725,17 @@ hr {
   color: #9900ff;
   border: 3px solid #8826cb;
 }
-ul {
+article .field-name-body ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-li {
+article .field-name-body li {
   padding-left: 1em;
   text-indent: -0.7em;
+  margin-bottom: 8px;
 }
-li:before {
+article .field-name-body li:before {
   content: "• ";
   color: #9900ff;
 }
