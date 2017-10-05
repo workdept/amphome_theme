@@ -8807,6 +8807,10 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border: solid 2px #fff;
   text-transform: uppercase;
 }
+#block-boxes-footer-newsletter #mc_embed_signup input[type="submit"]:hover {
+  background: #fff;
+  color: #000;
+}
 #block-boxes-footer-newsletter ::-webkit-input-placeholder {
   /* Chrome */
   color: #000;
