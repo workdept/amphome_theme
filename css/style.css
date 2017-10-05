@@ -8734,10 +8734,6 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   float: left;
   margin-top: 25px;
 }
-#block-boxes-footer-links #boxes-box-footer_links {
-  width: 260px;
-  float: right;
-}
 #block-boxes-footer-links li {
   list-style: none;
   margin-bottom: 5px;
@@ -8746,6 +8742,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
+  border-bottom: 0;
 }
 #block-boxes-footer-links li a:hover {
   color: #fff;
@@ -8761,6 +8758,10 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   width: 50%;
   float: left;
   height: 107px;
+}
+#block-boxes-footer-sociallinks #boxes-box-footer_sociallinks {
+  width: 260px;
+  float: right;
 }
 #block-boxes-footer-sociallinks h2 {
   background: transparent;
@@ -8831,9 +8832,22 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   #block-boxes-footer-links {
     width: 100%;
   }
-  #boxes-box-footer_sociallinks,
-  #boxes-box-footer_newsletter {
+  #block-boxes-footer-sociallinks #boxes-box-footer_sociallinks,
+  #block-boxes-footer-newsletter #boxes-box-footer_newsletter {
     float: left;
+    margin-left: 37px;
+    margin-top: 29px;
+  }
+}
+@media (max-width: 480px) {
+  #block-boxes-footer-logo span {
+    width: 100%;
+    border: 0;
+    display: block;
+    padding-left: 37px;
+  }
+  #block-boxes-footer-logo #boxes-box-footer_logo {
+    width: 100%;
   }
 }
 .navbar-default .navbar-nav > li > span {
