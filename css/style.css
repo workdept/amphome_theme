@@ -8235,10 +8235,13 @@ article.node-news-item time{
   color: #08109f;
   font-weight: 700;
   margin-bottom: 2px;
+  border-bottom: 0;
 }
 .view-project-news article h3 a:hover {
+  color: #08109f;
   text-decoration: none;
-  border-bottom: none;
+  border-bottom: 3px solid #08109f;
+  background-color: transparent;
 }
 .view-project-news .view-footer {
   margin-left: 15px;
@@ -8340,10 +8343,13 @@ article.node-news-item time{
   color: #08109f;
   font-weight: 700;
   margin-bottom: 2px;
+  border-bottom: 0;
 }
 .pane-views-amp-news-block-3 .amp-news-block article h3 a:hover {
+  color: #08109f;
   text-decoration: none;
-  border-bottom: none;
+  border-bottom: 3px solid #08109f;
+  background-color: transparent;
 }
 .pane-views-amp-news-block-3 .amp-news-block .view-footer {
   margin-left: 15px;
