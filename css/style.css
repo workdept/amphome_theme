@@ -6668,7 +6668,7 @@ h2 {
   font-weight: 500;
   font-size: 28px;
   line-height: 1.6em;
-  color: #000000;
+  color: #9900ff;
   background-color: #ffffff;
 }
 h3 {
@@ -6680,7 +6680,7 @@ h3 {
 }
 h4 {
   font-weight: 800;
-  font-size: 19px;
+  font-size: 17px;
   text-transform: uppercase;
   line-height: 1.6em;
   color: #9900ff;
@@ -6724,6 +6724,19 @@ hr {
   background: transparent;
   color: #9900ff;
   border: 3px solid #8826cb;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding-left: 1em;
+  text-indent: -0.7em;
+}
+li:before {
+  content: "• ";
+  color: #9900ff;
 }
 figure,
 figcaption {

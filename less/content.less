@@ -10,7 +10,7 @@ h2 {
     font-weight: 500;
     font-size: @font-size-h2;
     line-height: 1.6em;
-    color: @brand-primary;
+    color: @component-active-color;
     background-color: @body-bg;
 }
 
@@ -24,7 +24,7 @@ h3 {
 
 h4 {
     font-weight: 800;
-    font-size: @font-size-h4;
+    font-size: 17px;
     text-transform: uppercase;
     line-height: 1.6em;
     color: @component-active-color;
@@ -72,6 +72,22 @@ hr {
     background: transparent;
     color: #9900ff;
     border: 3px solid #8826cb;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+li:before {
+  content: "• ";
+  color: @component-active-color;
 }
 
 figure,
