@@ -8710,7 +8710,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border-top: 1px solid #000;
 }
 #block-boxes-footer-logo {
-  width: 455px;
+  width: 465px;
 }
 #block-boxes-footer-logo img {
   width: 175px;
@@ -8725,11 +8725,39 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   border-left: solid 2px #fff;
   padding-left: 25px;
 }
+#block-boxes-footer-links {
+  margin-top: 25px;
+}
 #block-boxes-footer-links li {
   color: #fff;
   text-transform: uppercase;
   list-style: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+#block-boxes-footer-links li i {
+  font-size: 10px;
+  margin: 0 4px;
+  line-height: 0;
+}
+#block-boxes-footer-sociallinks {
+  float: right;
+  width: 260px;
+}
+#block-boxes-footer-sociallinks h2 {
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#block-boxes-footer-sociallinks .sp-social-buttons {
+  margin-top: 0;
+}
+#block-boxes-footer-newsletter h2 {
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > span {
   font-weight: 600;
