@@ -8264,6 +8264,7 @@ article .field-name-body,
   padding-right: 5px;
   margin-top: 5px;
   border-bottom: solid 1px;
+  margin-bottom: 50px;
 }
 .view-project-news a {
   color: #08109f;
@@ -8372,6 +8373,7 @@ article .field-name-body,
   padding-right: 5px;
   margin-top: 5px;
   border-bottom: solid 1px;
+  margin-bottom: 50px;
 }
 .pane-views-amp-news-block-3 .amp-news-block a {
   color: #08109f;
@@ -8380,6 +8382,9 @@ article .field-name-body,
 }
 .pane-views-amp-news-block-3 .amp-news-block a:hover {
   color: #08109f;
+}
+.node-type-news-item #block-views-social-media-buttons-block-2 {
+  margin-top: 75px;
 }
 aside {
   margin-top: 15px;
