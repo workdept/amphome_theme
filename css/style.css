@@ -8113,13 +8113,21 @@ section p a:hover {
 body {
   font-size: 15px;
 }
-article .field-name-body {
+article .field-name-body,
+.webform-client-form {
   max-width: 705px;
   margin: 0 auto;
 }
-article.node-news-item time {
+.node-type-news-item .page-header,
+.node-type-news-item .byline,
+.node-type-news-item .node-news-item,
+.node-type-webform .page-header {
   max-width: 705px;
   margin: 0 auto;
+}
+.front .panels-bootstrap-column-frontlayout-14 {
+  margin: 0 auto;
+  float: none;
 }
 .view-sponsored-projects a {
   border-bottom: none;
