@@ -8593,12 +8593,17 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   height: auto;
 }
 .sp-social-buttons {
-  background: black;
-  padding: 10px;
+  background: transparent;
+  margin-top: 20px;
 }
 .sp-social-buttons .view-header {
   color: #fff;
-  margin-bottom: 5px;
+}
+.sp-social-buttons .view-header div {
+  padding: 10px 10px 5px 10px;
+}
+.sp-social-buttons .views-row {
+  padding: 0 10px 15px;
 }
 .sp-social-buttons a {
   float: left;
@@ -8833,6 +8838,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 #block-boxes-footer-sociallinks .sp-social-buttons {
   margin-top: 0;
   background: transparent;
+  padding: 0;
 }
 #block-boxes-footer-sociallinks .sp-social-buttons a {
   background: #fff;
