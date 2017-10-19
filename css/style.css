@@ -8040,8 +8040,10 @@ figure {
 .field-name-body table th {
   padding: 3px;
 }
+a.contains-image,
 a.contains-image:hover {
   border: none;
+  background: none;
 }
 blockquote {
   font-size: 25px;
@@ -8517,7 +8519,7 @@ aside .block-cck-blocks {
 aside .sp-social-buttons .view-footer {
   background: transparent;
   padding: 0;
-  margin: 5px 0;
+  margin: 0;
 }
 aside .sp-social-buttons .view-footer h2 {
   background: transparent;
