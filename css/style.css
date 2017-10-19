@@ -8508,6 +8508,7 @@ aside .sp-social-buttons .view-footer {
   background: transparent;
   padding: 0;
   margin: 10px 0;
+  padding: 0 10px 15px;
 }
 aside .sp-social-buttons .view-footer h2 {
   background: transparent;
@@ -8603,7 +8604,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   padding: 10px 10px 5px 10px;
 }
 .sp-social-buttons .views-row {
-  padding: 0 10px 15px;
+  padding: 0 10px 5px;
 }
 .sp-social-buttons a {
   float: left;
