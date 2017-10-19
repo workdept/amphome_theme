@@ -8581,7 +8581,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 }
 .sp-social-buttons .view-header {
   color: #fff;
-  margin-bottom: 1px;
+  margin-bottom: 5px;
 }
 .sp-social-buttons a {
   float: left;
@@ -8600,9 +8600,6 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   color: #9900ff;
   border: solid 2px #9900ff;
   background: white;
-}
-.section-sponsoredprojects .sp-social-buttons .view-header {
-  display: none;
 }
 .art-sp .sp-social-buttons,
 .sp-social-buttons .Art {
@@ -8818,6 +8815,8 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 }
 #block-boxes-footer-sociallinks .sp-social-buttons {
   margin-top: 0;
+  background: transparent;
+  padding: 0;
 }
 #block-boxes-footer-sociallinks .sp-social-buttons a {
   background: #fff;
