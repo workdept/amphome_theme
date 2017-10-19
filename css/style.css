@@ -8528,6 +8528,12 @@ aside .sp-social-buttons .view-footer h2 {
 aside .sp-social-buttons .view-footer #mc_embed_signup {
   padding: 0 10px 15px;
 }
+#mc_embed_signup {
+  color: #fff;
+}
+#mc_embed_signup a {
+  color: #fff;
+}
 #mc_embed_signup input {
   height: 30px;
   padding: 5px 10px;
