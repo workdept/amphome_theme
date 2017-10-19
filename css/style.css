@@ -8450,6 +8450,16 @@ aside .sp-social-buttons .view-footer h2 {
   font-weight: 700;
   text-transform: uppercase;
 }
+aside #block-boxes-amp-list-signup p,
+aside .pane-boxes-amp-list-signup p,
+aside .newsletter .boxes-box p,
+aside .sp-social-buttons .view-footer p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
 aside #block-boxes-amp-list-signup .form-control,
 aside .pane-boxes-amp-list-signup .form-control,
 aside .newsletter .boxes-box .form-control,
@@ -8507,7 +8517,7 @@ aside .block-cck-blocks {
 aside .sp-social-buttons .view-footer {
   background: transparent;
   padding: 0;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 aside .sp-social-buttons .view-footer h2 {
   background: transparent;
@@ -8574,7 +8584,7 @@ aside .newsletter.orange .boxes-box h2 {
 }
 .newsletter.blue .boxes-box,
 aside .newsletter.blue .boxes-box h2 {
-  background: #656dbd;
+  background: #25408f;
 }
 aside .newsletter {
   color: black;
@@ -8706,7 +8716,7 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 }
 .sp-social-buttons.amp,
 .sp-social-buttons.amc {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .node-type-news-item .sp-social-buttons,
 .node-type-news-item .backto-project-link a {
