@@ -8428,7 +8428,8 @@ aside section a {
 }
 aside #block-boxes-amp-list-signup,
 aside .pane-boxes-amp-list-signup,
-aside .newsletter .boxes-box {
+aside .newsletter .boxes-box,
+aside .views-field-field-mailchimp-embed {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 0;
@@ -8438,7 +8439,8 @@ aside .newsletter .boxes-box {
 }
 aside #block-boxes-amp-list-signup h2,
 aside .pane-boxes-amp-list-signup h2,
-aside .newsletter .boxes-box h2 {
+aside .newsletter .boxes-box h2,
+aside .views-field-field-mailchimp-embed h2 {
   margin: 0;
   padding-left: 0px;
   background-color: #efd8ff;
@@ -8450,19 +8452,23 @@ aside .newsletter .boxes-box h2 {
 }
 aside #block-boxes-amp-list-signup .form-control,
 aside .pane-boxes-amp-list-signup .form-control,
-aside .newsletter .boxes-box .form-control {
+aside .newsletter .boxes-box .form-control,
+aside .views-field-field-mailchimp-embed .form-control {
   display: block;
   margin-bottom: 10px;
 }
 aside #block-boxes-amp-list-signup .btn-primary:hover,
 aside .pane-boxes-amp-list-signup .btn-primary:hover,
 aside .newsletter .boxes-box .btn-primary:hover,
+aside .views-field-field-mailchimp-embed .btn-primary:hover,
 aside #block-boxes-amp-list-signup .btn-primary:focus,
 aside .pane-boxes-amp-list-signup .btn-primary:focus,
 aside .newsletter .boxes-box .btn-primary:focus,
+aside .views-field-field-mailchimp-embed .btn-primary:focus,
 aside #block-boxes-amp-list-signup .btn-primary:active,
 aside .pane-boxes-amp-list-signup .btn-primary:active,
-aside .newsletter .boxes-box .btn-primary:active {
+aside .newsletter .boxes-box .btn-primary:active,
+aside .views-field-field-mailchimp-embed .btn-primary:active {
   color: #efd8ff;
 }
 aside #block-boxes-blog-addthis {
