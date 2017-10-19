@@ -8507,7 +8507,7 @@ aside .block-cck-blocks {
 aside .sp-social-buttons .view-footer {
   background: transparent;
   padding: 0;
-  margin: 0;
+  margin: 10px 0;
 }
 aside .sp-social-buttons .view-footer h2 {
   background: transparent;
