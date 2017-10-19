@@ -8833,11 +8833,16 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 #block-boxes-footer-sociallinks .sp-social-buttons {
   margin-top: 0;
   background: transparent;
-  padding: 0;
 }
 #block-boxes-footer-sociallinks .sp-social-buttons a {
   background: #fff;
   color: #000;
+  float: left;
+  padding: 8px;
+  margin-right: 10px;
+  line-height: 0;
+  font-size: 20px;
+  width: 39px;
 }
 #block-boxes-footer-sociallinks .sp-social-buttons a:hover {
   background: #000;
