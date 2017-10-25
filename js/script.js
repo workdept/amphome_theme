@@ -98,6 +98,10 @@
 
             //Add a class to image links
             $('img').parent('a').addClass('contains-image');
+
+            if ($('.view-id-social_media_buttons a').length < 1) {
+                $('.view-id-social_media_buttons').hide(); 
+            }
         }
     };
 
