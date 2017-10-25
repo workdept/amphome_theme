@@ -9098,11 +9098,19 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   text-align: left;
   padding-left: 3%;
 }
+.mm-menu #boxes-box-footer_sociallinks h2 {
+  display: none;
+}
 .mm-menu #boxes-box-footer_sociallinks a {
-  height: 26px;
-  width: 26px;
+  height: 30px;
+  width: 30px;
   border-radius: 100%;
-  margin-right: 2px;
+  margin-right: 6px;
+  font-size: 16px;
+  line-height: 18px;
+}
+.mm-menu #boxes-box-footer_sociallinks a:hover {
+  border: solid 2px #fff;
 }
 .mm-menu #boxes-box-footer_sociallinks .facebook {
   background-position: 6px 3px;
