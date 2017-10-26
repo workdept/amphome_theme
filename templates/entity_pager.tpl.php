@@ -42,7 +42,7 @@
 			?>
 			<a class="image" href="/node/<?php print $link?>">
 			<?php if(!empty($images)) {print render($image);} ?></a>
-			<a class="title" href="/node/<?php print $link?>"><?php print $node->title; ?></a>
+			<a class="title" href="/node/<?php print $link?>"><?php print render($node->title); ?></a>
           </li>
   <?php endif; ?>
   <?php endforeach; ?>

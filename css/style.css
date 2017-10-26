@@ -8175,9 +8175,17 @@ article .field-name-body,
   margin-left: 20px;
   color: #08109f;
   font-weight: 700;
+  border: 0;
+  background: 0;
 }
-#block-views-pager-block-1 a.title:hover {
+#block-views-pager-block-1 .entity_pager li a.title:hover {
   border-bottom: 3px solid #08109f;
+}
+@media (max-width: 450px) {
+  #block-views-pager-block-1 .entity_pager li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
 .cf:before,
 .cf:after {
