@@ -40,10 +40,9 @@
 		     );
 		    }
 			?>
-			<a href="/node/<?php print $link?>">
-			<?php if(!empty($images)) {print render($image);} ?>
-			<span class="title"><?php print $node->title; ?></span>
-			</a>
+			<a class="image" href="/node/<?php print $link?>">
+			<?php if(!empty($images)) {print render($image);} ?></a>
+			<a class="title" href="/node/<?php print $link?>"><?php print $node->title; ?></a>
           </li>
   <?php endif; ?>
   <?php endforeach; ?>

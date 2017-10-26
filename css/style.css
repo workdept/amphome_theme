@@ -8124,7 +8124,7 @@ article .field-name-body,
 .node-type-news-item .byline,
 .node-type-news-item .node-news-item,
 .node-type-webform .page-header,
-.block-views-pager-block-1 {
+#block-views-pager-block-1 {
   max-width: 705px;
   margin: 0 auto;
 }
@@ -8168,7 +8168,7 @@ article .field-name-body,
   float: left;
   max-width: 40%;
 }
-#block-views-pager-block-1 .entity_pager li span {
+#block-views-pager-block-1 .entity_pager li a.title {
   text-align: left;
   float: left;
   width: 48%;
@@ -8176,7 +8176,7 @@ article .field-name-body,
   color: #08109f;
   font-weight: 700;
 }
-#block-views-pager-block-1 a:hover span {
+#block-views-pager-block-1 a.title:hover {
   border-bottom: 3px solid #08109f;
 }
 .cf:before,
