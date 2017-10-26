@@ -9146,9 +9146,14 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
   margin-right: 6px;
   font-size: 16px;
   line-height: 18px;
+  border: solid 2px white;
+  background: #9900ff;
+  color: #fff;
 }
 .mm-menu #boxes-box-footer_sociallinks a:hover {
   border: solid 2px #fff;
+  background: #fff;
+  color: #9900ff;
 }
 .mm-menu #boxes-box-footer_sociallinks .facebook {
   background-position: 6px 3px;
