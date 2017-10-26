@@ -8178,10 +8178,7 @@ article .field-name-body,
   border: 0;
   background: 0;
 }
-#block-views-pager-block-1 .entity_pager li a.title:hover {
-  border-bottom: 3px solid #08109f;
-}
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   #block-views-pager-block-1 .entity_pager li {
     width: 100%;
     margin-bottom: 30px;
