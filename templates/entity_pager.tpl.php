@@ -34,16 +34,15 @@
 		      $image = field_view_value('node', $node, 'field_news_lead_image', $images[0], array(
 		        'type' => 'image',
 		        'settings' => array(
-		          'image_style' => 'thumbnail'
+		          'image_style' => 'blog_sq_med'
 		        )
 		      )
 		     );
 		    }
-    	$variables['image'] = $image;
 			?>
 			<a href="/node/<?php print $link?>">
-			<?php print render($image); ?>
-			<?php print $node->title; ?>
+			<?php if(!empty($images)) {print render($image);} ?>
+			<span class="title"><?php print $node->title; ?></span>
 			</a>
           </li>
   <?php endif; ?>

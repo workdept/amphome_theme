@@ -8149,6 +8149,22 @@ article .field-name-body,
     margin: 0px;
   }
 }
+#block-views-pager-block-1 {
+  border-top: solid 3px #000;
+}
+#block-views-pager-block-1 h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+#block-views-pager-block-1 .entity_pager li {
+  display: inline-block;
+  margin: 0;
+  width: 50%;
+  float: left;
+}
+#block-views-pager-block-1 .entity_pager li img {
+  float: left;
+}
 .cf:before,
 .cf:after {
   content: " ";
