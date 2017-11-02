@@ -102,6 +102,10 @@
             if ($('.view-id-social_media_buttons a').length < 1) {
                 $('.view-id-social_media_buttons').hide(); 
             }
+
+            $('nav.menu-block-6 li').removeClass('dropdown');
+            $('nav.menu-block-6 ul').removeClass('dropdown-menu');
+            
         }
     };
 
