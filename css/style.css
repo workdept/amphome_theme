@@ -8485,10 +8485,11 @@ aside .sp-social-buttons .view-footer h2 {
   padding-left: 0px;
   background-color: #efd8ff;
   border: 0px;
-  color: #fff;
+  color: #000;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
+  line-height: 16px;
 }
 aside #block-boxes-amp-list-signup p,
 aside .pane-boxes-amp-list-signup p,
