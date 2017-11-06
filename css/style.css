@@ -9427,7 +9427,8 @@ nav.menu-block-6 li a {
   color: #000000;
   border-bottom: none;
 }
-nav.menu-block-6 li a:hover {
+nav.menu-block-6 li a:hover,
+nav.menu-block-6 li a.active {
   font-weight: 600;
   text-decoration: none;
   color: #9900ff;
@@ -9436,6 +9437,12 @@ nav.menu-block-6 li a:hover {
 }
 nav.menu-block-6 ul {
   padding: 0;
+}
+.page-node-671 .breadcrumb li {
+  display: none;
+}
+.page-node-671 .breadcrumb li:nth-child(2) {
+  display: block;
 }
 @media (max-width: 992px) {
   section.block-menu-block nav.menu-block-6 {

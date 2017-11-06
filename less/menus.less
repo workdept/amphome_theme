@@ -508,7 +508,8 @@ nav.menu-block-6 li a {
     font-weight: 600;
     color: #000000;
     border-bottom: none;
-    &:hover {
+    &:hover,
+    &.active {
         font-weight: 600;
         text-decoration: none;
         color: #9900ff;
@@ -519,6 +520,14 @@ nav.menu-block-6 li a {
 
 nav.menu-block-6 ul {
     padding: 0;
+}
+
+.page-node-671 .breadcrumb li{
+  display: none;
+}
+
+.page-node-671 .breadcrumb li:nth-child(2){
+  display: block;
 }
 
 @media (max-width: 992px) {
