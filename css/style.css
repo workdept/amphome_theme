@@ -9444,6 +9444,12 @@ nav.menu-block-6 ul {
 .page-node-671 .breadcrumb li:nth-child(2) {
   display: block;
 }
+.sp-top-menu.section-sponsoredprojects .breadcrumb {
+  display: none !important;
+}
+.sp-top-menu.section-sponsoredprojects .page-header {
+  display: block !important;
+}
 @media (max-width: 992px) {
   section.block-menu-block nav.menu-block-6 {
     border-top: 0;
