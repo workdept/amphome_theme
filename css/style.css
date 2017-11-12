@@ -8723,6 +8723,9 @@ aside .sp-social-buttons .view-footer .Art :-moz-placeholder {
   color: #000;
   opacity: 1;
 }
+aside .sp-social-buttons .view-footer .Art #mc_embed_signup {
+  color: #000;
+}
 aside .sp-social-buttons .view-footer .Art h2 {
   color: #000000;
 }
