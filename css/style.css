@@ -8705,6 +8705,24 @@ aside .newsletter #mc_embed_signup input[type="checkbox"] {
 .sp-social-buttons .Art h2 {
   color: #000000;
 }
+aside .sp-social-buttons .view-footer .Art ::-webkit-input-placeholder {
+  /* Chrome */
+  color: #000;
+}
+aside .sp-social-buttons .view-footer .Art :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #000;
+}
+aside .sp-social-buttons .view-footer .Art ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #000;
+  opacity: 1;
+}
+aside .sp-social-buttons .view-footer .Art :-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #000;
+  opacity: 1;
+}
 aside .sp-social-buttons .view-footer .Art h2 {
   color: #000000;
 }
