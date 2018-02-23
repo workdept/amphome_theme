@@ -8565,13 +8565,15 @@ aside #mc_embed_signup h2 {
   display: block;
   clear: both;
   margin: 0;
+  padding: 0;
+  padding-top: 8px;
 }
 aside #mc_embed_signup .form-control {
   display: block;
   margin-bottom: 10px;
 }
 aside #mc_embed_signup {
-  padding: 0 10px 15px;
+  padding: 0 0 15px;
 }
 aside .sp-social-buttons .view-footer {
   background: transparent;
