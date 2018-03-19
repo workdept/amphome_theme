@@ -7584,11 +7584,12 @@ section time {
 .isotope-container li:hover .overlay {
   background: transparent;
   position: absolute;
-  width: 100%;
+  width: 168px;
   top: 0;
-  height: 178px;
+  height: 168px;
   border-radius: 100%;
   opacity: 0.65;
+  margin: 5px;
 }
 .isotope-container li:hover .title a {
   color: #08109f;
