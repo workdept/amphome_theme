@@ -26,6 +26,6 @@
 $show_date = time() - (60*60*24*7*12); //time minus 12 weeks
 $post_date = $row->node_created;
 	if ($post_date > $show_date) {
-	  print '<div class="new">new</div>';
+	  print '<div class="new"></div>';
 	}
 ?>
