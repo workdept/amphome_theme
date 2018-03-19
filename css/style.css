@@ -8187,6 +8187,13 @@ article .field-name-body,
     margin-bottom: 30px;
   }
 }
+li.isotope-element.new img {
+  padding: 5px;
+}
+li.isotope-element.new img {
+  border: solid 1px black;
+  border-radius: 100%;
+}
 .cf:before,
 .cf:after {
   content: " ";

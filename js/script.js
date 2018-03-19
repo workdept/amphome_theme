@@ -14,6 +14,12 @@
         }
     };
 
+    Drupal.behaviors.random = {
+         attach: function(context, settings) {
+            $("li.isotope-element div.new").parent().addClass("new");
+         }
+    };
+
     Drupal.behaviors.sponsoredprojectsmenu = {
         attach: function(context, settings) {
             //Special style for the donate button
