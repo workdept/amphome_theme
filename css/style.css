@@ -7584,12 +7584,12 @@ section time {
 .isotope-container li:hover .overlay {
   background: transparent;
   position: absolute;
-  width: 168px;
+  width: 165px;
   top: 0;
-  height: 168px;
+  height: 165px;
   border-radius: 100%;
   opacity: 0.65;
-  margin: 5px;
+  margin: 7px;
 }
 .isotope-container li:hover .title a {
   color: #08109f;
@@ -8189,11 +8189,21 @@ article .field-name-body,
   }
 }
 li.isotope-element img {
-  padding: 5px;
+  padding: 8px;
 }
-li.isotope-element.new img {
-  border: solid 1px black;
-  border-radius: 100%;
+li.isotope-element.new .img-wrap {
+  background-image: url(/sites/all/themes/amphome/images/amp_sp_NEW_black.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+li.isotope-element.new.art:hover .img-wrap {
+  background-image: url(/sites/all/themes/amphome/images/amp_sp_NEW_HOVyellow.png);
+}
+li.isotope-element.new.media:hover .img-wrap {
+  background-image: url(/sites/all/themes/amphome/images/amp_sp_NEW_HOVgreen.png);
+}
+li.isotope-element.new.tech:hover .img-wrap {
+  background-image: url(/sites/all/themes/amphome/images/amp_sp_NEW__HOVpink.png);
 }
 .cf:before,
 .cf:after {
