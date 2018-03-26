@@ -11,5 +11,5 @@
 
 
 <div class="isotope-options clearfix" data-group="ALUMNI">
-    <input type="checkbox" value=".current, .alumni" id="current" class="cbx hidden"/><label for="current" class="lbl"></label>
+    <input type="checkbox" value=".current, .alumni" id="current" class="cbx hidden" checked/><label for="current" class="lbl"></label>
 </div>
