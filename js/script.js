@@ -18,9 +18,45 @@
          attach: function(context, settings) {
             $("li.isotope-element div.new").parent().addClass("new");
 
+            $( ".view-id-sponsored_projects.view-display-id-block_1 h3" ).click(function() {
+                event.stopPropagation();
+                $( ".view-id-sponsored_projects.view-display-id-block_1 ul" ).toggle();
+            });
+
+            $(document).on("click", function () {
+                $(".view-id-sponsored_projects.view-display-id-block_1 ul").hide();
+            });
+
+            $( ".view-id-sponsored_projects.view-display-id-block_4 h3" ).click(function() {
+                event.stopPropagation();
+                $( ".view-id-sponsored_projects.view-display-id-block_4 ul" ).toggle();
+            });
+
+            $(document).on("click", function () {
+                $(".view-id-sponsored_projects.view-display-id-block_4 ul").hide();
+            });
+
             //Switch the default filter for alumni status
-            $(".view-id-sponsored_projects.view-display-id-block_3 li a").removeClass('selected');
-            $(".view-id-sponsored_projects.view-display-id-block_3 li:nth-of-type(2) a").addClass('selected');
+
+            // filter with selects and checkboxes
+            var $checkboxes = $('.isotope-options input');
+
+            $checkboxes.change( function() {
+              // map input values to an array
+              var inclusives = [];
+              // inclusive filters from checkboxes
+              $checkboxes.each( function( i, elem ) {
+                // if checkbox, use value if checked
+                if ( elem.checked ) {
+                  inclusives.push( elem.value );
+                }
+              });
+
+              // combine inclusive filters
+              var filterValue = inclusives.length ? inclusives.join(', ') : '*';
+
+              $('#isotope-instance-0').isotope({ filter: filterValue })
+            });
 
          }
     };

@@ -774,12 +774,21 @@ section {
         text-decoration: none;
     }
 }
-.view-sponsored-projects.view-display-id-block_1{
-    width: 70%;
+.view-sponsored-projects.view-display-id-block_1,
+.view-sponsored-projects.view-display-id-block_4{
+    width: 25%;
     border-right: 0;
 }
+
+.view-sponsored-projects.view-display-id-block_4,
+.view-sponsored-projects.view-display-id-block_3{
+    border-right:0;
+    border-left:0;
+    position: relative;
+}
+
 .view-sponsored-projects.view-display-id-block_2{
-    width: 30%;
+    width: 37%;
     text-align: right;
     border-left: 0;
 
@@ -1530,6 +1539,59 @@ li.isotope-element.new.tech:hover .img-wrap{
        background-image: url(/sites/all/themes/amphome/images/amp_sp_NEW__HOVpink.png); 
 }
 
+.view-id-sponsored_projects.view-display-id-block_1,
+.view-id-sponsored_projects.view-display-id-block_4{
+
+    h3{
+    border: solid 1px black;
+    display: inline-block;
+    line-height: 25px;
+    margin: 7px 0 0;
+    padding: 1px 6px 1px 11px;
+
+    &:after{
+        content:"\f0d7";
+        font: normal normal normal 14px/1 FontAwesome;
+        color:#000000;
+        padding-left:53px;
+    }
+    }
+
+    ul{
+        display: none;
+    position: absolute;
+    background: #fff;
+    margin: 0;
+    padding: 0 15px;
+    padding-right: 105px;
+    z-index: 1000;
+    border: solid 1px black;
+    border-top: 0;
+
+        a.filterbutton.selected{
+
+        }
+
+        ul{
+            position: relative;
+            display: block !important;
+            padding: 0;
+            border:0;
+        }
+
+        li{
+            display: block;
+        }
+    }
+}
+
+.view-id-sponsored_projects.view-display-id-block_3 .isotope-options{
+    display: inline;
+    position: absolute;
+    right: -29px;
+    top: 13px;
+}
+
 
 .cf:before,
 .cf:after {
@@ -1547,11 +1609,48 @@ li.isotope-element.new.tech:hover .img-wrap{
     border: solid;
 }
 
-.view-id-sponsored_projects.view-display-id-block_3{
-
-    .views-field-field-sp-alumni{
-        display: none;
-    }
+.lbl {
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 44px;
+  background: #898989;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.lbl:after {
+  position: absolute;
+  left: -2px;
+  top: -3px;
+  display: block;
+  width: 26px;
+  height: 26px;
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+  content: '';
+  transition: all 0.3s ease;
+}
+.lbl:active:after {
+  transform: scale(1.15, 0.85);
+}
+.cbx:checked ~ label {
+  background: #6fbeb5;
+}
+.cbx:checked ~ label:after {
+  left: 20px;
+  background: #179588;
+}
+.cbx:disabled ~ label {
+  background: #d5d5d5;
+  pointer-events: none;
+}
+.cbx:disabled ~ label:after {
+  background: #bcbdbc;
+}
+.hidden {
+  display: none;
 }
 
 /**
