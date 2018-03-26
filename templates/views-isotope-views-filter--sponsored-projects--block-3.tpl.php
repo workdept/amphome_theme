@@ -7,7 +7,7 @@
  */
 ?>
 
-      <h3>ALUMNI</h3>
+      <h3>INCLUDE ALUMNI</h3>
 
 
 <div class="isotope-options clearfix" data-group="ALUMNI">
