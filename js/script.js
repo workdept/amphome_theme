@@ -37,6 +37,7 @@
             });
 
             //Switch the default filter for alumni status
+            $('#isotope-instance-0').isotope({ filter: '.current' });
 
             // filter with selects and checkboxes
             var $checkboxes = $('.isotope-options input');

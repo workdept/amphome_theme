@@ -8218,7 +8218,7 @@ li.isotope-element.new.tech:hover .img-wrap {
   display: inline-block;
   line-height: 25px;
   margin: 7px 0 0;
-  padding: 1px 6px 1px 11px;
+  padding: 2px 6px 1px 11px;
 }
 .view-id-sponsored_projects.view-display-id-block_1 h3:after,
 .view-id-sponsored_projects.view-display-id-block_4 h3:after {
@@ -8249,6 +8249,9 @@ li.isotope-element.new.tech:hover .img-wrap {
 .view-id-sponsored_projects.view-display-id-block_1 ul li,
 .view-id-sponsored_projects.view-display-id-block_4 ul li {
   display: block;
+}
+.view-id-sponsored_projects.view-display-id-block_4 ul {
+  padding-right: 58px;
 }
 .view-id-sponsored_projects.view-display-id-block_3 .isotope-options {
   display: inline;
