@@ -17,6 +17,11 @@
     Drupal.behaviors.random = {
          attach: function(context, settings) {
             $("li.isotope-element div.new").parent().addClass("new");
+
+            //Switch the default filter for alumni status
+            $(".view-id-sponsored_projects.view-display-id-block_3 li a").removeClass('selected');
+            $(".view-id-sponsored_projects.view-display-id-block_3 li:nth-of-type(2) a").addClass('selected');
+
          }
     };
 
