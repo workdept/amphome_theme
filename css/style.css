@@ -8320,6 +8320,9 @@ li.isotope-element.new.tech:hover .img-wrap {
 .hidden {
   display: none;
 }
+.view-sponsored-projects-2 .isotope-container li {
+  float: left;
+}
 /**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
