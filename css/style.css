@@ -7574,23 +7574,28 @@ section time {
 .view-sponsored-projects.view-display-id-block_2 ul {
   padding-left: 30px;
 }
-.isotope-container {
+.view-sponsored-projects .item-list {
   padding: 0;
   margin: 0;
 }
-.isotope-container li {
+.view-sponsored-projects .item-list ul {
+  padding: 0;
+  margin: 0;
+}
+.view-sponsored-projects .item-list li {
   width: 178px;
   list-style: none;
   margin: 2%;
   text-align: center;
   height: 245px;
+  float: left;
 }
-.isotope-container li img {
+.view-sponsored-projects .item-list li img {
   border-radius: 100%;
   margin-bottom: 15px;
   text-align: center;
 }
-.isotope-container li:hover .overlay {
+.view-sponsored-projects .item-list li:hover .overlay {
   background: transparent;
   position: absolute;
   width: 162px;
@@ -7600,18 +7605,18 @@ section time {
   opacity: 0.65;
   margin: 8px;
 }
-.isotope-container li:hover .title a {
+.view-sponsored-projects .item-list li:hover .title a {
   color: #08109f;
   text-decoration: none;
   border-bottom: 3px solid #08109f;
 }
-.isotope-container li.media:hover .overlay {
+.view-sponsored-projects .item-list li.media:hover .overlay {
   background: #81b44f;
 }
-.isotope-container li.art:hover .overlay {
+.view-sponsored-projects .item-list li.art:hover .overlay {
   background: #f1ea44;
 }
-.isotope-container li.tech:hover .overlay {
+.view-sponsored-projects .item-list li.tech:hover .overlay {
   background: #bb2d7f;
 }
 .section-sponsoredprojects .breadcrumb,
@@ -8319,9 +8324,6 @@ li.isotope-element.new.tech:hover .img-wrap {
 }
 .hidden {
   display: none;
-}
-.view-sponsored-projects-2 .isotope-container li {
-  float: left;
 }
 /**
  * For IE 6/7 only
