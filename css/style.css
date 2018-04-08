@@ -8202,21 +8202,21 @@ article .field-name-body,
     margin-bottom: 30px;
   }
 }
-li.isotope-element img {
+.view-id-sponsored_projects li img {
   padding: 8px;
 }
-li.isotope-element.new .img-wrap {
+.view-id-sponsored_projects li.new .img-wrap {
   background-image: url(/sites/all/themes/amphome/images/amp_sp_NEW_black.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
-li.isotope-element.new.art:hover .img-wrap {
+.view-id-sponsored_projects li.new.Art:hover .img-wrap {
   background-image: url(/sites/all/themes/amphome/images/amp_sp_NEW_HOVyellow.jpg);
 }
-li.isotope-element.new.media:hover .img-wrap {
+.view-id-sponsored_projects li.new.Media:hover .img-wrap {
   background-image: url(/sites/all/themes/amphome/images/amp_sp_NEW_HOVgreen.jpg);
 }
-li.isotope-element.new.tech:hover .img-wrap {
+.view-id-sponsored_projects li.new.Tech:hover .img-wrap {
   background-image: url(/sites/all/themes/amphome/images/amp_sp_NEW_HOVpink.jpg);
 }
 .view-id-sponsored_projects.view-display-id-block_1 h3,
@@ -8256,15 +8256,6 @@ li.isotope-element.new.tech:hover .img-wrap {
 .view-id-sponsored_projects.view-display-id-block_1 ul li,
 .view-id-sponsored_projects.view-display-id-block_4 ul li {
   display: inline;
-}
-.view-id-sponsored_projects.view-display-id-block_4 ul {
-  padding-right: 53px;
-}
-.view-id-sponsored_projects.view-display-id-block_3 .isotope-options {
-  display: inline;
-  position: absolute;
-  right: -29px;
-  top: 13px;
 }
 .cf:before,
 .cf:after {

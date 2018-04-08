@@ -16,48 +16,9 @@
 
     Drupal.behaviors.random = {
          attach: function(context, settings) {
-            $("li.isotope-element div.new").parent().addClass("new");
-
-            $( ".view-id-sponsored_projects.view-display-id-block_1 h3" ).click(function() {
-                event.stopPropagation();
-                $( ".view-id-sponsored_projects.view-display-id-block_1 ul" ).toggle();
-            });
-
-            $(document).on("click", function () {
-                $(".view-id-sponsored_projects.view-display-id-block_1 ul").hide();
-            });
-
-            $( ".view-id-sponsored_projects.view-display-id-block_4 h3" ).click(function() {
-                event.stopPropagation();
-                $( ".view-id-sponsored_projects.view-display-id-block_4 ul" ).toggle();
-            });
-
-            $(document).on("click", function () {
-                $(".view-id-sponsored_projects.view-display-id-block_4 ul").hide();
-            });
-
-            //Switch the default filter for alumni status
-            //$('#isotope-instance-0').isotope({ filter: '.current' });
-
-            // filter with selects and checkboxes
-            var $checkboxes = $('.isotope-options input');
-
-            $checkboxes.change( function() {
-              // map input values to an array
-              var inclusives = [];
-              // inclusive filters from checkboxes
-              $checkboxes.each( function( i, elem ) {
-                // if checkbox, use value if checked
-                if ( elem.checked ) {
-                  inclusives.push( elem.value );
-                }
-              });
-
-              // combine inclusive filters
-              var filterValue = inclusives.length ? inclusives.join(', ') : '*';
-
-              $('#isotope-instance-0').isotope({ filter: filterValue })
-            });
+            
+            // Add new tag for SPs that are less than 3 months old by post date
+            $(".view-sponsored-projects li.views-row div.new").parent().addClass("new");
 
          }
     };
