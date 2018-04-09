@@ -7516,63 +7516,101 @@ section time {
 .view-sponsored-projects h2 {
   margin-top: 0;
 }
-.view-sponsored-projects.filter {
+.view-sponsored-projects .views-exposed-widgets {
   display: inline-block;
   padding: 0 30px;
   border: 3px solid #8826cb;
   height: 50px;
   margin: 20px 0;
   text-transform: uppercase;
+  width: 100%;
 }
-.view-sponsored-projects.filter li {
+.view-sponsored-projects .views-exposed-widgets li {
   list-style: none;
   display: inline-block;
 }
-.view-sponsored-projects.filter a:hover {
+.view-sponsored-projects .views-exposed-widgets a:hover {
   border-bottom: 3px solid #08109f;
   text-decoration: none;
 }
-.view-sponsored-projects.filter h3 {
+.view-sponsored-projects .views-exposed-widgets label {
   text-transform: uppercase;
   display: inline-block;
   font-size: 14px;
   line-height: 0;
+  color: #9900ff;
 }
-.view-sponsored-projects.filter ul {
+.view-sponsored-projects .views-exposed-widgets ul {
   display: inline-block;
 }
-.view-sponsored-projects.filter .filterbutton.selected li,
-.view-sponsored-projects.filter a.filterbutton.selected,
-.view-sponsored-projects.filter .sorterbutton.selected,
-.view-sponsored-projects.filter .selected div div {
+.view-sponsored-projects .views-exposed-widgets .filterbutton.selected li,
+.view-sponsored-projects .views-exposed-widgets a.filterbutton.selected,
+.view-sponsored-projects .views-exposed-widgets .sorterbutton.selected,
+.view-sponsored-projects .views-exposed-widgets .selected div div {
   border-bottom: 3px solid #08109f;
   text-decoration: none;
   display: inline;
 }
-.view-sponsored-projects.view-display-id-block_1,
-.view-sponsored-projects.view-display-id-block_4 {
-  width: 25%;
-  border-right: 0;
-}
-.view-sponsored-projects.view-display-id-block_4,
-.view-sponsored-projects.view-display-id-block_3 {
-  border-right: 0;
-  border-left: 0;
-  position: relative;
-}
-.view-sponsored-projects.view-display-id-block_2 {
-  width: 30%;
-  text-align: right;
-  border-left: 0;
-}
-.view-sponsored-projects.view-display-id-block_2 ul li {
-  width: auto;
-}
-.view-sponsored-projects.view-display-id-block_2 li:first-child {
+.view-sponsored-projects .views-exposed-widgets #edit-sort-by-random {
   display: none;
 }
-.view-sponsored-projects.view-display-id-block_2 ul {
-  padding-left: 30px;
+#edit-field-sp-taxonomy-category-tid-wrapper .views-widget {
+  max-width: 165px;
+}
+.view-sponsored-projects .views-exposed-form .views-exposed-widget.views-widget-sort-by {
+  width: 15%;
+  float: right;
+}
+#edit-field-sp-alumni-value-wrapper {
+  width: 33%;
+}
+.view-sponsored-projects .views-exposed-widgets .form-type-select .form-control {
+  width: 100%;
+  height: 28px;
+  padding: 0px 12px;
+  color: #9900ff;
+  background-color: #ffffff;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 0;
+  outline: solid 1px #000;
+  font-weight: 500;
+  min-width: 160px;
+}
+.view-sponsored-projects .views-exposed-widgets .views-widget-sort-by div {
+  display: inline;
+}
+.view-sponsored-projects .views-exposed-widgets .views-widget-sort-by a {
+  font-weight: 500;
+}
+.view-sponsored-projects .views-exposed-widgets .views-widget-sort-by label {
+  margin-right: 20px;
+}
+.view-sponsored-projects #edit-field-sp-alumni-value-wrapper .form-item {
+  float: left;
+  margin: 0;
+  padding: 0 3px;
+}
+.view-sponsored-projects #edit-field-sp-alumni-value-wrapper .views-widget {
+  float: right;
+}
+.view-sponsored-projects #edit-field-sp-alumni-value-wrapper input {
+  margin: 0 3px;
+  padding: 0;
+  margin-left: 16px;
+}
+.view-sponsored-projects #edit-field-sp-alumni-value-wrapper .control-label {
+  line-height: 14px;
+  color: black;
+  font-weight: 500;
+}
+.view-sponsored-projects .views-exposed-form .views-exposed-widget {
+  width: 25%;
+}
+#edit-field-sp-alumni-value-wrapper,
+.views-widget-sort-by {
+  text-align: right;
 }
 .view-sponsored-projects .item-list {
   padding: 0;
@@ -7624,10 +7662,30 @@ section time {
   display: block !important;
 }
 @media (max-width: 992px) {
-  .view-sponsored-projects.filter {
+  .view-sponsored-projects .views-exposed-form .views-exposed-widget {
     width: 100%;
+    float: none !important;
+    margin: 0 !important;
+    padding: 10px 0;
+  }
+  .view-sponsored-projects .views-exposed-form {
     border: 3px solid #8826cb;
-    margin: 5px 0;
+    margin-bottom: 20px;
+    padding-bottom: 17px;
+    margin-top: 20px;
+  }
+  #edit-field-sp-alumni-value-wrapper {
+    width: 100%;
+    text-align: left !important;
+  }
+  .view-sponsored-projects .views-exposed-widgets {
+    border: 0;
+    margin: 0;
+    max-width: 320px;
+  }
+  .view-sponsored-projects .views-exposed-form .views-exposed-widget.views-widget-sort-by {
+    width: 100%;
+    float: left;
     text-align: left;
   }
   .section-sponsoredprojects #block-menu-block-1 {
@@ -7635,27 +7693,21 @@ section time {
   }
 }
 @media (max-width: 480px) {
-  .view-sponsored-projects.filter {
+  .view-sponsored-projects .views-exposed-form {
     height: auto;
   }
-  .view-sponsored-projects.filter ul {
+  .view-sponsored-projects .views-exposed-form ul {
     padding: 0;
     margin: 0;
   }
-  .view-sponsored-projects.filter li {
+  .view-sponsored-projects .views-exposed-form li {
     width: 50px;
     margin: 5px 0;
     text-align: center;
   }
-  .view-sponsored-projects.filter h3 {
+  .view-sponsored-projects .views-exposed-form h3 {
     margin-right: 10%;
     vertical-align: top;
-  }
-  .view-sponsored-projects.view-display-id-block_2 h3 {
-    margin-bottom: 18px;
-  }
-  .view-sponsored-projects.view-display-id-block_2 li {
-    margin: 9px 0;
   }
 }
 /*People page */
