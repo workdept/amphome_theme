@@ -8325,6 +8325,12 @@ article .field-name-body,
   color: #9900ff;
   border: solid;
 }
+.donate-form-buttons a {
+  border: 0;
+}
+.donate-form-buttons a:hover {
+  background: transparent;
+}
 .lbl {
   position: relative;
   display: block;
