@@ -797,3 +797,180 @@ div.features-export-list {
     }
   }
 }
+
+/*   code for Speaker's Bureau page formatting */
+#hexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 15px;
+  list-style-type: none;
+  margin-bottom: 4%;
+  padding: 0;
+}
+.hex {
+  position: relative;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  margin-right: 20%;  /* space between hexagons */
+}
+.hex::after{
+  content:'';
+  display:block;
+  padding-bottom: 75%;  /* =  100 / tan(60) * 1.5 */
+}
+.hexIn{
+  position: absolute;
+  width:90%;
+  padding-bottom: 110.851%; /* =  width / sin(60) */
+  margin:0 8%;
+  overflow: hidden;
+  visibility: hidden;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  -webkit-transform: rotate3d(0,0,1,-30deg) skewY(30deg);
+      -ms-transform: rotate3d(0,0,1,-30deg) skewY(30deg);
+          transform: rotate3d(0,0,1,-30deg) skewY(30deg);
+}
+.hexIn * {
+  position: absolute;
+  visibility: visible;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+}
+.hexLink {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+        -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+            transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+}
+
+/*** HEX CONTENT **********************************************************************/
+.hex img {
+  left: -100%;
+  right: -100%;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-transform: rotate3d(0,0,1,-30deg);
+      -ms-transform: rotate3d(0,0,1,-30deg);
+          transform: rotate3d(0,0,1,-30deg);
+}
+.hex h2 {
+  float: left;
+  position: absolute;
+  bottom: -48%;
+  width: 100%;
+  text-align: center;
+  margin-left: 13px;
+}
+.hex h2.long {
+  margin-bottom: -27px;
+}
+
+/*** HOVER EFFECT  **********************************************************************/
+.hexLink:hover h2, .hexLink:focus h2,
+.hexLink:hover p, .hexLink:focus p{
+}
+
+/*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
+@media (min-width:1201px) { /* <- 2  hexagons per row */
+  #hexGrid{
+    padding-bottom: 4.4%
+  }
+  .hex {
+    width: 25%; /* = 100 / 2 per row */
+  }
+  .hex:nth-child(9n+3){ /* first hexagon of even rows */
+    margin-left:22.25%;  /* = width of .hex / 2  to indent even rows */
+  }
+  .hex:nth-child(9n+4){ /* second hexagon of even rows */
+    margin-right:0%;
+  }
+  .hex:nth-child(9n+7){ /* first hexagon of even rows */
+    margin-left:22.25%;  /* = width of .hex / 2  to indent even rows */
+  }
+  .hex:nth-child(9n+8){ /* first hexagon of even rows */
+    margin-right:0%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 1200px) and (min-width:801px) { /* <- 2  hexagons per row */
+  #hexGrid{
+    padding-bottom: 5.5%
+  }
+  .hex {
+    width: 25%; /* = 100 / 4 */
+  }
+  .hex:nth-child(7n+3){ /* first hexagon of even rows */
+    margin-left:22.5%;  /* = width of .hex / 2  to indent even rows */
+  }
+  .hex:nth-child(7n+4){ /* second hexagon of even rows */
+    margin-right:0%;
+  }
+  .hex:nth-child(7n+7){ /* first hexagon of even rows */
+    margin-left:22.25%;  /* = width of .hex / 2  to indent even rows */
+  }
+  .hex:nth-child(7n+8){ /* first hexagon of even rows */
+    margin-right:0%;  /* = width of .hex / 2  to indent even rows */
+  }
+  .hex:nth-child(7n+9){ 
+    margin-right:20%; 
+  }
+  .hex:nth-child(7n+10){ 
+    margin-left:0%; 
+  }
+}
+
+@media (max-width: 800px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+  #hexGrid{
+    padding-bottom: 7.4%
+  }
+  .hex {
+    width: 35%; /* = 100 / 3 */
+    margin-right: 28%;  /* space between hexagons */
+  }
+  .hex:nth-child(5n+2){ /* second hex of first row */
+    margin-right:0%;
+  }
+  .hex:nth-child(5n+3){ /* first hexagon of even rows */
+    margin-left:31%;  /* = width of .hex / 2  to indent even rows */
+  }
+  .hex:nth-child(5n+5){ 
+    margin-right:0%;
+  }
+  .hex:nth-child(5n+6){
+    margin-left:31%;  /* = width of .hex / 2  to indent even rows */
+  }
+  .hex:nth-child(5n+7){ 
+    margin-left:0%;
+    margin-right:28%;
+  }
+  .hex:nth-child(5n+8){ 
+    margin-left:0%;
+    margin-right:0%;
+  }
+  .hex:nth-child(5n+9){
+    margin-left:31%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 600px) { /* <- 1  hexagon per row */
+  #hexGrid{
+    padding-bottom: 11.2%
+  }
+  .hex {
+    width: 100%; /* = 100 / 3 */
+    margin-bottom: 40%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 400px) {
+    #hexGrid {
+        font-size: 13px;
+    }
+}
