@@ -866,9 +866,37 @@ div.features-export-list {
   width: 100%;
   text-align: center;
   margin-left: 13px;
+  background: none;
 }
 .hex h2.long {
   margin-bottom: -27px;
+}
+
+.hex a {
+	font-size: 15px;
+	line-height: 1.6em;
+	border-bottom: none;
+}
+
+.hex a:hover {
+ 	color:#08109f;
+ 	text-decoration:none;
+ 	border-bottom:3px solid #08109f;
+ 	background-color:transparent;
+}
+
+article #node-2100 .field-name-body {
+	max-width: 2000px;
+}
+
+/*   force to use full page instead of stopping at sidebar area */
+.page-node-2100 section .col-sm-9 {
+	width: 100%;
+}
+
+/*   remove list item bullet */
+article .field-name-body #hexGrid li::before {
+   content: none;
 }
 
 /*** HOVER EFFECT  **********************************************************************/
