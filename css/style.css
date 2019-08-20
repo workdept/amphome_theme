@@ -10437,7 +10437,7 @@ a.link:hover {
 .hex h2 {
   float: left;
   position: absolute;
-  bottom: -48%;
+  bottom: -78%;
   width: 100%;
   text-align: center;
   margin-left: 13px;
@@ -10445,7 +10445,10 @@ a.link:hover {
   line-height: 0;
 }
 .hex h2.long {
-  margin-bottom: -27px;
+  margin-bottom: -13px;
+}
+.hex h2.bottom {
+  margin-bottom: 30px;
 }
 .hex a {
 	font-size: 15px;
@@ -10503,10 +10506,13 @@ article .field-name-body #hexGrid li::before {
 
 @media (max-width: 1200px) and (min-width:801px) { /* <- 2  hexagons per row */
   #hexGrid{
-    padding-bottom: 5.5%
+    padding-bottom: 5.5%;
   }
   .hex {
     width: 25%; /* = 100 / 4 */
+  }
+  .hex h2 {
+    bottom: -85%;
   }
   .hex:nth-child(7n+3){ /* first hexagon of even rows */
     margin-left:22.5%;  /* = width of .hex / 2  to indent even rows */
@@ -10527,14 +10533,21 @@ article .field-name-body #hexGrid li::before {
     margin-left:0%; 
   }
 }
-
+@media (max-width: 972px) and (min-width:801px) {
+  .hex h2 {
+    bottom: -100%;
+  }
+}
 @media (max-width: 800px) and (min-width:601px) { /* <- 3-2  hexagons per row */
   #hexGrid{
-    padding-bottom: 7.4%
+    padding-bottom: 7.4%;
   }
   .hex {
     width: 35%; /* = 100 / 3 */
     margin-right: 28%;  /* space between hexagons */
+  }
+  .hex h2 {
+    bottom: -80%;
   }
   .hex:nth-child(5n+2){ /* second hex of first row */
     margin-right:0%;
@@ -10560,20 +10573,64 @@ article .field-name-body #hexGrid li::before {
     margin-left:31%;  /* = width of .hex / 2  to indent even rows */
   }
 }
+	
+@media (max-width: 697px) {
+  .hex h2 {
+    bottom: -85%;
+  }
+}
 
 @media (max-width: 600px) { /* <- 1  hexagon per row */
   #hexGrid{
-    padding-bottom: 11.2%
+    padding-bottom: 11.2%;
   }
   .hex {
     width: 100%; /* = 100 / 3 */
     margin-bottom: 40%;
     margin-right: 5%;
   }
+  .hex h2.long {
+    margin-bottom: -5%;
+  }
+  article .field-name-body li.hex {
+    margin-bottom: 260px;
+  }
+  .hex a {
+    font-size: 1em;
+    line-height: 1.3em;
+  .hex h2 {
+    bottom: -63%;
+  }
 }
-
+@media (max-width: 508px) {
+  .hex h2 {
+    bottom: -67%;
+  }
+}
+@media (max-width: 441px) {
+  .hex h2 {
+    bottom: -71%;
+  }
+  .hex h2.long {
+    margin-bottom: -7%;
+  }
+}
 @media (max-width: 400px) {
     #hexGrid {
         font-size: 13px;
     }
+}
+@media (max-width: 359px) {
+  #hexGrid {
+    font-size: 13px;
+  }
+  .hex h2 {
+    bottom: -77%;
+  }
+ .hex h2.long {
+   margin-bottom: -8%;
+ }
+  article .field-name-body li.hex {
+    margin-bottom: 220px;
+  }
 }
