@@ -10451,18 +10451,16 @@ a.link:hover {
   margin-bottom: 30px;
 }
 .hex a {
-	font-size: 15px;
+	font-size: .6em;
 	line-height: 1.5em;
 	border-bottom: none;
 }
-
 .hex a:hover {
  	color:#08109f;
  	text-decoration:none;
  	border-bottom:3px solid #08109f;
  	background-color:transparent;
 }
-
 .page-node-2100 article .field-name-body {
 	max-width: 2000px;
 }
@@ -10485,7 +10483,7 @@ article .field-name-body #hexGrid li::before {
 /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
 @media (min-width:1201px) { /* <- 2  hexagons per row */
   #hexGrid{
-    padding-bottom: 4.4%
+    padding-bottom: 4.4%;
   }
   .hex {
     width: 25%; /* = 100 / 2 per row */
@@ -10533,6 +10531,7 @@ article .field-name-body #hexGrid li::before {
     margin-left:0%; 
   }
 }
+/* space between hexagons and headers */
 @media (max-width: 972px) and (min-width:801px) {
   .hex h2 {
     bottom: -100%;
@@ -10573,8 +10572,8 @@ article .field-name-body #hexGrid li::before {
     margin-left:31%;  /* = width of .hex / 2  to indent even rows */
   }
 }
-	
-@media (max-width: 697px) {
+/* update space between hexagons and headers */
+@media (max-width: 697px) and (min-width: 601px) {
   .hex h2 {
     bottom: -85%;
   }
@@ -10590,7 +10589,7 @@ article .field-name-body #hexGrid li::before {
     margin-right: 5%;
   }
   .hex h2.long {
-    margin-bottom: -5%;
+    margin-bottom: -5.5%;
   }
   article .field-name-body li.hex {
     margin-bottom: 260px;
@@ -10599,15 +10598,15 @@ article .field-name-body #hexGrid li::before {
     font-size: 1em;
     line-height: 1.3em;
   .hex h2 {
-    bottom: -63%;
+    bottom: -64%;
   }
 }
-@media (max-width: 508px) {
+@media (max-width: 508px) and (min-width: 442px) {
   .hex h2 {
     bottom: -67%;
   }
 }
-@media (max-width: 441px) {
+@media (max-width: 441px) and (min-width: 360px) {
   .hex h2 {
     bottom: -71%;
   }
