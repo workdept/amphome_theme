@@ -10611,6 +10611,7 @@ article .field-name-body #hexGrid li::before {
   .hex a {
     font-size: 1em;
     line-height: 1.3em;
+  }
   .hex h2 {
     bottom: -64%;
   }
