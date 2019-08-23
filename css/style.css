@@ -10531,6 +10531,13 @@ article .field-name-body #hexGrid li::before {
     margin-left:0%; 
   }
 }
+/* disallow horizontal scroll */
+@media (max-width: 1006px) {
+  body.page-node-2100 {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
 /* space between hexagons and headers */
 @media (max-width: 972px) and (min-width:801px) {
   .hex h2 {
@@ -10591,8 +10598,15 @@ article .field-name-body #hexGrid li::before {
   .hex h2.long {
     margin-bottom: -5.5%;
   }
+  article .field-name-body li {
+    padding-left: 3%;
+  }
   article .field-name-body li.hex {
     margin-bottom: 260px;
+    max-width: 88%; /* keep image from going off edge of screen */
+  }
+  .hex {
+    margin-right: 2%;  /* remove most of the space between hexagons */
   }
   .hex a {
     font-size: 1em;
