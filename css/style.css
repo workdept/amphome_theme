@@ -10648,3 +10648,9 @@ article .field-name-body #hexGrid li::before {
     margin-bottom: 220px;
   }
 }
+
+/* keep image from going off edge of screen */
+
+.page-node-2100 aside {
+    display: none;
+}
