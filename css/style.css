@@ -10496,12 +10496,15 @@ article .field-name-body #hexGrid li::before {
   .hex:nth-child(9n+7){ /* first hexagon of even rows */
     margin-left:22.25%;  /* = width of .hex / 2  to indent even rows */
   }
-  .hex:nth-child(9n+8){ /* first hexagon of even rows */
+  .hex:nth-child(9n+8){ /* second hexagon of even rows */
     margin-right:0%;  /* = width of .hex / 2  to indent even rows */
   }
   .hex:nth-child(9n+11){ /* first hexagon of even rows */
     margin-left:22.25%;  /* = width of .hex / 2  to indent even rows */
   }
+  .hex:nth-child(9n+12){ /* second hexagon of even rows */
+    margin-right:0%;  /* = width of .hex / 2  to indent even rows */
+  }	
 }
 
 @media (max-width: 1200px) and (min-width:801px) { /* <- 2  hexagons per row */
