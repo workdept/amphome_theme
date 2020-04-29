@@ -10371,7 +10371,14 @@ a.link:hover {
   text-shadow: 0 0 5px #444;
 }
 
-/*   code for Speaker's Bureau page formatting */
+
+/*   CODE FOR SPEAKER'S BUREAU PAGE FORMATTING */
+
+/* hide blog */
+body.page-node-2100 .region-sidebar-second {
+	display: none;
+}
+
 #hexGrid {
   display: flex;
   flex-wrap: wrap;
@@ -10535,7 +10542,14 @@ article .field-name-body #hexGrid li::before {
   .hex:nth-child(7n+10){ 
     margin-left:0%; 
   }
+    .hex:nth-child(7n+11){ /* first hexagon of even rows */
+    margin-left:22.25%;  /* = width of .hex / 2  to indent even rows */
+  }
+  .hex:nth-child(7n+12){ /* second hexagon of even rows */
+    margin-right:0%;  /* = width of .hex / 2  to indent even rows */
+  }
 }
+
 /* disallow horizontal scroll */
 @media (max-width: 1006px) {
   body.page-node-2100 {
